@@ -1,0 +1,29 @@
+name: Allegro price/stock sync
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements-allegro.txt
+
+      - name: Run Allegro sync
+        env:
+          ALLEGRO_CLIENT_ID: ${{ secrets.ALLEGRO_CLIENT_ID }}
+          ALLEGRO_CLIENT_SECRET: ${{ secrets.ALLEGRO_CLIENT_SECRET }}
+          ALLEGRO_REFRESH_TOKEN: ${{ secrets.ALLEGRO_REFRESH_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_REPO: ${{ github.repository }}
+          FEED_URL: "https://raw.githubusercontent.com/stshophu/siebentaschen-feed/main/siebentaschen_product_feed.csv"
+        run: python3 allegro_sync.py
