@@ -1,0 +1,46 @@
+name: Allegro price/stock sync + new offer creation
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements-allegro.txt
+
+      # Step 1: update price + stock on existing offers
+      - name: Sync prices and stock
+        env:
+          ALLEGRO_CLIENT_ID:      ${{ secrets.ALLEGRO_CLIENT_ID }}
+          ALLEGRO_CLIENT_SECRET:  ${{ secrets.ALLEGRO_CLIENT_SECRET }}
+          ALLEGRO_REFRESH_TOKEN:  ${{ secrets.ALLEGRO_REFRESH_TOKEN }}
+          GH_PAT:                 ${{ secrets.GH_PAT }}
+          GH_REPO:                ${{ github.repository }}
+          FEED_URL:               "https://raw.githubusercontent.com/stshophu/siebentaschen-feed/main/siebentaschen_product_feed.csv"
+        run: python3 allegro_sync.py
+
+      # Step 2: create new listings for feed rows not yet on Allegro
+      - name: Create new offers
+        env:
+          ALLEGRO_CLIENT_ID:           ${{ secrets.ALLEGRO_CLIENT_ID }}
+          ALLEGRO_CLIENT_SECRET:       ${{ secrets.ALLEGRO_CLIENT_SECRET }}
+          ALLEGRO_REFRESH_TOKEN:       ${{ secrets.ALLEGRO_REFRESH_TOKEN }}
+          ALLEGRO_SHIPPING_RATES_ID:   ${{ secrets.ALLEGRO_SHIPPING_RATES_ID }}
+          ALLEGRO_RETURN_POLICY_ID:    ${{ secrets.ALLEGRO_RETURN_POLICY_ID }}
+          ALLEGRO_IMPLIED_WARRANTY_ID: ${{ secrets.ALLEGRO_IMPLIED_WARRANTY_ID }}
+          ALLEGRO_MAX_CREATE_PER_RUN:  "100"
+          ALLEGRO_CREATE_STATUS:       "INACTIVE"
+          GH_PAT:                      ${{ secrets.GH_PAT }}
+          GH_REPO:                     ${{ github.repository }}
+          FEED_URL:                    "https://raw.githubusercontent.com/stshophu/siebentaschen-feed/main/siebentaschen_product_feed.csv"
+        run: python3 allegro_create_offers.py
