@@ -126,7 +126,7 @@ def to_gtin_str(x):
 
 
 def valid_gtin(s):
-    if s is None:
+    if not isinstance(s, str):
         return False
     return s.isdigit() and 8 <= len(s) <= 14
 
