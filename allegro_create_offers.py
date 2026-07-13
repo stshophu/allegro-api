@@ -235,7 +235,9 @@ def to_gtin_str(x):
 
 
 def valid_gtin(s):
-    return s is not None and s.isdigit() and 8 <= len(s) <= 14
+    if not isinstance(s, str):
+        return False
+    return s.isdigit() and 8 <= len(s) <= 14
 
 
 def build_feed():
