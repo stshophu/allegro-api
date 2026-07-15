@@ -56,6 +56,17 @@ SHIPPING_RATES_ID    = os.environ["ALLEGRO_SHIPPING_RATES_ID"]
 RETURN_POLICY_ID     = os.environ["ALLEGRO_RETURN_POLICY_ID"]
 IMPLIED_WARRANTY_ID  = os.environ["ALLEGRO_IMPLIED_WARRANTY_ID"]
 
+# Fail fast with a clear message if account IDs haven't been set yet
+_missing = [name for name, val in [
+    ("ALLEGRO_SHIPPING_RATES_ID", SHIPPING_RATES_ID),
+    ("ALLEGRO_RETURN_POLICY_ID", RETURN_POLICY_ID),
+    ("ALLEGRO_IMPLIED_WARRANTY_ID", IMPLIED_WARRANTY_ID),
+] if not val or val.strip() == ""]
+if _missing:
+    print(f"ERROR: The following GitHub secrets are empty or missing: {', '.join(_missing)}")
+    print("Run allegro_get_account_ids.py locally to fetch these values, then add them as repo secrets.")
+    sys.exit(1)
+
 MAX_CREATE   = int(os.environ.get("ALLEGRO_MAX_CREATE_PER_RUN", "100"))
 CREATE_STATUS = os.environ.get("ALLEGRO_CREATE_STATUS", "INACTIVE")  # safe default
 
@@ -153,9 +164,11 @@ def resolve_category(kategorie, subkategorie, produktart):
             return CATEGORY_MAP[(kat, key_sub)]
 
     # Partial match on subkategorie keywords
-    for (k, s), cat_id in CATEGORY_MAP.items():
-        if len((k, s)) == 2 and k == kat and s and s in sub:
-            return cat_id
+    for key, cat_id in CATEGORY_MAP.items():
+        if len(key) == 2:
+            k, s = key
+            if k == kat and s and s in sub:
+                return cat_id
 
     # Fallback to kat-only
     if (kat,) in CATEGORY_MAP:
