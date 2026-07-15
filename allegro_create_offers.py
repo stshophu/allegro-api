@@ -358,9 +358,7 @@ def build_offer_payload(row):
                 "name": name,
                 "category": {"id": str(cat_id)},
                 **({"images": images} if images else {}),
-                "parameters": [
-                    {"id": "11323", "valuesIds": ["11323_1"]},  # Stan: Nowe
-                ],
+
             },
             "quantity": {"value": 1},
         }],
