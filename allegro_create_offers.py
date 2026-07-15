@@ -357,7 +357,7 @@ def build_offer_payload(row):
                 "idType": "GTIN",
                 "name": name,
                 "category": {"id": str(cat_id)},
-                **({"images": [{"url": img} for img in images]} if images else {}),
+                **({"images": images} if images else {}),
                 "parameters": [
                     {"id": "11323", "valuesIds": ["11323_1"]},  # Stan: Nowe
                 ],
