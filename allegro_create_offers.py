@@ -21,8 +21,8 @@ Required env vars (GitHub secrets):
     ALLEGRO_CLIENT_SECRET
     ALLEGRO_REFRESH_TOKEN
     ALLEGRO_SHIPPING_RATES_ID      ← from allegro_get_account_ids.py
-    ALLEGRO_RETURN_POLICY_ID       ← from allegro_get_account_ids.py
-    ALLEGRO_IMPLIED_WARRANTY_ID    ← from allegro_get_account_ids.py
+    (Return policy and implied warranty no longer required — Allegro
+     unified these platform-wide on July 2, 2025)
     GH_PAT
     GH_REPO
     FEED_URL
@@ -52,19 +52,12 @@ GH_PAT        = os.environ["GH_PAT"]
 GH_REPO       = os.environ["GH_REPO"]
 FEED_URL      = os.environ["FEED_URL"]
 
-SHIPPING_RATES_ID    = os.environ["ALLEGRO_SHIPPING_RATES_ID"]
-RETURN_POLICY_ID     = os.environ["ALLEGRO_RETURN_POLICY_ID"]
-IMPLIED_WARRANTY_ID  = os.environ["ALLEGRO_IMPLIED_WARRANTY_ID"]
+SHIPPING_RATES_ID = os.environ["ALLEGRO_SHIPPING_RATES_ID"]
 
-# Fail fast with a clear message if account IDs haven't been set yet
-_missing = [name for name, val in [
-    ("ALLEGRO_SHIPPING_RATES_ID", SHIPPING_RATES_ID),
-    ("ALLEGRO_RETURN_POLICY_ID", RETURN_POLICY_ID),
-    ("ALLEGRO_IMPLIED_WARRANTY_ID", IMPLIED_WARRANTY_ID),
-] if not val or val.strip() == ""]
-if _missing:
-    print(f"ERROR: The following GitHub secrets are empty or missing: {', '.join(_missing)}")
-    print("Run allegro_get_account_ids.py locally to fetch these values, then add them as repo secrets.")
+# Fail fast if shipping rates ID is missing
+if not SHIPPING_RATES_ID or not SHIPPING_RATES_ID.strip():
+    print("ERROR: ALLEGRO_SHIPPING_RATES_ID secret is empty.")
+    print("Run allegro_get_account_ids.py and add it as a repo secret.")
     sys.exit(1)
 
 MAX_CREATE   = int(os.environ.get("ALLEGRO_MAX_CREATE_PER_RUN", "100"))
@@ -327,7 +320,7 @@ def build_offer_payload(row):
     desc_parts = [vendor]
     if pd.notna(row.get("Produktart")):
         desc_parts.append(str(row["Produktart"]))
-    description_html = "<p>" + " — ".join(desc_parts) + "</p>"
+    description_html = "<p>" + " — ".join(desc_parts).replace("&", "&amp;") + "</p>"
 
     images = [image] if image else []
 
@@ -351,10 +344,6 @@ def build_offer_payload(row):
             "shippingRates": {"id": SHIPPING_RATES_ID},
             "handlingTime": "P3D",
         },
-        "afterSalesServices": {
-            "impliedWarranty": {"id": IMPLIED_WARRANTY_ID},
-            "returnPolicy":    {"id": RETURN_POLICY_ID},
-        },
         "payments": {
             "invoice": "VAT",
         },
@@ -368,7 +357,10 @@ def build_offer_payload(row):
                 "idType": "GTIN",
                 "name": name,
                 "category": {"id": str(cat_id)},
-                **({"images": images} if images else {}),
+                **({"images": [{"url": img} for img in images]} if images else {}),
+                "parameters": [
+                    {"id": "11323", "valuesIds": ["11323_1"]},  # Stan: Nowe
+                ],
             },
             "quantity": {"value": 1},
         }],
@@ -397,6 +389,24 @@ def create_offer(access_token, payload):
         json=payload,
         timeout=30,
     )
+    # Auto-retry on CATEGORY_MISMATCH using the category Allegro tells us
+    if resp.status_code == 422:
+        try:
+            errors = resp.json().get("errors", [])
+            for err in errors:
+                if err.get("code") == "CATEGORY_MISMATCH":
+                    correct_cat = err.get("metadata", {}).get("existingCategoryId")
+                    if correct_cat:
+                        payload["productSet"][0]["product"]["category"]["id"] = str(correct_cat)
+                        resp = requests.post(
+                            f"{API_BASE}/sale/product-offers",
+                            headers=headers,
+                            json=payload,
+                            timeout=30,
+                        )
+                        break
+        except Exception:
+            pass
     return resp
 
 
