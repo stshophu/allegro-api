@@ -306,6 +306,7 @@ def fetch_existing_external_ids(access_token):
 def build_offer_payload(row):
     gtin     = row["_gtin"]
     name     = str(row["Produktname"]).strip()[:75]
+    color, size = parse_variant(row.get("Variant"))
     price    = str(row["PRICE_PLN"])
     stock    = int(row["STOCK"])
     ext_id   = row["EXTERNAL_ID"]
@@ -316,11 +317,22 @@ def build_offer_payload(row):
         row.get("Kategorie"), row.get("Subkategorie"), row.get("Produktart")
     )
 
-    # Build a minimal description from what we have
-    desc_parts = [vendor]
-    if pd.notna(row.get("Produktart")):
-        desc_parts.append(str(row["Produktart"]))
-    description_html = "<p>" + " — ".join(desc_parts).replace("&", "&amp;") + "</p>"
+    # Minimal Polish description to satisfy allegro.pl language requirement
+    brand_safe = vendor.replace("&", "&amp;")
+    produktart = str(row["Produktart"]).replace("&", "&amp;") if pd.notna(row.get("Produktart")) else ""
+    color_safe = (color or "").replace("&", "&amp;")
+    size_safe  = (size or "").replace("&", "&amp;")
+
+    desc_lines = [f"Marka: {brand_safe}"]
+    if produktart:
+        desc_lines.append(f"Rodzaj: {produktart}")
+    if color_safe:
+        desc_lines.append(f"Kolor: {color_safe}")
+    if size_safe:
+        desc_lines.append(f"Rozmiar: {size_safe}")
+    desc_lines.append("Stan: Nowy")
+    desc_lines.append("Produkt oryginalny.")
+    description_html = "<p>" + "<br/>".join(desc_lines) + "</p>"
 
     images = [image] if image else []
 
@@ -347,6 +359,7 @@ def build_offer_payload(row):
         "payments": {
             "invoice": "VAT",
         },
+        **({"images": [{"url": img} for img in images]} if images else {}),
         # Offer-level parameters: condition = New (11323_1)
         "parameters": [
             {"id": "11323", "valuesIds": ["11323_1"]},
@@ -362,6 +375,7 @@ def build_offer_payload(row):
             },
             "quantity": {"value": 1},
         }],
+        "language": "pl-PL",
         "description": {
             "sections": [{
                 "items": [{"type": "TEXT", "content": description_html}]
@@ -448,8 +462,22 @@ def main():
             failed += 1
             try:
                 err_body = resp.json()
+                # Detect invalid GS1 GTINs — log clearly, skip on future runs
+                errs = err_body.get("errors", [])
+                gtin_invalid = any(
+                    "EAN" in e.get("userMessage", "") or
+                    "GTIN" in e.get("userMessage", "") or
+                    "GS1" in e.get("userMessage", "") or
+                    "does not exist" in e.get("userMessage", "")
+                    for e in errs
+                )
+                if gtin_invalid:
+                    print(f"  ⚠ Invalid GS1 GTIN {row['_gtin']} | {row['EXTERNAL_ID']} — skipping (not in GS1 database)", file=sys.stderr)
+                else:
+                    print(f"  ✗ Failed {resp.status_code} | {row['EXTERNAL_ID']} | {err_body}", file=sys.stderr)
             except Exception:
                 err_body = resp.text
+                print(f"  ✗ Failed {resp.status_code} | {row['EXTERNAL_ID']} | {err_body}", file=sys.stderr)
             errors_log.append({
                 "external_id": row["EXTERNAL_ID"],
                 "name": row["Produktname"][:40],
@@ -457,7 +485,6 @@ def main():
                 "status_code": resp.status_code,
                 "error": err_body,
             })
-            print(f"  ✗ Failed {resp.status_code} | {row['EXTERNAL_ID']} | {err_body}", file=sys.stderr)
 
         # Gentle rate limiting: Allegro allows 9,000 req/min but creation
         # is slower to process — 2 per second is safe
