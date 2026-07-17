@@ -246,6 +246,32 @@ def valid_gtin(s):
     return s.isdigit() and 8 <= len(s) <= 14
 
 
+def parse_variant(v):
+    """Split a feed 'Variant' value into (color, size).
+
+    Examples seen in the feed:
+        "Blue / 40"       -> ("Blue", "40")
+        "nero / XL"       -> ("nero", "XL")
+        "Red / IT50 | L"  -> ("Red", "IT50 | L")
+        "M"               -> (None, "M")           # size only, no color
+        "EU39/US9"        -> (None, "EU39/US9")     # compound size, not color/size
+    Only a " / " (with surrounding spaces) is treated as the color/size
+    separator, so slash-joined size codes like "EU39/US9" pass through
+    untouched as a single size value.
+    """
+    if pd.isna(v):
+        return None, None
+    s = str(v).strip()
+    if not s:
+        return None, None
+    if " / " in s:
+        color, size = s.split(" / ", 1)
+        color = color.strip() or None
+        size = size.strip() or None
+        return color, size
+    return None, s
+
+
 def build_feed():
     fx = get_eur_pln_rate()
     df = pd.read_csv(FEED_URL)
