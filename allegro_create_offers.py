@@ -385,7 +385,7 @@ def build_offer_payload(row):
         "payments": {
             "invoice": "VAT",
         },
-        **({"images": [{"url": img} for img in images]} if images else {}),
+        **({"images": images} if images else {}),
         # Offer-level parameters: condition = New (11323_1)
         "parameters": [
             {"id": "11323", "valuesIds": ["11323_1"]},
