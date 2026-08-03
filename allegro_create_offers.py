@@ -36,6 +36,7 @@ import os
 import re
 import sys
 import time
+import html
 import unicodedata
 import requests
 import pandas as pd
@@ -344,10 +345,16 @@ def build_offer_payload(row):
     )
 
     # Minimal Polish description to satisfy allegro.pl language requirement
-    brand_safe = vendor.replace("&", "&amp;")
-    produktart = str(row["Produktart"]).replace("&", "&amp;") if pd.notna(row.get("Produktart")) else ""
-    color_safe = (color or "").replace("&", "&amp;")
-    size_safe  = (size or "").replace("&", "&amp;")
+    # NOTE: Allegro's description sanitizer only allows a small HTML subset
+    # (p, b, ... ) and rejects <br/> outright (422 VALIDATION_ERROR:
+    # 'Invalid tag: "br"'). So each line gets its own <p> instead of being
+    # joined with <br/>. All dynamic text is HTML-escaped (not just "&")
+    # so a stray "<" or ">" in vendor/color/size data can't produce another
+    # invalid-tag error.
+    brand_safe = html.escape(vendor, quote=False)
+    produktart = html.escape(str(row["Produktart"]), quote=False) if pd.notna(row.get("Produktart")) else ""
+    color_safe = html.escape(color or "", quote=False)
+    size_safe  = html.escape(size or "", quote=False)
 
     desc_lines = [f"Marka: {brand_safe}"]
     if produktart:
@@ -358,7 +365,7 @@ def build_offer_payload(row):
         desc_lines.append(f"Rozmiar: {size_safe}")
     desc_lines.append("Stan: Nowy")
     desc_lines.append("Produkt oryginalny.")
-    description_html = "<p>" + "<br/>".join(desc_lines) + "</p>"
+    description_html = "".join(f"<p>{line}</p>" for line in desc_lines)
 
     images = [image] if image else []
 
