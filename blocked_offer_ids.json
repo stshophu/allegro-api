@@ -439,6 +439,10 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Rodzaj, Materiał dominujący, Linia"
   },
+  "acne-studios-checked-double-breasted-wool-blend-coat-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "ad4190c-2088-zucca-alpha-studio-sweaters-ad4190c-2088-zucca-": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -451,7 +455,15 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
   },
+  "alexander-mcqueen-mini-t-bar-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
+  },
   "alexander-mcqueen-sling-pip-coin-pouch-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "apparis-imani-faux-fur-coat-2-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -474,6 +486,14 @@
   "baldinini-trend-womens-green-polyester-long-jacket-green-m": {
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Marka, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
+  },
+  "balenciaga-cantone-logo-jacket-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balenciaga-cashmere-and-wool-cinched-coat-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "balenciaga-leather-bb-wallet-and-card-holder-2-one-size": {
     "code_version": 3,
@@ -543,15 +563,59 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-padded-coat-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "bottega-veneta-reversible-leather-belt-2-80": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-satin-parka-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-satin-parka-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-blend-cotton-parka-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-trench-coat-2-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Fason, Kamizelka w zestawie, Materiał dominujący, Linia"
+  },
+  "bumper-17-shoulder-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
+  },
+  "burberry-blend-silk-trench-coat-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "burberry-blend-wool-trench-coat-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "cdfa-711-nero-comme-des-fuckdown-rucksacks-cdfa-711-nero-ner": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "cdfd-1543-verde-comme-des-fuckdown-trousers-cdfd-1543-verde-": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "cdfd-1654-sabbia-comme-des-fuckdown-shorts-cdfd-1654-sabbia-": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
   "cdfd-1822sbe1-rosa-comme-des-fuckdown-shorts-cdfd-1822sbe1-r": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "cdfd-2003-verde-comme-des-fuckdown-trousers-cdfd-2003-verde-": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
@@ -606,6 +670,10 @@
   "cfabw-01256-bianco-comme-des-fuckdown-shorts-cfabw-01256-bia": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "cfacx-00202-grigio-comme-des-fuckdown-hats-cfacx-00202-grigi": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
   },
   "christian-dior-leather-medium-book-tote-bag-one-size": {
     "code_version": 3,
@@ -683,9 +751,21 @@
     "code_version": 3,
     "reason": "missing required product data: Kolor, Rozmiar, Rękaw, Materiał dominujący, Linia"
   },
+  "dsquared2-crystal-embellished-coat-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "emporio-armani-crossbody-bag-4-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
+  },
+  "fendi-reversible-trench-coat-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "fendi-reversible-trench-coat-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "g5cx5t-fs5tw-blu-dolce-gabbana-shirts-camicia-stampa-teschi-": {
     "code_version": 3,
@@ -743,6 +823,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-audry-cotton-coat-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-audry-cotton-coat-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-baseball-cap-1-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
@@ -750,6 +838,34 @@
   "herno-baseball-cap-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-belted-single-breasted-coat-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-cashmere-coat-3-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-cashmere-coat-4-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-concealed-fastening-coat-1-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-concealed-fastening-coat-2-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-concealed-fastening-coat-3-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-concealed-fastening-coat-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
   "herno-cotton-cap-2-m": {
     "code_version": 3,
@@ -759,11 +875,91 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-cotton-coat-1-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-cotton-coat-1-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-cotton-coat-2-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-cotton-coat-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-cotton-coat-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
   "herno-cotton-logo-baseball-cap-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "herno-cotton-logo-cap-1-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-curly-faux-fur-coat-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-faux-fur-sleeveles-coat-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-hooded-jacket-2-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-hooded-padded-coat-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-hooded-rain-coat-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-parka-coat-2-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-lightweight-parka-coat-2-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-lightweight-parka-coat-4-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-parka-coat-6-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-parka-coat-7-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-parka-coat-7-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-parka-coat-7-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-parka-coat-7-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-parka-coat-7-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-parka-coat-7-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -775,7 +971,63 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-long-hooded-zip-coat-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-long-hooded-zip-coat-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-long-lightweight-coat-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-long-rain-coat-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-oversized-hooded-coat-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-oversized-hooded-coat-1-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-oversized-hooded-coat-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-oversized-hooded-coat-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-padded-coat-2-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-padded-coat-2-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-padded-faux-fur-vest-coat-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-padded-hat-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-reversible-ultralight-down-coat-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-reversible-ultralight-down-coat-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-ruffled-flared-coat-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -783,7 +1035,55 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-single-breasted-coat-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Fason, Kamizelka w zestawie, Materiał dominujący, Linia"
+  },
+  "herno-single-breasted-coat-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Fason, Kamizelka w zestawie, Materiał dominujący, Linia"
+  },
+  "herno-techno-taffeta-parka-coat-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-ultralight-down-coat-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-ultralight-down-coat-1-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-ultralight-reversible-a-line-down-coat-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-ultralight-reversible-down-coat-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
   "herno-wool-balaclava-hat-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-wool-cashmere-hooded-coat-2-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-wool-coat-4-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Fason, Kamizelka w zestawie, Materiał dominujący, Linia"
+  },
+  "herno-wool-coat-5-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-wool-coat-6-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-wool-down-coat-1-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -810,6 +1110,14 @@
   "hoshi-pm802-999-people-of-shibuya-jackets-hoshi-pm802-999-ne": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "jacquemus-le-grand-bambino-bag-1-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jacquemus-le-grand-bambino-shoulder-bag-11-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "jimmy-choo-gian-womens-black-satin-sandals-black-37": {
     "code_version": 3,
@@ -864,6 +1172,46 @@
     "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
   },
   "maglia-ingl-yellow-100-cashmere-caps-maglia-ingl-yellow-gial": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "maison-margiela-cotton-coat-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "maison-margiela-faux-fur-trimmed-leather-cape-jacket-2-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "maison-margiela-faux-fur-trimmed-leather-cape-jacket-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "maison-margiela-faux-fur-trimmed-leather-cape-jacket-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "maison-margiela-faux-fur-trimmed-leather-cape-jacket-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "maison-margiela-wool-cavalry-coat-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "maison-margiela-wool-coat-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "max-mara-asburgo-wool-and-cashmere-coat-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "max-mara-fungo-wool-coat-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "max-mara-pila-wool-and-cashmere-coat-2-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -987,6 +1335,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "palm-angels-logo-tote-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "parajumpers-pharrell-hooded-bomber-jacket-nero-xl": {
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
@@ -1034,6 +1386,46 @@
   "peu5601-dougal-arancio-peuterey-jackets-peu5601-dougal-aranc": {
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
+  },
+  "phm462-jersey-lilla-pharmacy-industry-t-shirt-top-phm462-jer": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "phm469-pants-multi-pharmacy-industry-trousers-phm469-pants-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "phm469-pants-multi-pharmacy-industry-trousers-phm469-pants-m-1": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "phmsp-321a-nero-pharmacy-industry-trousers-phmsp-321a-nero-n": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "phw-387-lilla-pharmacy-industry-leggings-phw-387-lilla-lilla": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "phw-392-lilla-pharmacy-industry-t-shirt-top-phw-392-lilla-li": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "phw-401-glicine-pharmacy-industry-sweatshirts-phw-401-glicin": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "phw-402-glicine-pharmacy-industry-shorts-phw-402-glicine-lil": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "phw-403a-nero-pharmacy-industry-trousers-phw-403a-nero-nero-": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "phw382-felpa-glicine-pharmacy-industry-sweatshirts-phw382-fe": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "pmea179-f21fab-black-palm-angels-sweatshirts-pmea179-f21fab-": {
     "code_version": 3,
@@ -1115,6 +1507,10 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
+  "valentino-garavani-rockstud-leather-belt-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
+  },
   "valentino-garavani-v-logo-cotton-bracelet-2-l": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał"
@@ -1122,6 +1518,10 @@
   "valentino-garavani-vlogo-cotton-bracelet-2-l": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał"
+  },
+  "valentino-military-canvas-backpack-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "versace-foulard-square-scarf-3-one-size": {
     "code_version": 3,
