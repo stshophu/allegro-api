@@ -523,6 +523,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "as65-canvas-embellished-parka-jacket-2-xxs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "au-7000ct-grigio-alpha-studio-sweaters-au-7000ct-grigio-grig": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -534,6 +538,198 @@
   "au-7169g-latte-alpha-studio-sweaters-au-7169g-latte-bianco-4": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
+  "autry-action-people-jacket-2-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-lightweight-jacket-2-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-lightweight-jacket-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-lightweight-jacket-2-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-lightweight-jacket-2-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-lightweight-jacket-2-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-bomber-jacket-4-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-bomber-jacket-4-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-bomber-jacket-4-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-bomber-jacket-4-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-cardigan-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-cardigan-2-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-jacket-3-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-jacket-3-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-jacket-4-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-jacket-4-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-jacket-4-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-logo-jacket-4-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-nylon-jacket-3-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-nylon-jacket-3-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-nylon-jacket-4-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-nylon-jacket-4-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-side-band-cardigan-3-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-side-band-cardigan-4-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-side-stripe-cardigan-2-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-sport-jacket-3-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-sport-jacket-3-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-sport-jacket-3-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-sport-jacket-3-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-sport-jacket-4-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-sport-jacket-4-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-sport-jacket-4-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-sport-jacket-4-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-sport-jacket-4-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-track-bomber-2-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-3-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-3-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-3-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-4-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-4-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-4-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-5-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-5-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-windbreaker-jacket-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-zipped-cardigan-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-zipped-cardigan-2-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "baldinini-trend-men-wool-blue-suit-it58-blue": {
     "code_version": 3,
@@ -568,6 +764,18 @@
     "reason": "no matching Allegro category"
   },
   "balenciaga-spiral-mini-dress-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balenciaga-tweed-blazer-jacket-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balenciaga-wool-jacket-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balenciaga-wool-jacket-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -631,6 +839,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "blanca-vita-satin-effect-jacket-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "blanca-vita-sequin-embellished-long-dress-2-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -647,7 +859,23 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-cotton-blazer-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-double-breasted-blazer-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-down-jacket-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "bottega-veneta-glaze-aviator-sunglasses-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-high-neck-jacket-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -679,6 +907,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-padded-vest-jacket-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-padded-vest-jacket-2-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "bottega-veneta-reversible-leather-belt-2-80": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -691,7 +927,87 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-windbreaker-jacket-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-windbreaker-jacket-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-wool-twill-blazer-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-wool-twill-blazer-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-blazer-jacket-2-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-blazer-jacket-2-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "brunello-cucinelli-blend-cotton-parka-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-double-breasted-wool-jacket-2-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-tartan-wool-jacket-2-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-virgin-wool-jacket-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-virgin-wool-jacket-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-virgin-wool-jacket-2-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-blazer-2-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-blazer-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-jacket-10-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-jacket-5-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-jacket-7-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-jacket-7-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-jacket-7-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-jacket-7-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-jacket-8-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -712,6 +1028,18 @@
     "reason": "no matching Allegro category"
   },
   "burberry-faux-fur-coat-2-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "burberry-parka-jacket-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "burberry-two-piece-jacket-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "burberry-weaverton-vest-jacket-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -855,6 +1183,22 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "dior-windbreaker-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dior-wool-blazer-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dior-x-kenny-scharf-embroidered-logo-hooded-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dior-x-kenny-scharf-shirt-jacket-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "dolce-gabbana-black-nylon-logo-bomber-jacket-black-52": {
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
@@ -887,7 +1231,47 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "dsquared2-double-breasted-jacket-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-feathers-bomber-jacket-3-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-feathers-bomber-jacket-4-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-leopard-calf-hair-cropped-jacket-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-logo-hooded-windbreaker-3-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-logo-hooded-windbreaker-3-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-logo-hooded-windbreaker-4-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
+  },
   "dsquared2-silk-printed-mini-dress-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-windbreaker-jacket-2-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-windbreaker-jacket-2-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-windbreaker-jacket-2-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1207,6 +1591,14 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
+  "herno-long-trench-coat-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-long-trench-coat-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-oversized-hooded-coat-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1471,6 +1863,10 @@
     "code_version": 3,
     "reason": "missing required product data: Długość, Marka, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
   },
+  "maison-margiela-wool-blazer-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
   "maison-margiela-wool-cavalry-coat-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1480,6 +1876,10 @@
     "reason": "no matching Allegro category"
   },
   "max-mara-asburgo-wool-and-cashmere-coat-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "max-mara-fred-jacket-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
