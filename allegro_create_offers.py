@@ -282,13 +282,19 @@ def fetch_existing_external_ids(access_token):
 
 # ---------------------------------------------------------------------------
 # Category parameters (needed to auto-create a new Allegro product when the
-# GTIN isn't already in Allegro's catalog — see MatchingProductForIdNotFoundException)
+# GTIN isn't already in Allegro's catalog — see MatchingProductForIdNotFoundException
+# and DuplicateDetectionMissingParametersException)
 # ---------------------------------------------------------------------------
 
 _category_params_cache = {}
 
-BRAND_NAME_HINTS = ("marka", "brand")
 EAN_PARAM_ID = "225693"  # universal "EAN (GTIN)" parameter, seen across categories
+
+# name-hint keywords (Polish, since categories/parameters are in Polish on
+# allegro.pl) -> which value from the feed row satisfies that parameter.
+# Order matters: first hint group whose keyword appears in the parameter
+# name wins, so put more specific hints before generic ones.
+OTHER_VALUE_HINTS = ("inny", "inna", "pozostał", "nie dotyczy", "brak", "other")
 
 
 def fetch_category_parameters(access_token, category_id):
@@ -310,52 +316,71 @@ def fetch_category_parameters(access_token, category_id):
     return params
 
 
-def resolve_brand_parameter(access_token, category_id, brand_name):
-    """Find the category's brand ('Marka') parameter and match brand_name
-    against its dictionary options (case-insensitive). If the parameter
-    accepts custom values and no dictionary match is found, fall back to
-    free text. Returns a parameters-array entry, or None if no brand
-    parameter exists for this category or brand_name is empty."""
-    if not brand_name:
+def resolve_parameter_value(param, text_value):
+    """Build a parameters-array entry for one category parameter, given a
+    candidate text value from the feed row.
+
+    Dictionary-type parameters are often *strict* (no free text accepted,
+    despite Allegro's own docs suggesting you can pass a name in `values` —
+    that only works when the name is already in the dictionary). So for
+    dictionary params we only ever submit a matched option's ID: exact
+    match, then substring match, then an "Inny/Pozostałe" (Other) catch-all
+    entry if the dictionary has one. If none of those exist, we return None
+    rather than guess — sending an unmatched value guarantees a 422.
+
+    Non-dictionary (text/numeric) parameters accept free text directly.
+    """
+    if not text_value:
         return None
-    params = fetch_category_parameters(access_token, category_id)
-    brand_param = next(
-        (p for p in params if any(h in p.get("name", "").lower() for h in BRAND_NAME_HINTS)),
-        None,
-    )
-    if not brand_param:
+    text_value = str(text_value).strip()
+    if not text_value:
         return None
 
-    options = brand_param.get("dictionary") or brand_param.get("options") or []
-    match = next(
-        (o for o in options if o.get("value", "").strip().lower() == brand_name.strip().lower()),
-        None,
-    )
-    if not match:
+    options = param.get("dictionary") or []
+    if param.get("type") == "dictionary" or options:
         match = next(
-            (o for o in options if brand_name.strip().lower() in o.get("value", "").strip().lower()),
+            (o for o in options if o.get("value", "").strip().lower() == text_value.lower()),
             None,
         )
+        if not match:
+            match = next(
+                (o for o in options if text_value.lower() in o.get("value", "").strip().lower()),
+                None,
+            )
+        if not match:
+            match = next(
+                (o for o in options if any(h in o.get("value", "").strip().lower() for h in OTHER_VALUE_HINTS)),
+                None,
+            )
+        if not match:
+            return None
+        return {"id": param["id"], "valuesIds": [match["id"]]}
 
-    entry = {"id": brand_param["id"]}
-    if match:
-        entry["valuesIds"] = [match["id"]]
-    elif not options or brand_param.get("customValuesQuantity", 1) != 0:
-        # No dictionary at all, or dictionary explicitly allows custom values
-        entry["values"] = [brand_name]
-    else:
-        # Strict dictionary with no match — nothing safe to send
-        return None
-    return entry
+    return {"id": param["id"], "values": [text_value]}
 
 
-def build_product_parameters(access_token, category_id, gtin, vendor):
+def build_product_parameters(access_token, category_id, gtin, field_values):
     """Product-level parameters needed so Allegro can auto-create a new
-    catalog product for a GTIN it doesn't already recognize."""
+    catalog product for a GTIN it doesn't already recognize.
+
+    field_values: ordered list of (keyword_hints, value) pairs. For each
+    category parameter, the first entry whose hint matches the parameter
+    name (and has a non-empty value) is used to fill it.
+    """
     params = [{"id": EAN_PARAM_ID, "values": [gtin]}]
-    brand_entry = resolve_brand_parameter(access_token, category_id, vendor)
-    if brand_entry:
-        params.append(brand_entry)
+    cat_params = fetch_category_parameters(access_token, category_id)
+    used_param_ids = set()
+
+    for cat_param in cat_params:
+        name_lower = cat_param.get("name", "").lower()
+        for hints, value in field_values:
+            if any(h in name_lower for h in hints):
+                entry = resolve_parameter_value(cat_param, value)
+                if entry and entry["id"] not in used_param_ids:
+                    params.append(entry)
+                    used_param_ids.add(entry["id"])
+                break  # first matching hint group wins, whether or not it resolved
+
     return params
 
 
@@ -372,6 +397,8 @@ def build_offer_payload(access_token, row):
     ext_id   = row["EXTERNAL_ID"]
     image    = row["Image URL"] if pd.notna(row.get("Image URL", None)) else None
     vendor   = str(row.get("Vendor", "")).strip()
+    sku      = str(row.get("Artikelnummer im Shop", "")).strip()
+    art_val  = str(row.get("Produktart", "")).strip() if pd.notna(row.get("Produktart")) else ""
 
     cat_id = resolve_category(
         access_token, row.get("Kategorie"), row.get("Subkategorie"), row.get("Produktart")
@@ -438,7 +465,16 @@ def build_offer_payload(access_token, row):
                 "idType": "GTIN",
                 "name": name,
                 "category": {"id": str(cat_id)},
-                "parameters": build_product_parameters(access_token, cat_id, gtin, vendor),
+                "parameters": build_product_parameters(
+                    access_token, cat_id, gtin,
+                    [
+                        (("marka", "brand"), vendor),
+                        (("kod producenta", "numer katalogowy"), sku),
+                        (("rozmiar",), size),
+                        (("kolor", "kolor producenta"), color),
+                        (("rodzaj",), art_val),
+                    ],
+                ),
                 **({"images": images} if images else {}),
 
             },
