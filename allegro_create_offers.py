@@ -290,13 +290,6 @@ _category_params_cache = {}
 
 EAN_PARAM_ID = "225693"  # universal "EAN (GTIN)" parameter, seen across categories
 
-# name-hint keywords (Polish, since categories/parameters are in Polish on
-# allegro.pl) -> which value from the feed row satisfies that parameter.
-# Order matters: first hint group whose keyword appears in the parameter
-# name wins, so put more specific hints before generic ones.
-OTHER_VALUE_HINTS = ("inny", "inna", "pozostał", "nie dotyczy", "brak", "other")
-
-
 def fetch_category_parameters(access_token, category_id):
     """GET /sale/categories/{id}/parameters, cached per run."""
     if category_id in _category_params_cache:
@@ -324,9 +317,14 @@ def resolve_parameter_value(param, text_value):
     despite Allegro's own docs suggesting you can pass a name in `values` —
     that only works when the name is already in the dictionary). So for
     dictionary params we only ever submit a matched option's ID: exact
-    match, then substring match, then an "Inny/Pozostałe" (Other) catch-all
-    entry if the dictionary has one. If none of those exist, we return None
-    rather than guess — sending an unmatched value guarantees a 422.
+    match, then substring match.
+
+    If neither matches, some dictionary parameters expose an "ambiguous"
+    catch-all option via options.ambiguousValueId (Allegro's own field for
+    this — NOT found by guessing an "Inny"/"Other" option by name: picking
+    that alone gets rejected as "Custom value proposition has not been
+    provided for ambiguous value in parameter X"). When present, it must be
+    submitted together with the free-text value describing what it is.
 
     Non-dictionary (text/numeric) parameters accept free text directly.
     """
@@ -347,14 +345,13 @@ def resolve_parameter_value(param, text_value):
                 (o for o in options if text_value.lower() in o.get("value", "").strip().lower()),
                 None,
             )
-        if not match:
-            match = next(
-                (o for o in options if any(h in o.get("value", "").strip().lower() for h in OTHER_VALUE_HINTS)),
-                None,
-            )
-        if not match:
-            return None
-        return {"id": param["id"], "valuesIds": [match["id"]]}
+        if match:
+            return {"id": param["id"], "valuesIds": [match["id"]]}
+
+        ambiguous_id = (param.get("options") or {}).get("ambiguousValueId")
+        if ambiguous_id:
+            return {"id": param["id"], "valuesIds": [ambiguous_id], "values": [text_value]}
+        return None
 
     return {"id": param["id"], "values": [text_value]}
 
