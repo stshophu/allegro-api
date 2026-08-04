@@ -364,10 +364,16 @@ def build_product_parameters(access_token, category_id, gtin, field_values):
     field_values: ordered list of (keyword_hints, value) pairs. For each
     category parameter, the first entry whose hint matches the parameter
     name (and has a non-empty value) is used to fill it.
+
+    Returns (params, missing_required_names) — missing_required_names lists
+    the category's requiredForProduct parameters that couldn't be filled
+    (no feed data, no dictionary match, no usable ambiguous fallback), so
+    the caller can skip the row before ever calling the API with a request
+    that's certain to fail.
     """
     params = [{"id": EAN_PARAM_ID, "values": [gtin]}]
     cat_params = fetch_category_parameters(access_token, category_id)
-    used_param_ids = set()
+    used_param_ids = {EAN_PARAM_ID}
 
     for cat_param in cat_params:
         name_lower = cat_param.get("name", "").lower()
@@ -379,7 +385,11 @@ def build_product_parameters(access_token, category_id, gtin, field_values):
                     used_param_ids.add(entry["id"])
                 break  # first matching hint group wins, whether or not it resolved
 
-    return params
+    missing_required = [
+        p.get("name", p["id"]) for p in cat_params
+        if p.get("requiredForProduct") and p["id"] not in used_param_ids
+    ]
+    return params, missing_required
 
 
 # ---------------------------------------------------------------------------
@@ -402,7 +412,20 @@ def build_offer_payload(access_token, row):
         access_token, row.get("Kategorie"), row.get("Subkategorie"), row.get("Produktart")
     )
     if cat_id is None:
-        return None
+        return None, "no matching Allegro category"
+
+    product_params, missing_required = build_product_parameters(
+        access_token, cat_id, gtin,
+        [
+            (("marka", "brand"), vendor),
+            (("kod producenta", "numer katalogowy"), sku),
+            (("rozmiar",), size),
+            (("kolor", "kolor producenta"), color),
+            (("rodzaj",), art_val),
+        ],
+    )
+    if missing_required:
+        return None, f"missing required product data: {', '.join(missing_required)}"
 
     # Minimal Polish description to satisfy allegro.pl language requirement
     # NOTE: Allegro's description sanitizer only allows a small HTML subset
@@ -463,16 +486,7 @@ def build_offer_payload(access_token, row):
                 "idType": "GTIN",
                 "name": name,
                 "category": {"id": str(cat_id)},
-                "parameters": build_product_parameters(
-                    access_token, cat_id, gtin,
-                    [
-                        (("marka", "brand"), vendor),
-                        (("kod producenta", "numer katalogowy"), sku),
-                        (("rozmiar",), size),
-                        (("kolor", "kolor producenta"), color),
-                        (("rodzaj",), art_val),
-                    ],
-                ),
+                "parameters": product_params,
                 **({"images": images} if images else {}),
 
             },
@@ -485,7 +499,7 @@ def build_offer_payload(access_token, row):
             }]
         },
     }
-    return payload
+    return payload, None
 
 
 # ---------------------------------------------------------------------------
@@ -562,7 +576,7 @@ def main():
     new_rows = df[~df["EXTERNAL_ID"].isin(existing)]
     print(f"New rows to create: {len(new_rows)} (capped at {MAX_CREATE} this run)")
 
-    created, skipped_zero_stock, skipped_no_category, failed = 0, 0, 0, 0
+    created, skipped_zero_stock, skipped_no_category, skipped_missing_data, failed = 0, 0, 0, 0, 0
     errors_log = []
 
     for _, row in new_rows.head(MAX_CREATE).iterrows():
@@ -571,10 +585,13 @@ def main():
             skipped_zero_stock += 1
             continue
 
-        payload = build_offer_payload(access_token, row)
+        payload, skip_reason = build_offer_payload(access_token, row)
         if payload is None:
-            print(f"  ⚠ No matching Allegro category for {row['EXTERNAL_ID']} | {row['Produktname'][:40]} — skipping", file=sys.stderr)
-            skipped_no_category += 1
+            print(f"  ⚠ Skipping {row['EXTERNAL_ID']} | {row['Produktname'][:40]} — {skip_reason}", file=sys.stderr)
+            if skip_reason and skip_reason.startswith("no matching"):
+                skipped_no_category += 1
+            else:
+                skipped_missing_data += 1
             continue
         resp = create_offer(access_token, payload)
 
@@ -615,7 +632,7 @@ def main():
         # is slower to process — 2 per second is safe
         time.sleep(0.5)
 
-    print(f"\nDone. Created: {created}, Skipped (zero stock): {skipped_zero_stock}, Skipped (no category match): {skipped_no_category}, Failed: {failed}")
+    print(f"\nDone. Created: {created}, Skipped (zero stock): {skipped_zero_stock}, Skipped (no category match): {skipped_no_category}, Skipped (missing required data): {skipped_missing_data}, Failed: {failed}")
     if errors_log:
         print(f"\nFirst 5 errors:")
         for e in errors_log[:5]:
