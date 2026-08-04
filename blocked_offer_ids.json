@@ -483,6 +483,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "alexander-mcqueen-denim-jacket-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alexander-mcqueen-mini-t-bar-bag-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
@@ -492,6 +496,10 @@
     "reason": "no matching Allegro category"
   },
   "alexander-mcqueen-sling-pip-coin-pouch-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alexander-mcqueen-wool-blend-padded-bomber-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1099,6 +1107,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "celine-wool-blazer-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "centogrammi-men-ultralight-hooded-down-jacket-grey-m": {
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
@@ -1126,6 +1138,14 @@
   "cfacx-00202-grigio-comme-des-fuckdown-hats-cfacx-00202-grigi": {
     "code_version": 3,
     "reason": "missing required product data: Typ, Marka"
+  },
+  "chloe-faux-fur-jacket-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "christian-dior-couture-leather-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "christian-dior-leather-medium-book-tote-bag-one-size": {
     "code_version": 3,
@@ -1167,6 +1187,10 @@
     "code_version": 3,
     "reason": "missing required product data: Typ, Marka"
   },
+  "craig-green-down-jacket-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "dior-essential-large-tote-bag-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1207,6 +1231,10 @@
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
   },
+  "dolce-gabbana-cropped-bomber-jacket-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "dolce-gabbana-gray-wool-stretch-formal-slim-fit-pants-grey-5": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Producent, Materiał"
@@ -1222,6 +1250,10 @@
   "dolce-gabbana-red-cotton-xoxo-polo-t-shirt-red-it50-l": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Rozmiar, Rękaw, Materiał dominujący, Linia"
+  },
+  "dolce-gabbana-reversible-artastic-bomber-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "dolce-gabbana-silk-leopard-ruched-dress-2-46": {
     "code_version": 3,
@@ -1283,6 +1315,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "fendi-fur-collar-wool-coat-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "fendi-fur-collar-wool-coat-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "fendi-fur-trim-velvet-midi-dress-2-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1291,11 +1331,23 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "fendi-go-to-cashmere-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "fendi-reversible-trench-coat-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "fendi-reversible-trench-coat-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "forte-dei-marmi-couture-fur-lining-denim-jacket-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "frankie-morello-denim-jacket-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1323,7 +1375,19 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "givenchy-4g-windbreaker-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "givenchy-asymmetrical-dress-1-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "givenchy-black-slim-fit-tailored-jacket-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "givenchy-black-slim-fit-tailored-jacket-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1343,6 +1407,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "givenchy-rainbow-chain-nylon-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "givenchy-wool-and-cashmere-scarf-2-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1359,9 +1427,17 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "gucci-down-jacket-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "gucci-fiorito-floral-dress-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "gucci-gg-reversible-jacket-1-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
   },
   "gucci-pleated-dress-1-40": {
     "code_version": 3,
@@ -1383,6 +1459,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "gucci-wool-blend-jacket-1-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gucci-wool-checked-blazer-1-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gucci-wool-checked-blazer-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "gw0cad-g8by4-blu-dolce-gabbana-jeans-gw0cad-g8by4-blu-blu-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1398,6 +1486,10 @@
   "gyjcct-g8iw7-blu-dolce-gabbana-trousers-gyjcct-g8iw7-blu-blu": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "herno-amelia-padded-coat-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "herno-audry-cotton-coat-44": {
     "code_version": 3,
@@ -1428,6 +1520,10 @@
     "reason": "no matching Allegro category"
   },
   "herno-cashmere-coat-4-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-chest-pockets-shirt-1-54": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1483,11 +1579,67 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-crop-sleeve-down-jacket-1-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-curly-faux-fur-coat-2-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-down-bomber-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-bomber-jacket-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-jacket-10-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-jacket-11-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-jacket-12-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-jacket-13-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-jacket-13-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-jacket-14-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-jacket-9-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-vest-jacket-3-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-down-vest-jacket-4-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-elena-down-jacket-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-faux-fur-sleeveles-coat-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-giada-down-jacket-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1503,13 +1655,25 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-hooded-rain-jacket-1-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-hooded-zipped-coat-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-laminar-down-jacket-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-lightweight-cotton-parka-coat-42": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-lightweight-hooded-jacket-2-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "herno-lightweight-parka-coat-1-40": {
     "code_version": 3,
@@ -1591,11 +1755,19 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
+  "herno-long-sleeved-hooded-knitted-jumper-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-long-trench-coat-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-long-trench-coat-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-matt-black-hooded-bomber-jacket-1-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1631,7 +1803,23 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-padded-jacket-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-panelled-hooded-jacket-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-parka-coat-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-reversible-bomber-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-reversible-down-jacket-3-36": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1651,7 +1839,55 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-shirt-jacket-1-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shirt-jacket-1-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shirt-jacket-3-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shirt-jacket-3-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shirt-jacket-3-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shirt-jacket-3-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shirt-jacket-3-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shirt-jacket-3-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shirt-jacket-3-56": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shirt-jacket-3-58": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-silk-scarf-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-single-breasted-blazer-2-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-single-breasted-blazer-3-58": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1691,6 +1927,22 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-ultralight-down-jacket-10-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-ultralight-down-jacket-7-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-ultralight-down-jacket-8-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-ultralight-down-jacket-9-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-ultralight-reversible-a-line-down-coat-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1699,7 +1951,15 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
+  "herno-waterproof-lightweight-jacket-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolekcja, Model, Płeć, Marka, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
+  },
   "herno-wool-balaclava-hat-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-wool-biker-jacket-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1720,6 +1980,14 @@
     "reason": "no matching Allegro category"
   },
   "herno-wool-down-coat-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "hernocropped-sleeve-down-jacket-1-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "heron-preston-camouflage-winkbreaker-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1771,6 +2039,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "jil-sander-blend-silk-zip-up-hooded-jacket-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jil-sander-bomber-jacket-1-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jil-sander-hooded-jacket-1-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "jil-sander-wool-kaban-coat-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1779,13 +2059,33 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki"
   },
+  "kenzo-flame-print-reversible-jacket-1-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "kenzo-snakeskin-printed-jacket-1-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "kenzo-snakeskin-printed-jacket-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "kinujo-pm839-920-people-of-shibuya-jackets-kinujo-pm839-920-": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "lanvin-logo-hooded-windbreaker-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "lanvin-wool-and-silk-scarf-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Długość"
+  },
+  "lanvin-wool-blazer-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "lanvin-wool-hat-4-one-size": {
     "code_version": 3,
@@ -1815,6 +2115,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "lemaire-military-wool-jacket-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "lig0003-04388d-blu-mc2-saint-barth-swimwear-micro-fantasy-sh": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
@@ -1828,6 +2132,10 @@
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "loewe-bustier-velvet-dress-1-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "loewe-puzzle-fold-jacket-1-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1872,6 +2180,14 @@
     "reason": "no matching Allegro category"
   },
   "maison-margiela-wool-coat-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "marc-jacobs-fur-trim-coat-0": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "marc-jacobs-fur-trim-coat-2": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1999,6 +2315,18 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał"
   },
+  "moncler-genius-shiny-jacket-1-0": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "moncler-heiji-jacket-1-2": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "neil-barrett-bomber-jacket-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "nobu1-pm801-blu-people-of-shibuya-vest-nobu1-pm801-blu-blu-4": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
@@ -2007,7 +2335,19 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "off-white-arrow-field-cotton-jacket-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-arrow-field-cotton-jacket-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "off-white-cut-out-midi-dress-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-windbreaker-bomber-jacket-1-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2015,7 +2355,39 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "palm-angels-checked-windbreaker-jacket-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-denim-jacket-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-fire-blazer-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "palm-angels-logo-tote-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-padded-bomber-jacket-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-padded-bomber-jacket-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-palms-souvenir-bomber-jacket-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-waterproof-jacket-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-windbreaker-jacket-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2127,6 +2499,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-double-breasted-wool-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "prada-flared-one-sleeve-midi-dress-1-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2138,6 +2514,10 @@
   "prada-leather-brown-knee-high-boots-eu39-us9": {
     "code_version": 3,
     "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "prada-leather-jacket-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "prada-leather-logo-wallet-3-one-size": {
     "code_version": 3,
@@ -2160,6 +2540,18 @@
     "reason": "no matching Allegro category"
   },
   "prada-nylon-logo-wallet-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-blazer-1-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-blazer-jacket-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-jacket-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2228,6 +2620,14 @@
     "reason": "no matching Allegro category"
   },
   "self-portrait-lace-trim-dress-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-blazer-jacket-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-blazer-jacket-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
