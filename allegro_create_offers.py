@@ -92,9 +92,14 @@ LOCATION = {
 
 _category_resolution_cache = {}
 
-# Genderless/uninformative Kategorie values seen in the feed — excluded
-# from the matching-categories query (see resolve_category below).
-GENERIC_KATEGORIE_TERMS = {"clothing", "odzież", "odziez", "apparel"}
+# Genderless/generic Kategorie values seen in the feed, mapped to their
+# proper Polish equivalent so the matching-categories query always has a
+# real anchor term (see resolve_category below — leaving these untranslated
+# or dropping them caused bad category matches).
+GENERIC_KATEGORIE_TRANSLATIONS = {
+    "clothing": "odzież",
+    "apparel": "odzież",
+}
 
 
 def resolve_category(access_token, kategorie, subkategorie, produktart):
@@ -111,13 +116,14 @@ def resolve_category(access_token, kategorie, subkategorie, produktart):
 
     # Some feed rows use a generic, genderless Kategorie value ("Clothing")
     # instead of the usual gendered German label ("Damenbekleidung" /
-    # "Herrenbekleidung"). That generic term carries no useful signal and
-    # was observed diluting the match badly enough that Allegro matched a
-    # men's item to a children's-clothing category — so it's dropped from
-    # the query whenever a more specific term (Subkategorie/Produktart) is
-    # available; it's still used as the last-resort fallback if those are
-    # both empty.
-    kat_for_query = "" if kat.lower() in GENERIC_KATEGORIE_TERMS else kat
+    # "Herrenbekleidung"). Dropping it from the query entirely (a prior fix)
+    # was WORSE than the original problem: bare single-word queries like
+    # "Shirts" or "Tops" drifted into completely unrelated categories
+    # (observed: books and music-album categories, asking for ISBN/Autor or
+    # Wykonawca/Wytwórnia on a shirt). An anchor term is needed — it just
+    # needs to be the actual Polish word ("odzież"), not the untranslated
+    # English one, so it stays within the clothing category tree.
+    kat_for_query = GENERIC_KATEGORIE_TRANSLATIONS.get(kat.lower(), kat)
     query = " ".join(p for p in [art, sub, kat_for_query] if p).strip() or kat
     headers = {"Authorization": f"Bearer {access_token}", "Accept": ACCEPT}
     cat_id = None
