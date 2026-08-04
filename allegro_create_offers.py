@@ -504,22 +504,40 @@ def create_offer(access_token, payload):
         json=payload,
         timeout=30,
     )
-    # Auto-retry on CATEGORY_MISMATCH using the category Allegro tells us
     if resp.status_code == 422:
         try:
             errors = resp.json().get("errors", [])
-            for err in errors:
-                if err.get("code") == "CATEGORY_MISMATCH":
-                    correct_cat = err.get("metadata", {}).get("existingCategoryId")
-                    if correct_cat:
-                        payload["productSet"][0]["product"]["category"]["id"] = str(correct_cat)
-                        resp = requests.post(
-                            f"{API_BASE}/sale/product-offers",
-                            headers=headers,
-                            json=payload,
-                            timeout=30,
-                        )
+            codes = {e.get("code") for e in errors}
+            retry = False
+
+            if "CATEGORY_MISMATCH" in codes:
+                for err in errors:
+                    if err.get("code") == "CATEGORY_MISMATCH":
+                        correct_cat = err.get("metadata", {}).get("existingCategoryId")
+                        if correct_cat:
+                            payload["productSet"][0]["product"]["category"]["id"] = str(correct_cat)
+                            retry = True
                         break
+            elif "MatchingProductForDataNotFoundException" in codes:
+                # Allegro couldn't match this GTIN + supplied data to any
+                # existing catalog product. Per Allegro's docs, sending both
+                # a GTIN and full product data is a hybrid of their two
+                # documented variants ("product already in catalog" vs.
+                # "create a new product") — dropping id/idType switches
+                # cleanly to the "create new product from data" variant,
+                # which doesn't attempt any GTIN-based matching at all.
+                product = payload["productSet"][0]["product"]
+                product.pop("id", None)
+                product.pop("idType", None)
+                retry = True
+
+            if retry:
+                resp = requests.post(
+                    f"{API_BASE}/sale/product-offers",
+                    headers=headers,
+                    json=payload,
+                    timeout=30,
+                )
         except Exception:
             pass
     return resp
