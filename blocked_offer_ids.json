@@ -452,7 +452,7 @@
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
   },
   "alexander-mcqueen-sling-pip-coin-pouch-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "au-7000ct-grigio-alpha-studio-sweaters-au-7000ct-grigio-grig": {
@@ -476,75 +476,75 @@
     "reason": "missing required product data: Kolekcja, Model, Płeć, Marka, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
   },
   "balenciaga-leather-bb-wallet-and-card-holder-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
   "balmain-b-army-42-shopper-bag-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
   "balmain-leather-belt-2-105": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "balmain-leather-belt-3-85": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "balmain-leather-belt-4-80": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Materiał dominujący"
   },
   "balmain-leather-trimmed-canvas-tote-bag-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
   "balmain-logo-shoulder-bag-3-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
   "balmain-logo-tote-bag-3-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
   "balmain-logo-tote-bag-4-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
   "balmain-wool-hat-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "bottega-veneta-arco-mini-tote-bag-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "bottega-veneta-bucket-hat-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "bottega-veneta-glaze-aviator-sunglasses-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "bottega-veneta-intrecciato-document-case-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Przeznaczenie"
   },
   "bottega-veneta-leather-coin-purse-4-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "bottega-veneta-leather-coin-purse-5-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "bottega-veneta-leather-coin-purse-6-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "bottega-veneta-reversible-leather-belt-2-80": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "cdfd-1543-verde-comme-des-fuckdown-trousers-cdfd-1543-verde-": {
@@ -596,7 +596,7 @@
     "reason": "no matching Allegro category"
   },
   "cfabw-01163-nero-comme-des-fuckdown-t-shirt-top-cfabw-01163-": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "cfabw-01227-maldive-comme-des-fuckdown-trousers-cfabw-01227-": {
@@ -608,7 +608,7 @@
     "reason": "no matching Allegro category"
   },
   "christian-dior-leather-medium-book-tote-bag-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "clt-003-999-cavalli-class-gloves-clt-003-999-nero-9": {
@@ -624,7 +624,7 @@
     "reason": "missing required product data: Marka, Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "comme-des-garcons-logo-wallet-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
   "cq10103-s3393-157b-bikkembergs-denim-cq10103-s3393-157b-blu-": {
@@ -648,19 +648,19 @@
     "reason": "missing required product data: Typ, Marka"
   },
   "dior-essential-large-tote-bag-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "dior-essential-medium-tote-bag-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "dior-essential-small-tote-bag-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "dior-oblique-leather-tote-bag-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "dolce-gabbana-black-nylon-logo-bomber-jacket-black-52": {
@@ -676,7 +676,7 @@
     "reason": "missing required product data: Rodzaj, Producent, Materiał"
   },
   "dolce-gabbana-mirror-ski-mask-sunglasses-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Fason, Materiał oprawki"
   },
   "dolce-gabbana-red-cotton-xoxo-polo-t-shirt-red-it50-l": {
@@ -684,7 +684,7 @@
     "reason": "missing required product data: Kolor, Rozmiar, Rękaw, Materiał dominujący, Linia"
   },
   "emporio-armani-crossbody-bag-4-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
   "g5cx5t-fs5tw-blu-dolce-gabbana-shirts-camicia-stampa-teschi-": {
@@ -712,79 +712,79 @@
     "reason": "no matching Allegro category"
   },
   "givenchy-giv-cut-sunglasses-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "givenchy-logo-silk-scarf-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "givenchy-logo-wool-scarf-3-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "givenchy-logo-wool-scarf-4-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "givenchy-wool-and-cashmere-scarf-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "givenchy-wool-logo-hat-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "givenchy-wool-scarf-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "givenchy-wrap-sunglasses-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-baseball-cap-1-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "herno-baseball-cap-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-cotton-cap-2-m": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-cotton-cap-2-s": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-cotton-logo-baseball-cap-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "herno-cotton-logo-cap-1-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-logo-baseball-cap-m": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-logo-baseball-mesh-cap-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-padded-hat-2-m": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-silk-scarf-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-wool-balaclava-hat-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "hmabm-00010-marrone-hinnominate-sweatshirts-hmabm-00010-marr": {
@@ -800,7 +800,7 @@
     "reason": "no matching Allegro category"
   },
   "hnw1592-pietra-hinnominate-trousers-hnw1592-pietra-grigio-25": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "hoshi-pm802-290-people-of-shibuya-jackets-hoshi-pm802-290-ma": {
@@ -820,35 +820,35 @@
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "lanvin-wool-and-silk-scarf-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Długość"
   },
   "lanvin-wool-hat-4-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "lanvin-wool-hat-5-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "lanvin-wool-hat-6-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "lanvin-wool-scarf-4-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "lanvin-wool-scarf-5-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "lanvin-wool-scarf-6-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "lanvin-wool-scarf-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "lig0003-04388d-blu-mc2-saint-barth-swimwear-micro-fantasy-sh": {
@@ -872,107 +872,107 @@
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "michelangelo-d359-25i24-tramarossa-jeans-michelangelo-regula": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "missoni-wool-hat-10-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-11-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-12-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-13-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-14-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-15-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-16-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-17-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-18-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-19-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-20-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-21-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-22-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-23-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-24-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-25-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-8-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-hat-9-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
   "missoni-wool-scarf-5-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Długość"
   },
   "missoni-wool-scarf-6-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Długość"
   },
   "missoni-wool-scarf-7-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Długość"
   },
   "missoni-wool-scarf-8-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Długość"
   },
   "missoni-wool-scarf-9-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Długość"
   },
   "miu-miu-hair-tortoiseshell-hair-comb-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Rodzaj"
   },
   "mm6-maison-margiela-logo-engaved-large-bracelet-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał"
   },
   "nobu1-pm801-blu-people-of-shibuya-vest-nobu1-pm801-blu-blu-4": {
@@ -1044,7 +1044,7 @@
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Nosek"
   },
   "prada-cashmere-logo-scarf-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "prada-leather-brown-knee-high-boots-eu39-us9": {
@@ -1052,19 +1052,19 @@
     "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
   },
   "prada-leather-logo-wallet-3-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "prada-nylon-and-leather-french-wallet-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "prada-nylon-and-leather-french-wallet-3-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "prada-nylon-logo-wallet-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "q0579-d008s-nero-dsquared2-dress-q0579-d008s-nero-nero-10y": {
@@ -1072,19 +1072,19 @@
     "reason": "no matching Allegro category"
   },
   "saint-laurent-cassandre-airpods-case-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Przeznaczenie"
   },
   "saint-laurent-metal-sl690-sunglasses-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Fason, Materiał oprawki"
   },
   "saint-laurent-printed-acetate-sl-662-sunglasses-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "saint-laurent-sl-619-sunglasses-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Kolor, Fason, Materiał oprawki"
   },
   "tommy-hilfiger-alaska-black-polyester-women-puffer-jacket-m": {
@@ -1096,39 +1096,39 @@
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "valentino-garavani-bifold-rockstud-wallet-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
   "valentino-garavani-hoop-earrings-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał"
   },
   "valentino-garavani-leather-card-holder-3-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
   "valentino-garavani-leather-card-holder-4-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
   "valentino-garavani-rockstud-card-holder-2-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
   "valentino-garavani-v-logo-cotton-bracelet-2-l": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał"
   },
   "valentino-garavani-vlogo-cotton-bracelet-2-l": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał"
   },
   "versace-foulard-square-scarf-3-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "versace-foulard-square-scarf-4-one-size": {
-    "code_version": 0,
+    "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "wmc015-pp655-azzurro-la-martina-shirts-wmc015-pp655-azzurro-": {
