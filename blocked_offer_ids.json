@@ -3,6 +3,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "19-13-dresscode-tulle-mini-dress-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "19-13-dresscode-tulle-mini-dress-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "19-13-dresscode-tulle-mini-dress-2-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "25ap14-camicie-tom-ford-verde-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -455,11 +467,55 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
   },
+  "alaia-cotton-midi-dress-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alaia-cotton-midi-dress-2-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alaia-cotton-mini-dress-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alberta-ferretti-wool-blend-dress-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alexander-mcqueen-mini-t-bar-bag-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
+  "alexander-mcqueen-pied-de-poule-wool-coat-2-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alexander-mcqueen-sling-pip-coin-pouch-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-colour-block-jacket-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-colour-block-jacket-2-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-windbreaker-jacket-2-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-wool-shirt-jacket-2-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "amiri-demin-jacket-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "amiri-playboy-magazine-trucker-denim-jacket-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -487,6 +543,10 @@
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Marka, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
   },
+  "balenciaga-all-in-crepe-dress-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
   "balenciaga-cantone-logo-jacket-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -499,9 +559,25 @@
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
+  "balenciaga-mini-dress-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balenciaga-satin-strappy-midi-dress-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balenciaga-spiral-mini-dress-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "balmain-b-army-42-shopper-bag-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
+  },
+  "balmain-denim-mini-dress-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "balmain-leather-belt-2-105": {
     "code_version": 3,
@@ -535,6 +611,34 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "blanca-vita-abelia-laminated-mini-dress-3-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "blanca-vita-abelia-laminated-mini-dress-4-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "blanca-vita-acacia-satin-slip-midi-dress-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "blanca-vita-acacia-satin-slip-midi-dress-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "blanca-vita-mini-dress-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "blanca-vita-sequin-embellished-long-dress-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "blanca-vita-sequin-embellished-long-dress-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "bottega-veneta-arco-mini-tote-bag-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -560,6 +664,14 @@
     "reason": "no matching Allegro category"
   },
   "bottega-veneta-leather-coin-purse-6-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-midi-cotton-dress-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-midi-cotton-dress-2-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -596,6 +708,10 @@
     "reason": "no matching Allegro category"
   },
   "burberry-blend-wool-trench-coat-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "burberry-faux-fur-coat-2-36": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -646,6 +762,14 @@
   "cdfu-1373-caffe-comme-des-fuckdown-trousers-cdfu-1373-caffe-": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "celine-camden-wool-tweed-coat-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "celine-leather-hair-cuff-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "centogrammi-men-ultralight-hooded-down-jacket-grey-m": {
     "code_version": 3,
@@ -743,6 +867,10 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Producent, Materiał"
   },
+  "dolce-gabbana-maxi-pleated-dress-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "dolce-gabbana-mirror-ski-mask-sunglasses-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Fason, Materiał oprawki"
@@ -751,13 +879,33 @@
     "code_version": 3,
     "reason": "missing required product data: Kolor, Rozmiar, Rękaw, Materiał dominujący, Linia"
   },
+  "dolce-gabbana-silk-leopard-ruched-dress-2-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
   "dsquared2-crystal-embellished-coat-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-silk-printed-mini-dress-2-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "emporio-armani-crossbody-bag-4-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
+  },
+  "fendi-cady-silk-dress-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "fendi-fur-trim-velvet-midi-dress-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "fendi-fur-trim-velvet-midi-dress-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "fendi-reversible-trench-coat-50": {
     "code_version": 3,
@@ -788,6 +936,10 @@
     "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
   },
   "gi000309u-38020-beige-herno-vest-gi000309u-38020-beige-beige": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "givenchy-asymmetrical-dress-1-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -823,6 +975,46 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "gucci-fiorito-floral-dress-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gucci-pleated-dress-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gucci-pleated-dress-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gucci-silk-chiffon-dress-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gucci-silk-long-dress-1-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
+  "gucci-silk-midi-dress-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gw0cad-g8by4-blu-dolce-gabbana-jeans-gw0cad-g8by4-blu-blu-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gw5oht-furfur-nero-dolce-gabbana-trousers-gw5oht-furfur-nero": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gy07cd-g8ll9-grigio-dolce-gabbana-jeans-gy07cd-g8ll9-grigio-": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gyjcct-g8iw7-blu-dolce-gabbana-trousers-gyjcct-g8iw7-blu-blu": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
   "herno-audry-cotton-coat-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -840,6 +1032,10 @@
     "reason": "no matching Allegro category"
   },
   "herno-belted-single-breasted-coat-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-belted-trench-coat-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -923,6 +1119,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-hooded-zipped-coat-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-cotton-parka-coat-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-lightweight-parka-coat-1-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
   "herno-lightweight-parka-coat-2-42": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
@@ -931,7 +1139,19 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
+  "herno-lightweight-parka-coat-3-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-lightweight-parka-coat-4-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-parka-coat-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-lightweight-parka-coat-5-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1019,6 +1239,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-parka-coat-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-reversible-ultralight-down-coat-50": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
@@ -1028,6 +1252,10 @@
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
   "herno-ruffled-flared-coat-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-shearling-jacket-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1043,7 +1271,23 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Rodzaj, Fason, Kamizelka w zestawie, Materiał dominujący, Linia"
   },
+  "herno-sleeveless-blazer-dress-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-sleeveless-long-coat-1-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-sleeveless-long-coat-1-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-techno-taffeta-parka-coat-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-trench-coat-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1111,11 +1355,31 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "isabel-marant-etoile-isma-dress-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "isabel-marant-florise-mini-dress-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ivan-montesi-beaded-shoulders-dress-2-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jacquemus-le-caban-caruso-draped-collar-jacket-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "jacquemus-le-grand-bambino-bag-1-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "jacquemus-le-grand-bambino-shoulder-bag-11-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jil-sander-wool-kaban-coat-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1163,9 +1427,17 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "lig0013-03289f-multicolor-mc2-saint-barth-swimwear-lig0013-0": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
   "lione-dtfclb-ss491-don-the-fuller-jackets-lione-blu-xxl": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "loewe-bustier-velvet-dress-1-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "love-moschino-dress-blue-woman-blue-40": {
     "code_version": 3,
@@ -1194,6 +1466,10 @@
   "maison-margiela-faux-fur-trimmed-leather-cape-jacket-2-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "maison-margiela-silk-midi-dress-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość, Marka, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
   },
   "maison-margiela-wool-cavalry-coat-38": {
     "code_version": 3,
@@ -1331,6 +1607,10 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "off-white-cut-out-midi-dress-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "p54600-ga9103-f03700-refrigiwear-shorts-brooklyn-short-blu-3": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1387,6 +1667,10 @@
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
   },
+  "philosophy-di-lorenzo-serafini-mini-dress-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "phm462-jersey-lilla-pharmacy-industry-t-shirt-top-phm462-jer": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
@@ -1439,11 +1723,31 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-double-breasted-wool-coat-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-flared-one-sleeve-midi-dress-1-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-herringbone-wool-coat-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "prada-leather-brown-knee-high-boots-eu39-us9": {
     "code_version": 3,
     "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
   },
   "prada-leather-logo-wallet-3-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-long-parka-coat-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-midi-dress-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1463,21 +1767,113 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "saint-laurent-cashmere-dress-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "saint-laurent-cassandre-airpods-case-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Przeznaczenie"
+  },
+  "saint-laurent-cowl-back-mini-dress-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "saint-laurent-double-breasted-wool-coat-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "saint-laurent-lightweight-padded-coat-2-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "saint-laurent-manteau-oversize-coat-2": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "saint-laurent-metal-sl690-sunglasses-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Fason, Materiał oprawki"
   },
+  "saint-laurent-mini-draped-dress-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "saint-laurent-mini-dress-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "saint-laurent-one-sleeve-dress-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "saint-laurent-printed-acetate-sl-662-sunglasses-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "saint-laurent-satin-coat-2-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "saint-laurent-sl-619-sunglasses-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Fason, Materiał oprawki"
+  },
+  "saint-laurent-wool-dress-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "self-portrait-cut-out-ruched-maxi-dress-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "self-portrait-lace-trim-dress-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-cotton-dress-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-cut-shoulders-dress-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-denim-dress-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-denim-shirt-dress-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-long-sleeved-dress-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-long-sleeved-dress-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-off-shoulder-dress-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-off-shoulder-dress-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-silk-cut-out-maxi-dress-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "the-attico-jersey-mini-dress-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "tom-ford-lurex-crochet-maxi-dress-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "tommy-hilfiger-alaska-black-polyester-women-puffer-jacket-m": {
     "code_version": 3,
@@ -1486,6 +1882,10 @@
   "usagi-pm839-920-people-of-shibuya-jackets-usagi-pm839-920-gr": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "valentino-cotton-mini-dress-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "valentino-garavani-bifold-rockstud-wallet-2-one-size": {
     "code_version": 3,
