@@ -37,6 +37,7 @@ import re
 import sys
 import time
 import html
+import json
 import unicodedata
 import requests
 import pandas as pd
@@ -182,6 +183,56 @@ def update_github_secret(secret_name, secret_value):
         json={"encrypted_value": encrypted_b64, "key_id": key_data["key_id"]},
         timeout=30,
     ).raise_for_status()
+
+
+# ---------------------------------------------------------------------------
+# Persisted list of permanently-blocked EXTERNAL_IDs (no category match,
+# missing required Allegro data, invalid GTIN). Without this, MAX_CREATE=100
+# re-attempts the exact same doomed rows every run since new_rows.head()
+# always starts from the top of the feed — the thousands of rows behind
+# them never get a turn. Stored as a small JSON file committed back to the
+# repo, same GitHub Contents API pattern as the secret rotation above.
+# ---------------------------------------------------------------------------
+
+BLOCKED_IDS_PATH = "blocked_offer_ids.json"
+
+
+def fetch_blocked_ids():
+    """Returns (blocked_dict, sha). blocked_dict maps EXTERNAL_ID -> reason.
+    sha is None if the file doesn't exist yet (first run)."""
+    headers = {"Authorization": f"Bearer {GH_PAT}", "Accept": "application/vnd.github+json"}
+    resp = requests.get(
+        f"https://api.github.com/repos/{GH_REPO}/contents/{BLOCKED_IDS_PATH}",
+        headers=headers, timeout=30,
+    )
+    if resp.status_code == 404:
+        return {}, None
+    resp.raise_for_status()
+    data = resp.json()
+    try:
+        blocked = json.loads(base64.b64decode(data["content"]).decode("utf-8"))
+    except Exception:
+        blocked = {}
+    return blocked, data["sha"]
+
+
+def save_blocked_ids(blocked, sha):
+    headers = {"Authorization": f"Bearer {GH_PAT}", "Accept": "application/vnd.github+json"}
+    content_b64 = base64.b64encode(
+        json.dumps(blocked, indent=2, sort_keys=True, ensure_ascii=False).encode("utf-8")
+    ).decode("utf-8")
+    payload = {
+        "message": f"Update blocked offer IDs ({len(blocked)} total)",
+        "content": content_b64,
+    }
+    if sha:
+        payload["sha"] = sha
+    resp = requests.put(
+        f"https://api.github.com/repos/{GH_REPO}/contents/{BLOCKED_IDS_PATH}",
+        headers=headers, json=payload, timeout=30,
+    )
+    if not resp.ok:
+        print(f"WARNING: failed to save blocked-ids file: {resp.status_code} {resp.text}", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------
@@ -592,10 +643,15 @@ def main():
     existing = fetch_existing_external_ids(access_token)
     print(f"Existing Allegro offers (any status): {len(existing)}")
 
-    new_rows = df[~df["EXTERNAL_ID"].isin(existing)]
-    print(f"New rows to create: {len(new_rows)} (capped at {MAX_CREATE} this run)")
+    blocked_ids, blocked_sha = fetch_blocked_ids()
+    print(f"Previously blocked rows on file: {len(blocked_ids)}")
+    blocked_count_before = len(blocked_ids)
 
-    created, skipped_zero_stock, skipped_no_category, skipped_missing_data, failed = 0, 0, 0, 0, 0
+    new_rows = df[~df["EXTERNAL_ID"].isin(existing) & ~df["EXTERNAL_ID"].isin(blocked_ids.keys())]
+    print(f"New rows to create: {len(new_rows)} (capped at {MAX_CREATE} this run, "
+          f"{len(blocked_ids)} previously-blocked rows excluded)")
+
+    created, skipped_zero_stock, skipped_no_category, skipped_missing_data, skipped_invalid_gtin, failed = 0, 0, 0, 0, 0, 0
     errors_log = []
 
     for _, row in new_rows.head(MAX_CREATE).iterrows():
@@ -611,6 +667,7 @@ def main():
                 skipped_no_category += 1
             else:
                 skipped_missing_data += 1
+            blocked_ids[row["EXTERNAL_ID"]] = skip_reason
             continue
         resp = create_offer(access_token, payload)
 
@@ -620,11 +677,12 @@ def main():
             print(f"  ✓ Created {offer_id} | {row['EXTERNAL_ID']} | {row['Produktname'][:40]}")
             created += 1
         else:
-            failed += 1
             try:
                 err_body = resp.json()
-                # Detect invalid GS1 GTINs — log clearly, skip on future runs
                 errs = err_body.get("errors", [])
+                # Invalid GS1 GTINs are permanently bad, not a transient
+                # failure — skip cleanly and persist rather than counting
+                # as a failure to retry.
                 gtin_invalid = any(
                     "EAN" in e.get("userMessage", "") or
                     "GTIN" in e.get("userMessage", "") or
@@ -632,26 +690,33 @@ def main():
                     "does not exist" in e.get("userMessage", "")
                     for e in errs
                 )
-                if gtin_invalid:
-                    print(f"  ⚠ Invalid GS1 GTIN {row['_gtin']} | {row['EXTERNAL_ID']} — skipping (not in GS1 database)", file=sys.stderr)
-                else:
-                    print(f"  ✗ Failed {resp.status_code} | {row['EXTERNAL_ID']} | {err_body}", file=sys.stderr)
             except Exception:
                 err_body = resp.text
+                gtin_invalid = False
+
+            if gtin_invalid:
+                print(f"  ⚠ Invalid GS1 GTIN {row['_gtin']} | {row['EXTERNAL_ID']} — skipping (not in GS1 database)", file=sys.stderr)
+                skipped_invalid_gtin += 1
+                blocked_ids[row["EXTERNAL_ID"]] = "invalid GS1 GTIN"
+            else:
                 print(f"  ✗ Failed {resp.status_code} | {row['EXTERNAL_ID']} | {err_body}", file=sys.stderr)
-            errors_log.append({
-                "external_id": row["EXTERNAL_ID"],
-                "name": row["Produktname"][:40],
-                "gtin": row["_gtin"],
-                "status_code": resp.status_code,
-                "error": err_body,
-            })
+                failed += 1
+                errors_log.append({
+                    "external_id": row["EXTERNAL_ID"],
+                    "name": row["Produktname"][:40],
+                    "gtin": row["_gtin"],
+                    "status_code": resp.status_code,
+                    "error": err_body,
+                })
 
         # Gentle rate limiting: Allegro allows 9,000 req/min but creation
         # is slower to process — 2 per second is safe
         time.sleep(0.5)
 
-    print(f"\nDone. Created: {created}, Skipped (zero stock): {skipped_zero_stock}, Skipped (no category match): {skipped_no_category}, Skipped (missing required data): {skipped_missing_data}, Failed: {failed}")
+    print(f"\nDone. Created: {created}, Skipped (zero stock): {skipped_zero_stock}, "
+          f"Skipped (no category match): {skipped_no_category}, "
+          f"Skipped (missing required data): {skipped_missing_data}, "
+          f"Skipped (invalid GTIN): {skipped_invalid_gtin}, Failed: {failed}")
     if errors_log:
         print(f"\nFirst 5 errors:")
         for e in errors_log[:5]:
@@ -660,6 +725,11 @@ def main():
     if CREATE_STATUS == "INACTIVE":
         print("\nOffers created as INACTIVE drafts. Review in Mój asortyment → Nieopublikowane,")
         print("then activate in bulk. To auto-activate, set ALLEGRO_CREATE_STATUS=ACTIVE.")
+
+    if len(blocked_ids) > blocked_count_before:
+        save_blocked_ids(blocked_ids, blocked_sha)
+        print(f"\nSaved {len(blocked_ids) - blocked_count_before} newly-blocked rows "
+              f"({len(blocked_ids)} total) to {BLOCKED_IDS_PATH} — future runs will skip them.")
 
 
 if __name__ == "__main__":
