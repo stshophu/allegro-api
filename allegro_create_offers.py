@@ -94,13 +94,30 @@ LOCATION = {
 _category_resolution_cache = {}
 
 # Genderless/generic Kategorie values seen in the feed, mapped to their
-# proper Polish equivalent so the matching-categories query always has a
-# real anchor term (see resolve_category below — leaving these untranslated
-# or dropping them caused bad category matches).
+# proper Polish equivalent so the matching-categories query has a correct
+# anchor term (see resolve_category below). IMPORTANT: this must only cover
+# genuinely non-specific umbrella terms — "Clothing", "Accessories" and
+# their Italian equivalents. Most of the feed's Kategorie values are
+# already specific enough on their own (Shoes, Bags, Jacket, Sneakers...)
+# and must NOT be run through this map: forcing e.g. "odzież" (clothing)
+# onto a Sunglasses or Bags row is exactly as wrong as the earlier
+# untranslated-English bug — a wrong anchor term is not a signal, it's
+# noise that can push the match to something unrelated.
 GENERIC_KATEGORIE_TRANSLATIONS = {
     "clothing": "odzież",
     "apparel": "odzież",
+    "abbigliamento": "odzież",
+    "women clothing": "odzież damska",
+    "accessories": "akcesoria",
+    "clothing accessories": "akcesoria",
+    "accessori": "akcesoria",
 }
+
+# Kategorie values seen in the feed that are data-entry junk, not real
+# category labels (e.g. leftover internal codes). No sensible Polish
+# translation exists for these, so they're dropped from the query rather
+# than passed through — relying on Subkategorie/Produktart alone.
+JUNK_KATEGORIE_TERMS = {"def", "jane", "logo", "holder", "home"}
 
 
 def resolve_category(access_token, kategorie, subkategorie, produktart):
@@ -115,16 +132,23 @@ def resolve_category(access_token, kategorie, subkategorie, produktart):
     if cache_key in _category_resolution_cache:
         return _category_resolution_cache[cache_key]
 
-    # Some feed rows use a generic, genderless Kategorie value ("Clothing")
-    # instead of the usual gendered German label ("Damenbekleidung" /
-    # "Herrenbekleidung"). Dropping it from the query entirely (a prior fix)
-    # was WORSE than the original problem: bare single-word queries like
-    # "Shirts" or "Tops" drifted into completely unrelated categories
-    # (observed: books and music-album categories, asking for ISBN/Autor or
-    # Wykonawca/Wytwórnia on a shirt). An anchor term is needed — it just
-    # needs to be the actual Polish word ("odzież"), not the untranslated
-    # English one, so it stays within the clothing category tree.
-    kat_for_query = GENERIC_KATEGORIE_TRANSLATIONS.get(kat.lower(), kat)
+    # Some feed rows use a generic, genderless Kategorie value ("Clothing",
+    # "Accessories") instead of a specific one. Dropping it from the query
+    # entirely (a prior fix) was WORSE than the original problem: bare
+    # single-word queries like "Shirts" or "Tops" drifted into completely
+    # unrelated categories (observed: books and music-album categories,
+    # asking for ISBN/Autor or Wykonawca/Wytwórnia on a shirt). An anchor
+    # term is needed — but it must be the *correct* Polish term for what
+    # the item actually is, not a blanket "odzież" (clothing) forced onto
+    # everything: that was itself wrong for accessories/bags/sunglasses
+    # rows, which aren't clothing. Values that are outright junk data (not
+    # a real category at all) are dropped rather than translated, since
+    # there's nothing meaningful to translate.
+    kat_lower = kat.lower()
+    if kat_lower in JUNK_KATEGORIE_TERMS:
+        kat_for_query = ""
+    else:
+        kat_for_query = GENERIC_KATEGORIE_TRANSLATIONS.get(kat_lower, kat)
     query = " ".join(p for p in [art, sub, kat_for_query] if p).strip() or kat
     headers = {"Authorization": f"Bearer {access_token}", "Accept": ACCEPT}
     cat_id = None
