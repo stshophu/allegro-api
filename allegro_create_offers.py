@@ -77,98 +77,52 @@ LOCATION = {
 }
 
 # ---------------------------------------------------------------------------
-# Allegro fashion category ID mapping
-# Key: (Kategorie, Subkategorie) or (Kategorie,) — lowercase stripped
-# Value: Allegro category ID (allegro.pl production)
-# Extend this table as needed — IDs verified against allegro.pl category tree
+# Category resolution via Allegro's own matching-categories endpoint.
+#
+# NOTE: this used to be a hardcoded CATEGORY_MAP of Allegro category IDs,
+# but those IDs were wrong — e.g. 147841 (used as the default/fallback for
+# almost everything) doesn't exist on allegro.pl at all ("Category with id
+# 147841 not found"). allegro.pl's real "Odzież damska" ID is 76033, not
+# 147841 — the whole table was unreliable, not just one entry, so instead
+# of hand-fixing dozens of guessed IDs we ask Allegro directly via
+# GET /sale/matching-categories?name=... (the endpoint Allegro itself
+# recommends for this). Cached per (Kategorie, Subkategorie, Produktart)
+# combo so a run of ~2900 rows only makes a handful of lookup calls.
 # ---------------------------------------------------------------------------
-CATEGORY_MAP = {
-    # ---- Women's clothing (Damenbekleidung) ----
-    ("damenbekleidung", "kleider"):          147850,
-    ("damenbekleidung", "tops"):             147857,
-    ("damenbekleidung", "t-shirts"):         147857,
-    ("damenbekleidung", "hosen"):            147847,
-    ("damenbekleidung", "röcke"):            147853,
-    ("damenbekleidung", "jacken"):           147845,
-    ("damenbekleidung", "mäntel"):           147845,
-    ("damenbekleidung", "pullover"):         147849,
-    ("damenbekleidung", "strickwaren"):      147849,
-    ("damenbekleidung", "blusen"):           147843,
-    ("damenbekleidung", "hemden"):           147843,
-    ("damenbekleidung", "shorts"):           147852,
-    ("damenbekleidung", "sweatshirts"):      147856,
-    ("damenbekleidung", "hoodies"):          147856,
-    ("damenbekleidung", "sportbekleidung"):  147855,
-    ("damenbekleidung", "overalls"):         147848,
-    ("damenbekleidung", "jumpsuits"):        147848,
-    ("damenbekleidung",):                    147841,  # fallback: Odzież damska
 
-    # ---- Men's clothing (Herrenbekleidung) ----
-    ("herrenbekleidung", "t-shirts"):        147879,
-    ("herrenbekleidung", "hosen"):           147876,
-    ("herrenbekleidung", "jeans"):           147876,
-    ("herrenbekleidung", "hemden"):          147875,
-    ("herrenbekleidung", "jacken"):          147874,
-    ("herrenbekleidung", "mäntel"):          147874,
-    ("herrenbekleidung", "pullover"):        147878,
-    ("herrenbekleidung", "strickwaren"):     147878,
-    ("herrenbekleidung", "shorts"):          147880,
-    ("herrenbekleidung", "sweatshirts"):     147882,
-    ("herrenbekleidung", "hoodies"):         147882,
-    ("herrenbekleidung", "sportbekleidung"): 147883,
-    ("herrenbekleidung",):                   147864,  # fallback: Odzież męska
-
-    # ---- Shoes ----
-    ("damenschuhe",):  147893,   # Buty damskie
-    ("herrenschuhe",): 147907,   # Buty męskie
-    ("schuhe",):       147893,   # generic fallback → women's
-
-    # ---- Bags ----
-    ("damentaschen",):  147921,  # Torebki damskie
-    ("herrentaschen",): 147929,  # Torby męskie
-    ("taschen",):       147921,  # generic fallback
-
-    # ---- Accessories ----
-    ("accessoires", "schmuck"):    147935,
-    ("accessoires", "gürtel"):     147938,
-    ("accessoires", "schals"):     147940,
-    ("accessoires", "mützen"):     147941,
-    ("accessoires", "handschuhe"): 147942,
-    ("accessoires", "sonnenbrillen"): 147944,
-    ("accessoires",): 147935,    # fallback: Akcesoria
-
-    # ---- Kids ----
-    ("kinderbekleidung",): 147800,
-    ("kinderschuhe",):     147820,
-}
-
-# Last-resort fallback if nothing maps
-DEFAULT_CATEGORY_ID = 147841  # Odzież damska
+_category_resolution_cache = {}
 
 
-def resolve_category(kategorie, subkategorie, produktart):
-    """Return the best-match Allegro category ID for a feed row."""
-    kat = str(kategorie).strip().lower() if pd.notna(kategorie) else ""
-    sub = str(subkategorie).strip().lower() if pd.notna(subkategorie) else ""
-    art = str(produktart).strip().lower() if pd.notna(produktart) else ""
+def resolve_category(access_token, kategorie, subkategorie, produktart):
+    """Ask Allegro for the best-match leaf category ID for a feed row,
+    via GET /sale/matching-categories. Returns None if no match is found
+    (caller should skip the row rather than guess)."""
+    kat = str(kategorie).strip() if pd.notna(kategorie) else ""
+    sub = str(subkategorie).strip() if pd.notna(subkategorie) else ""
+    art = str(produktart).strip() if pd.notna(produktart) else ""
 
-    # Try most-specific first: kat + sub
-    for key_sub in [sub, art]:
-        if (kat, key_sub) in CATEGORY_MAP:
-            return CATEGORY_MAP[(kat, key_sub)]
+    cache_key = (kat.lower(), sub.lower(), art.lower())
+    if cache_key in _category_resolution_cache:
+        return _category_resolution_cache[cache_key]
 
-    # Partial match on subkategorie keywords
-    for key, cat_id in CATEGORY_MAP.items():
-        if len(key) == 2:
-            k, s = key
-            if k == kat and s and s in sub:
-                return cat_id
+    query = " ".join(p for p in [art, sub, kat] if p).strip() or kat
+    headers = {"Authorization": f"Bearer {access_token}", "Accept": ACCEPT}
+    cat_id = None
+    try:
+        resp = requests.get(
+            f"{API_BASE}/sale/matching-categories",
+            headers=headers, params={"name": query}, timeout=30,
+        )
+        resp.raise_for_status()
+        matches = resp.json().get("matchingCategories", [])
+        if matches:
+            cat_id = matches[0]["id"]
+    except Exception as e:
+        print(f"WARNING: category matching failed for '{query}': {e}", file=sys.stderr)
 
-    # Fallback to kat-only
-    if (kat,) in CATEGORY_MAP:
-        return CATEGORY_MAP[(kat,)]
+    _category_resolution_cache[cache_key] = cat_id
+    return cat_id
 
-    return DEFAULT_CATEGORY_ID
 
 
 # ---------------------------------------------------------------------------
@@ -420,8 +374,10 @@ def build_offer_payload(access_token, row):
     vendor   = str(row.get("Vendor", "")).strip()
 
     cat_id = resolve_category(
-        row.get("Kategorie"), row.get("Subkategorie"), row.get("Produktart")
+        access_token, row.get("Kategorie"), row.get("Subkategorie"), row.get("Produktart")
     )
+    if cat_id is None:
+        return None
 
     # Minimal Polish description to satisfy allegro.pl language requirement
     # NOTE: Allegro's description sanitizer only allows a small HTML subset
@@ -554,7 +510,7 @@ def main():
     new_rows = df[~df["EXTERNAL_ID"].isin(existing)]
     print(f"New rows to create: {len(new_rows)} (capped at {MAX_CREATE} this run)")
 
-    created, skipped_zero_stock, failed = 0, 0, 0
+    created, skipped_zero_stock, skipped_no_category, failed = 0, 0, 0, 0
     errors_log = []
 
     for _, row in new_rows.head(MAX_CREATE).iterrows():
@@ -564,6 +520,10 @@ def main():
             continue
 
         payload = build_offer_payload(access_token, row)
+        if payload is None:
+            print(f"  ⚠ No matching Allegro category for {row['EXTERNAL_ID']} | {row['Produktname'][:40]} — skipping", file=sys.stderr)
+            skipped_no_category += 1
+            continue
         resp = create_offer(access_token, payload)
 
         if resp.status_code in (200, 201, 202):
@@ -603,7 +563,7 @@ def main():
         # is slower to process — 2 per second is safe
         time.sleep(0.5)
 
-    print(f"\nDone. Created: {created}, Skipped (zero stock): {skipped_zero_stock}, Failed: {failed}")
+    print(f"\nDone. Created: {created}, Skipped (zero stock): {skipped_zero_stock}, Skipped (no category match): {skipped_no_category}, Failed: {failed}")
     if errors_log:
         print(f"\nFirst 5 errors:")
         for e in errors_log[:5]:
