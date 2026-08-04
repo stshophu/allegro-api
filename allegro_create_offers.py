@@ -220,9 +220,19 @@ def update_github_secret(secret_name, secret_value):
 
 BLOCKED_IDS_PATH = "blocked_offer_ids.json"
 
+# Bump this whenever category-resolution or parameter-resolution logic
+# changes in a way that could change the outcome for a previously-blocked
+# row (e.g. the Kategorie-translation fix, a new dictionary-matching
+# strategy). Entries blocked under an older version are treated as stale —
+# not excluded from this run — so they automatically get retried under the
+# new logic instead of needing a manual blocked_offer_ids.json reset.
+BLOCKED_LOGIC_VERSION = 3
+
 
 def fetch_blocked_ids():
-    """Returns (blocked_dict, sha). blocked_dict maps EXTERNAL_ID -> reason.
+    """Returns (all_blocked, active_blocked, sha).
+    all_blocked: every entry ever recorded, keyed by EXTERNAL_ID -> {reason, code_version} — kept and passed to save_blocked_ids so history isn't lost.
+    active_blocked: subset still tagged with the current BLOCKED_LOGIC_VERSION — only these are excluded from this run's candidate rows.
     sha is None if the file doesn't exist yet (first run)."""
     headers = {"Authorization": f"Bearer {GH_PAT}", "Accept": "application/vnd.github+json"}
     resp = requests.get(
@@ -230,23 +240,35 @@ def fetch_blocked_ids():
         headers=headers, timeout=30,
     )
     if resp.status_code == 404:
-        return {}, None
+        return {}, {}, None
     resp.raise_for_status()
     data = resp.json()
     try:
-        blocked = json.loads(base64.b64decode(data["content"]).decode("utf-8"))
+        raw = json.loads(base64.b64decode(data["content"]).decode("utf-8"))
     except Exception:
-        blocked = {}
-    return blocked, data["sha"]
+        raw = {}
+
+    all_blocked = {}
+    active_blocked = {}
+    for ext_id, entry in raw.items():
+        # Migrate legacy plain-string entries (pre-versioning) to the
+        # versioned shape, treated as stale so they get retried once.
+        if isinstance(entry, str):
+            entry = {"reason": entry, "code_version": 0}
+        all_blocked[ext_id] = entry
+        if entry.get("code_version") == BLOCKED_LOGIC_VERSION:
+            active_blocked[ext_id] = entry
+
+    return all_blocked, active_blocked, data["sha"]
 
 
-def save_blocked_ids(blocked, sha):
+def save_blocked_ids(all_blocked, sha):
     headers = {"Authorization": f"Bearer {GH_PAT}", "Accept": "application/vnd.github+json"}
     content_b64 = base64.b64encode(
-        json.dumps(blocked, indent=2, sort_keys=True, ensure_ascii=False).encode("utf-8")
+        json.dumps(all_blocked, indent=2, sort_keys=True, ensure_ascii=False).encode("utf-8")
     ).decode("utf-8")
     payload = {
-        "message": f"Update blocked offer IDs ({len(blocked)} total)",
+        "message": f"Update blocked offer IDs ({len(all_blocked)} total)",
         "content": content_b64,
     }
     if sha:
@@ -667,13 +689,15 @@ def main():
     existing = fetch_existing_external_ids(access_token)
     print(f"Existing Allegro offers (any status): {len(existing)}")
 
-    blocked_ids, blocked_sha = fetch_blocked_ids()
-    print(f"Previously blocked rows on file: {len(blocked_ids)}")
-    blocked_count_before = len(blocked_ids)
+    all_blocked, active_blocked, blocked_sha = fetch_blocked_ids()
+    stale_count = len(all_blocked) - len(active_blocked)
+    print(f"Previously blocked rows on file: {len(active_blocked)} active"
+          + (f", {stale_count} stale (will be retried under current logic)" if stale_count else ""))
+    blocked_snapshot_before = json.dumps(all_blocked, sort_keys=True)
 
-    new_rows = df[~df["EXTERNAL_ID"].isin(existing) & ~df["EXTERNAL_ID"].isin(blocked_ids.keys())]
+    new_rows = df[~df["EXTERNAL_ID"].isin(existing) & ~df["EXTERNAL_ID"].isin(active_blocked.keys())]
     print(f"New rows to create: {len(new_rows)} (capped at {MAX_CREATE} this run, "
-          f"{len(blocked_ids)} previously-blocked rows excluded)")
+          f"{len(active_blocked)} previously-blocked rows excluded)")
 
     created, skipped_zero_stock, skipped_no_category, skipped_missing_data, skipped_invalid_gtin, failed = 0, 0, 0, 0, 0, 0
     errors_log = []
@@ -691,7 +715,7 @@ def main():
                 skipped_no_category += 1
             else:
                 skipped_missing_data += 1
-            blocked_ids[row["EXTERNAL_ID"]] = skip_reason
+            all_blocked[row["EXTERNAL_ID"]] = {"reason": skip_reason, "code_version": BLOCKED_LOGIC_VERSION}
             continue
         resp = create_offer(access_token, payload)
 
@@ -721,7 +745,7 @@ def main():
             if gtin_invalid:
                 print(f"  ⚠ Invalid GS1 GTIN {row['_gtin']} | {row['EXTERNAL_ID']} — skipping (not in GS1 database)", file=sys.stderr)
                 skipped_invalid_gtin += 1
-                blocked_ids[row["EXTERNAL_ID"]] = "invalid GS1 GTIN"
+                all_blocked[row["EXTERNAL_ID"]] = {"reason": "invalid GS1 GTIN", "code_version": BLOCKED_LOGIC_VERSION}
             else:
                 print(f"  ✗ Failed {resp.status_code} | {row['EXTERNAL_ID']} | {err_body}", file=sys.stderr)
                 failed += 1
@@ -750,10 +774,10 @@ def main():
         print("\nOffers created as INACTIVE drafts. Review in Mój asortyment → Nieopublikowane,")
         print("then activate in bulk. To auto-activate, set ALLEGRO_CREATE_STATUS=ACTIVE.")
 
-    if len(blocked_ids) > blocked_count_before:
-        save_blocked_ids(blocked_ids, blocked_sha)
-        print(f"\nSaved {len(blocked_ids) - blocked_count_before} newly-blocked rows "
-              f"({len(blocked_ids)} total) to {BLOCKED_IDS_PATH} — future runs will skip them.")
+    if json.dumps(all_blocked, sort_keys=True) != blocked_snapshot_before:
+        save_blocked_ids(all_blocked, blocked_sha)
+        print(f"\nSaved updated blocked rows ({len(all_blocked)} total) to "
+              f"{BLOCKED_IDS_PATH} — future runs will skip currently-blocked ones.")
 
 
 if __name__ == "__main__":
