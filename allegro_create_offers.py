@@ -327,10 +327,89 @@ def fetch_existing_external_ids(access_token):
 
 
 # ---------------------------------------------------------------------------
+# Category parameters (needed to auto-create a new Allegro product when the
+# GTIN isn't already in Allegro's catalog — see MatchingProductForIdNotFoundException)
+# ---------------------------------------------------------------------------
+
+_category_params_cache = {}
+
+BRAND_NAME_HINTS = ("marka", "brand")
+EAN_PARAM_ID = "225693"  # universal "EAN (GTIN)" parameter, seen across categories
+
+
+def fetch_category_parameters(access_token, category_id):
+    """GET /sale/categories/{id}/parameters, cached per run."""
+    if category_id in _category_params_cache:
+        return _category_params_cache[category_id]
+    headers = {"Authorization": f"Bearer {access_token}", "Accept": ACCEPT}
+    try:
+        resp = requests.get(
+            f"{API_BASE}/sale/categories/{category_id}/parameters",
+            headers=headers, timeout=30,
+        )
+        resp.raise_for_status()
+        params = resp.json().get("parameters", [])
+    except Exception as e:
+        print(f"WARNING: could not fetch parameters for category {category_id}: {e}", file=sys.stderr)
+        params = []
+    _category_params_cache[category_id] = params
+    return params
+
+
+def resolve_brand_parameter(access_token, category_id, brand_name):
+    """Find the category's brand ('Marka') parameter and match brand_name
+    against its dictionary options (case-insensitive). If the parameter
+    accepts custom values and no dictionary match is found, fall back to
+    free text. Returns a parameters-array entry, or None if no brand
+    parameter exists for this category or brand_name is empty."""
+    if not brand_name:
+        return None
+    params = fetch_category_parameters(access_token, category_id)
+    brand_param = next(
+        (p for p in params if any(h in p.get("name", "").lower() for h in BRAND_NAME_HINTS)),
+        None,
+    )
+    if not brand_param:
+        return None
+
+    options = brand_param.get("dictionary") or brand_param.get("options") or []
+    match = next(
+        (o for o in options if o.get("value", "").strip().lower() == brand_name.strip().lower()),
+        None,
+    )
+    if not match:
+        match = next(
+            (o for o in options if brand_name.strip().lower() in o.get("value", "").strip().lower()),
+            None,
+        )
+
+    entry = {"id": brand_param["id"]}
+    if match:
+        entry["valuesIds"] = [match["id"]]
+    elif not options or brand_param.get("customValuesQuantity", 1) != 0:
+        # No dictionary at all, or dictionary explicitly allows custom values
+        entry["values"] = [brand_name]
+    else:
+        # Strict dictionary with no match — nothing safe to send
+        return None
+    return entry
+
+
+def build_product_parameters(access_token, category_id, gtin, vendor):
+    """Product-level parameters needed so Allegro can auto-create a new
+    catalog product for a GTIN it doesn't already recognize."""
+    params = [{"id": EAN_PARAM_ID, "values": [gtin]}]
+    brand_entry = resolve_brand_parameter(access_token, category_id, vendor)
+    if brand_entry:
+        params.append(brand_entry)
+    return params
+
+
+# ---------------------------------------------------------------------------
 # Build offer payload for POST /sale/product-offers
 # ---------------------------------------------------------------------------
 
-def build_offer_payload(row):
+def build_offer_payload(access_token, row):
     gtin     = row["_gtin"]
     name     = str(row["Produktname"]).strip()[:75]
     color, size = parse_variant(row.get("Variant"))
@@ -403,6 +482,7 @@ def build_offer_payload(row):
                 "idType": "GTIN",
                 "name": name,
                 "category": {"id": str(cat_id)},
+                "parameters": build_product_parameters(access_token, cat_id, gtin, vendor),
                 **({"images": images} if images else {}),
 
             },
@@ -483,7 +563,7 @@ def main():
             skipped_zero_stock += 1
             continue
 
-        payload = build_offer_payload(row)
+        payload = build_offer_payload(access_token, row)
         resp = create_offer(access_token, payload)
 
         if resp.status_code in (200, 201, 202):
