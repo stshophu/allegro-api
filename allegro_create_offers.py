@@ -348,8 +348,9 @@ def resolve_parameter_value(param, text_value):
         if match:
             return {"id": param["id"], "valuesIds": [match["id"]]}
 
-        ambiguous_id = (param.get("options") or {}).get("ambiguousValueId")
-        if ambiguous_id:
+        param_options = param.get("options") or {}
+        ambiguous_id = param_options.get("ambiguousValueId")
+        if ambiguous_id and param_options.get("customValuesEnabled"):
             return {"id": param["id"], "valuesIds": [ambiguous_id], "values": [text_value]}
         return None
 
