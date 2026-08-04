@@ -92,6 +92,10 @@ LOCATION = {
 
 _category_resolution_cache = {}
 
+# Genderless/uninformative Kategorie values seen in the feed — excluded
+# from the matching-categories query (see resolve_category below).
+GENERIC_KATEGORIE_TERMS = {"clothing", "odzież", "odziez", "apparel"}
+
 
 def resolve_category(access_token, kategorie, subkategorie, produktart):
     """Ask Allegro for the best-match leaf category ID for a feed row,
@@ -105,7 +109,16 @@ def resolve_category(access_token, kategorie, subkategorie, produktart):
     if cache_key in _category_resolution_cache:
         return _category_resolution_cache[cache_key]
 
-    query = " ".join(p for p in [art, sub, kat] if p).strip() or kat
+    # Some feed rows use a generic, genderless Kategorie value ("Clothing")
+    # instead of the usual gendered German label ("Damenbekleidung" /
+    # "Herrenbekleidung"). That generic term carries no useful signal and
+    # was observed diluting the match badly enough that Allegro matched a
+    # men's item to a children's-clothing category — so it's dropped from
+    # the query whenever a more specific term (Subkategorie/Produktart) is
+    # available; it's still used as the last-resort fallback if those are
+    # both empty.
+    kat_for_query = "" if kat.lower() in GENERIC_KATEGORIE_TERMS else kat
+    query = " ".join(p for p in [art, sub, kat_for_query] if p).strip() or kat
     headers = {"Authorization": f"Bearer {access_token}", "Accept": ACCEPT}
     cat_id = None
     try:
