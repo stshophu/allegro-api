@@ -471,6 +471,10 @@
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
   },
+  "adidas-ozweego-w-fw2736-violet-women-sneakers-40-white": {
+    "code_version": 3,
+    "reason": "missing required product data: Rozmiar, Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
+  },
   "adidas-ozweego-w-fw2736-violet-women-sneakers-white-40": {
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
@@ -715,6 +719,46 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "autry-medalist-low-sneakers-8-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-medalist-low-sneakers-8-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-medalist-low-sneakers-8-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-medalist-sneakers-1-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-medalist-sneakers-1-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-medalist-sneakers-1-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-medalist-sneakers-1-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-medalist-sneakers-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-medalist-sneakers-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-medalist-sneakers-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
   "autry-nylon-jacket-3-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -730,6 +774,78 @@
   "autry-nylon-jacket-4-xl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "autry-reelwind-sneakers-1-43": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-41": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-43": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-45": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-7-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-7-41": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-7-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-7-43": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-7-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-8-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-8-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-8-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-9-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-9-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-9-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "autry-reelwind-sneakers-9-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
   },
   "autry-side-band-cardigan-3-l": {
     "code_version": 3,
@@ -778,6 +894,26 @@
   "autry-sport-jacket-4-xxl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "autry-sporty-long-sleeve-polo-1-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "autry-sporty-long-sleeve-polo-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "autry-sporty-long-sleeve-polo-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "autry-sporty-long-sleeve-polo-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "autry-sporty-long-sleeve-polo-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rękaw, Materiał dominujący, Linia"
   },
   "autry-track-bomber-2-xl": {
     "code_version": 3,
@@ -971,9 +1107,45 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "balenciaga-x-adidas-speed-2-0-lt-sock-sneakers-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
   "balmain-b-army-42-shopper-bag-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
+  },
+  "balmain-cotton-polo-shirt-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-cotton-polo-shirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-cotton-polo-shirt-1-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-cotton-polo-shirt-1-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-cotton-polo-shirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-cotton-polo-shirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-cotton-polo-shirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-cotton-polo-shirt-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "balmain-denim-mini-dress-2-42": {
     "code_version": 3,
@@ -1119,9 +1291,21 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-amy-leather-mules-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "bottega-veneta-amy-leather-sandals-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
   "bottega-veneta-arco-mini-tote-bag-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-ballerina-flats-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Nosek"
   },
   "bottega-veneta-bucket-hat-2-one-size": {
     "code_version": 3,
@@ -1147,6 +1331,42 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-fireman-ankle-boots-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "bottega-veneta-fireman-ankle-boots-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "bottega-veneta-flash-leather-boots-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "bottega-veneta-flash-leather-boots-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "bottega-veneta-flash-leather-boots-36-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "bottega-veneta-flash-leather-boots-39-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "bottega-veneta-flash-leather-boots-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "bottega-veneta-flash-slides-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Model, Płeć, Kolor"
+  },
+  "bottega-veneta-flex-sandals-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
   "bottega-veneta-glaze-aviator-sunglasses-2-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1155,9 +1375,29 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-highway-leather-boots-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
   "bottega-veneta-intrecciato-document-case-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Przeznaczenie"
+  },
+  "bottega-veneta-intrecciato-leather-flat-sandals-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-intrecciato-leather-flat-sandals-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-intrecciato-leather-sneakers-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "bottega-veneta-jack-flat-mule-sandals-41": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
   },
   "bottega-veneta-leather-coin-purse-4-one-size": {
     "code_version": 3,
@@ -1170,6 +1410,70 @@
   "bottega-veneta-leather-coin-purse-6-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-lido-leather-flat-sandals-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-lido-leather-flat-sandals-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-lido-leather-flat-sandals-37-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-lido-leather-flat-sandals-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-lido-leather-flat-sandals-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-lido-leather-mules-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "bottega-veneta-lido-leather-mules-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "bottega-veneta-lido-mules-36-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "bottega-veneta-lido-mules-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "bottega-veneta-lido-mules-37-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "bottega-veneta-lido-mules-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "bottega-veneta-lido-sandals-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-lido-sandals-36-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-lido-sandals-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-lido-sandals-37-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-lido-sandals-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
   },
   "bottega-veneta-loose-fitting-trousers-1-38": {
     "code_version": 3,
@@ -1187,9 +1491,33 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-monsieur-ankle-boots-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
   "bottega-veneta-padded-coat-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-padded-sandals-1-35-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-padded-sandals-1-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-padded-sandals-1-36-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-padded-sandals-1-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-padded-sandals-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
   },
   "bottega-veneta-padded-vest-jacket-2-m": {
     "code_version": 3,
@@ -1198,6 +1526,10 @@
   "bottega-veneta-padded-vest-jacket-2-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-puddle-boots-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
   },
   "bottega-veneta-reversible-leather-belt-2-80": {
     "code_version": 3,
@@ -1210,6 +1542,14 @@
   "bottega-veneta-satin-parka-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "bottega-veneta-tarik-criss-cross-sandal-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "bottega-veneta-tarik-criss-cross-sandal-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
   },
   "bottega-veneta-windbreaker-jacket-m": {
     "code_version": 3,
@@ -1935,6 +2275,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "gucci-striped-cotton-polo-1-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
   "gucci-wide-leg-denim-jeans-1-33": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
@@ -2382,6 +2726,10 @@
   "herno-long-rain-coat-40": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-long-sleeve-polo-shirt-56": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "herno-long-sleeved-hooded-knitted-jumper-50": {
     "code_version": 3,
@@ -3051,6 +3399,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "max-mara-studio-prosit-classic-pants-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "max-mara-urlo-sweater-1-xl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3290,6 +3642,14 @@
   "palm-angels-checked-windbreaker-jacket-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "palm-angels-college-logo-polo-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "palm-angels-college-logo-polo-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
   },
   "palm-angels-cotton-trousers-44": {
     "code_version": 3,
@@ -3619,6 +3979,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "saint-laurent-cashmere-and-wool-flannel-90s-striped-pants-1-": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "saint-laurent-cashmere-dress-xl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3691,6 +4055,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "saint-laurent-silk-pants-1-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "saint-laurent-sl-619-sunglasses-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Fason, Materiał oprawki"
@@ -3708,6 +4076,10 @@
     "reason": "no matching Allegro category"
   },
   "salvatore-ferragamo-quilted-bomber-jacket-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "salvatore-ferragamo-silk-and-linen-pants-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3823,6 +4195,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "the-attico-wool-blend-taloired-pants-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "the-attico-wool-blend-taloired-pants-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "thom-browne-4-bar-wool-cardigan-1-36": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3832,6 +4212,10 @@
     "reason": "no matching Allegro category"
   },
   "thom-browne-wool-cardigan-1-4": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "tom-ford-cotton-cargo-pants-1-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3846,6 +4230,10 @@
   "tom-ford-sheer-fine-ribbed-top-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "tom-ford-sweatpants-1-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
   },
   "tommy-hilfiger-alaska-black-polyester-women-puffer-jacket-m": {
     "code_version": 3,
@@ -3911,9 +4299,17 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "valentino-wool-and-silk-trousers-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "versace-cotton-logo-denim-jeans-1-32": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
+  },
+  "versace-cotton-trousers-1-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "versace-foulard-square-scarf-3-one-size": {
     "code_version": 3,
@@ -3922,6 +4318,10 @@
   "versace-foulard-square-scarf-4-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "versace-jeans-couture-sweatpants-1-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
   },
   "vivienne-westwood-lauren-cotton-jacket-1-40": {
     "code_version": 3,
