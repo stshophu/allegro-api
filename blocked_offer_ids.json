@@ -507,6 +507,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "alberta-ferretti-tie-dye-midi-skirt-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alberta-ferretti-wool-blend-dress-2-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -563,11 +567,35 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "ambush-cotton-bermuda-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
+  "ambush-cotton-bermuda-shorts-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
+  "ambush-cotton-shirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-cotton-shirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-cotton-shorts-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
   "ambush-lightweight-track-pants-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "ambush-lightweight-track-pants-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-short-sleeved-shirt-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1083,6 +1111,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "balenciaga-printed-shirt-1-39": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "balenciaga-satin-strappy-midi-dress-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1090,6 +1122,10 @@
   "balenciaga-spiral-mini-dress-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "balenciaga-sporty-b-bermuda-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Wzór dominujący, Długość, Materiał dominujący, Linia"
   },
   "balenciaga-tweed-blazer-jacket-40": {
     "code_version": 3,
@@ -1219,6 +1255,10 @@
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
+  "balmain-stretch-mini-skirt-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "balmain-viscose-pants-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1254,6 +1294,10 @@
   "blanca-vita-cropped-trousers-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "blanca-vita-faux-leather-shorts-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
   "blanca-vita-mini-dress-2-38": {
     "code_version": 3,
@@ -1375,6 +1419,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-grain-de-poudre-wool-shirt-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "bottega-veneta-high-neck-jacket-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1438,6 +1486,10 @@
   "bottega-veneta-leather-mules-40": {
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "bottega-veneta-leopard-print-calf-hair-skirt-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "bottega-veneta-lido-leather-flat-sandals-35": {
     "code_version": 3,
@@ -1711,6 +1763,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "brunello-cucinelli-wool-striped-skirt-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-striped-skirt-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "brunello-cucinelli-wool-trench-coat-2-50": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Fason, Kamizelka w zestawie, Materiał dominujący, Linia"
@@ -1731,6 +1791,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "burberry-cotton-shirt-1-xxs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "burberry-dimitri-trousers-1-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1746,6 +1810,10 @@
   "burberry-quilted-pleated-pants-1-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "burberry-sand-check-shirt-1-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Linia, Materiał dominujący"
   },
   "burberry-two-piece-jacket-2-38": {
     "code_version": 3,
@@ -1899,6 +1967,14 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
+  "comme-des-garcons-checked-sleeve-shirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-garcons-homme-plus-wool-shorts-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
   "comme-des-garcons-logo-wallet-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
@@ -1928,6 +2004,14 @@
     "reason": "missing required product data: Typ, Marka"
   },
   "craig-green-down-jacket-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dior-bermuda-shorts-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
+  "dior-cotton-striped-shirt-1-41": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1991,6 +2075,10 @@
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
   },
+  "dolce-gabbana-dg-shirt-1-41": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "dolce-gabbana-gray-wool-stretch-formal-slim-fit-pants-grey-5": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Producent, Materiał"
@@ -2019,6 +2107,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "dolce-gabbana-shirt-1-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "dolce-gabbana-side-stripe-pleat-trousers-1-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2026,6 +2118,10 @@
   "dolce-gabbana-silk-leopard-ruched-dress-2-46": {
     "code_version": 3,
     "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
+  "dsqaured2-d2-leaf-shorts-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
   "dsquared-boston-denim-jeans-42": {
     "code_version": 3,
@@ -2063,15 +2159,39 @@
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
   },
+  "dsquared2-cotton-logo-shorts-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
+  "dsquared2-cotton-logo-shorts-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
   "dsquared2-cotton-sweater-xxs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "dsquared2-cotton-tie-dye-shorts-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
+  "dsquared2-cotton-tie-dye-shorts-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
   "dsquared2-cotton-trousers-52": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "dsquared2-crystal-embellished-coat-2-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-denim-shirt-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-distressed-effect-denim-shirt-52": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2131,6 +2251,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "dsquared2-x-smiley-denim-shirt-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-x-smiley-denim-shirt-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "eleventy-leather-fur-mules-37": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny"
@@ -2167,11 +2295,19 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "fendi-printed-silk-shorts-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
   "fendi-reversible-trench-coat-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "fendi-reversible-trench-coat-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "fendi-virgin-wool-grain-de-poud-skirt-1-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2235,15 +2371,59 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Nosek"
   },
+  "gianvito-rossi-glover-sneakers-1-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "gianvito-rossi-glover-sneakers-1-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
   "gianvito-rossi-glover-sneakers-38": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "gianvito-rossi-glover-sneakers-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "gianvito-rossi-leather-flat-sandals-36-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "gianvito-rossi-leather-flat-sandals-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "gianvito-rossi-leather-flat-sandals-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "gianvito-rossi-leather-flat-sandals-38-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
   },
   "gianvito-rossi-leather-pumps-36": {
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
   },
   "gianvito-rossi-leather-slingback-pumps-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
+  },
+  "gianvito-rossi-metropolis-70-sandals-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "gianvito-rossi-metropolis-70-sandals-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "gianvito-rossi-metropolis-70-sandals-36-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "gianvito-rossi-nuit-95-glossed-leather-pumps-36-5": {
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
   },
@@ -2266,6 +2446,10 @@
   "gianvito-rossi-robbie-leather-pumps-39": {
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
+  },
+  "gianvito-rossi-suede-wedge-espadrilles-41": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
   },
   "givenchy-4g-windbreaker-1-50": {
     "code_version": 3,
@@ -2339,6 +2523,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "gucci-cotton-logo-shirt-1-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gucci-cotton-poplin-shirt-1-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "gucci-cotton-sweatpants-1-xs": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
@@ -2351,9 +2543,17 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "gucci-gabardine-bermuda-shorts-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
   "gucci-gg-reversible-jacket-1-48": {
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
+  },
+  "gucci-interlocking-g-a-line-skirt-1-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "gucci-jeans-1-25": {
     "code_version": 3,
@@ -2651,6 +2851,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-elastic-waist-midi-skirt-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-elasticated-drawstring-trousers-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2830,6 +3034,10 @@
   "herno-long-rain-coat-40": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
+  },
+  "herno-long-skirt-1-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "herno-long-sleeve-polo-shirt-56": {
     "code_version": 3,
@@ -3195,6 +3403,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "heron-preston-camouflage-popline-shirt-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "heron-preston-camouflage-winkbreaker-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3202,6 +3414,10 @@
   "heron-preston-cotton-denim-slim-jeans-33": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
+  },
+  "heron-preston-cotton-shorts-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
   "hmabm-00010-marrone-hinnominate-sweatshirts-hmabm-00010-marr": {
     "code_version": 3,
@@ -3267,9 +3483,17 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "jil-sander-cotton-shirt-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "jil-sander-denim-jeans-1-31": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
+  },
+  "jil-sander-denim-shorts-33": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
   "jil-sander-hooded-jacket-1-48": {
     "code_version": 3,
@@ -3323,6 +3547,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "kenzo-patchwork-cotton-shirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "kenzo-patchwork-short-sleeves-shirt-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Linia, Materiał dominujący"
+  },
   "kenzo-snakeskin-printed-jacket-1-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3338,6 +3570,10 @@
   "kinujo-pm839-920-people-of-shibuya-jackets-kinujo-pm839-920-": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "laneus-cote-dazur-cotton-shorts-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
   "lanvin-logo-hooded-windbreaker-1-s": {
     "code_version": 3,
@@ -3443,6 +3679,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "maison-margiela-short-sleeve-wool-shirt-1-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "maison-margiela-silk-midi-dress-40": {
     "code_version": 3,
     "reason": "missing required product data: Długość, Marka, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
@@ -3518,6 +3758,10 @@
   "michelangelo-d359-25i24-tramarossa-jeans-michelangelo-regula": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "missoni-elastic-maxi-skirt-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "missoni-semi-transparent-sweater-1-m": {
     "code_version": 3,
@@ -3691,6 +3935,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "neil-barrett-state-of-liberty-cotton-shirt-39": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "nobu1-pm801-blu-people-of-shibuya-vest-nobu1-pm801-blu-blu-4": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
@@ -3783,6 +4031,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "off-white-neen-allover-shirt-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Linia, Materiał dominujący"
+  },
   "off-white-out-of-office-sneakers-36": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
@@ -3796,6 +4048,18 @@
     "reason": "no matching Allegro category"
   },
   "palm-angels-checked-windbreaker-jacket-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-classic-logo-hooded-overshirt-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-classic-logo-hooded-overshirt-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-classic-logo-hooded-overshirt-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3832,6 +4096,18 @@
     "reason": "missing required product data: Rodzaj, Marka, Model, Płeć, Kolor"
   },
   "palm-angels-hawaii-track-pants-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-hooded-printed-shirt-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-hooded-printed-shirt-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-hooded-printed-shirt-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3995,6 +4271,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-checked-cotton-shirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "prada-classic-wool-trousers-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4054,6 +4334,10 @@
   "prada-leather-pumps-35": {
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
+  },
+  "prada-linen-shirt-1-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Linia, Materiał dominujący"
   },
   "prada-logo-jacket-1-38": {
     "code_version": 3,
@@ -4244,6 +4528,10 @@
     "reason": "no matching Allegro category"
   },
   "saint-laurent-extra-long-mohair-sweater-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "saint-laurent-feathers-trim-silk-skirt-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -4479,6 +4767,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "stella-mccartney-denim-shorts-29": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
   "stella-mccartney-eclypse-alter-faux-suede-sneakers-36": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
@@ -4503,6 +4795,14 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
   },
+  "stella-mccartney-gamer-knit-skirt-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-gamer-knit-skirt-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "stella-mccartney-high-waist-tailored-trousers-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4510,6 +4810,10 @@
   "stella-mccartney-logo-canvas-espadrilles-41": {
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "stella-mccartney-logo-skirt-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "stella-mccartney-logo-slippers-36": {
     "code_version": 3,
@@ -4539,7 +4843,23 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "stella-mccartney-printed-skirt-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-printed-skirt-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "stella-mccartney-silk-cut-out-maxi-dress-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-silk-dress-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-silk-dress-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -4623,6 +4943,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "tom-ford-floral-shirt-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "tom-ford-lurex-crochet-maxi-dress-1-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4651,11 +4975,19 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "valentino-cotton-shirt-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "valentino-garavani-bifold-rockstud-wallet-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
   "valentino-garavani-blazer-jacket-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "valentino-garavani-cotton-shirt-jacket-1-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -4671,21 +5003,81 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
+  "valentino-garavani-leather-logo-boots-35-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "valentino-garavani-leather-slingback-pumps-1-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
+  },
+  "valentino-garavani-metamorphos-wall-print-bowling-shirt-1-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "valentino-garavani-rockstud-card-holder-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
+  },
+  "valentino-garavani-rockstud-flat-sandals-35-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
   },
   "valentino-garavani-rockstud-leather-belt-bag-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
+  "valentino-garavani-rockstud-pumps-1-34": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
+  },
+  "valentino-garavani-rockstud-pumps-1-34-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
+  },
+  "valentino-garavani-rockstud-pumps-2-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
+  },
+  "valentino-garavani-rockstud-pumps-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki, Rodzaj obcasa, Wysokość obcasa/platformy, Nosek"
+  },
+  "valentino-garavani-rockstud-wedge-sandals-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
+  "valentino-garavani-toile-iconographe-shirt-1-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Linia, Materiał dominujący"
+  },
   "valentino-garavani-v-logo-cotton-bracelet-2-l": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał"
   },
+  "valentino-garavani-vlnt-espadrillas-40-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny"
+  },
+  "valentino-garavani-vlogo-ankle-boots-35-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
   "valentino-garavani-vlogo-cotton-bracelet-2-l": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał"
+  },
+  "valentino-garavani-vltn-cloud-bubble-sole-sneakers-40-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
+  },
+  "valentino-garavani-vltn-cloud-bubble-sole-sneakers-41": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
+  },
+  "valentino-garavani-vltn-cloud-bubble-sole-sneakers-43-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
   },
   "valentino-military-canvas-backpack-2-one-size": {
     "code_version": 3,
@@ -4722,6 +5114,14 @@
   "versace-jeans-couture-sweatpants-1-xl": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
+  "versace-squalo-leopard-sneakers-46-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
+  },
+  "versace-suede-hiking-boots-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
   },
   "vivienne-westwood-lauren-cotton-jacket-1-40": {
     "code_version": 3,
