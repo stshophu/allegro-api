@@ -467,6 +467,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "acne-studios-t-shirt-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Linia, Materiał dominujący"
+  },
   "ad4190c-2088-zucca-alpha-studio-sweaters-ad4190c-2088-zucca-": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -523,6 +527,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "alexander-mcqueen-bandage-top-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alexander-mcqueen-classic-wool-trousers-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -567,6 +575,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "alexander-mcqueen-logo-t-shirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alexander-mcqueen-logo-zipped-sweatshirt-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -603,6 +615,22 @@
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
+  "ambush-cotton-logo-t-shirt-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-cotton-logo-t-shirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-cotton-logo-t-shirt-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-cotton-logo-t-shirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "ambush-cotton-shirt-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -624,6 +652,10 @@
     "reason": "no matching Allegro category"
   },
   "ambush-hooded-sweatshirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ambush-jersey-t-shirt-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -654,6 +686,10 @@
   "ambush-slim-denim-jeans-31": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
+  },
+  "ambush-white-cape-t-shirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "ambush-windbreaker-jacket-2-s": {
     "code_version": 3,
@@ -740,6 +776,18 @@
     "reason": "no matching Allegro category"
   },
   "autry-cotton-hoodie-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-cotton-t-shirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-cotton-t-shirt-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "autry-cotton-t-shirt-1-xxl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1227,6 +1275,10 @@
     "code_version": 3,
     "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
   },
+  "balenciaga-beverly-hills-t-shirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "balenciaga-cantone-logo-jacket-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1243,7 +1295,15 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "balenciaga-icon-print-t-shirt-dress-1-2": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "balenciaga-jacquard-logo-sweater-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balenciaga-knitted-top-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1328,6 +1388,14 @@
     "reason": "no matching Allegro category"
   },
   "balmain-cotton-polo-shirt-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-cotton-t-shirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-cotton-t-shirt-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1487,6 +1555,46 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "balmain-logo-print-t-shirt-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-print-t-shirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-print-t-shirt-1-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-print-t-shirt-1-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-print-t-shirt-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-print-t-shirt-2-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-print-t-shirt-2-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-print-t-shirt-2-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-print-t-shirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-print-t-shirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "balmain-logo-pullover-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1494,6 +1602,14 @@
   "balmain-logo-shoulder-bag-3-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
+  },
+  "balmain-logo-t-shirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "balmain-logo-t-shirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "balmain-logo-tote-bag-3-one-size": {
     "code_version": 3,
@@ -1883,6 +1999,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "bottega-veneta-swim-short-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
   "bottega-veneta-tarik-criss-cross-sandal-39": {
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
@@ -1940,6 +2060,10 @@
     "reason": "no matching Allegro category"
   },
   "brunello-cucinelli-double-breasted-wool-jacket-2-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-dreamer-jersey-t-shirt-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2154,6 +2278,10 @@
   "celine-low-rise-skinny-fit-jeans-27": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
+  },
+  "celine-printed-cotton-t-shirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "celine-wool-blazer-jacket-50": {
     "code_version": 3,
@@ -2447,6 +2575,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "dsquared2-cotton-t-shirt-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "dsquared2-cotton-tie-dye-shorts-l": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
@@ -2507,6 +2639,10 @@
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
   },
+  "dsquared2-mink-collar-sleeveless-top-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "dsquared2-silk-printed-mini-dress-2-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2519,7 +2655,15 @@
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
   },
+  "dsquared2-sleeveless-long-top-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "dsquared2-tokyo-wool-suit-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dsquared2-two-tone-logo-t-shirt-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2626,6 +2770,10 @@
   "g9ve1t-humc5-camo-dolce-gabbana-jackets-g9ve1t-humc5-camo-ca": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "ganni-cotton-striped-shirt-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "gi000309u-38020-beige-herno-vest-gi000309u-38020-beige-beige": {
     "code_version": 3,
@@ -2767,6 +2915,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "givenchy-logo-embroidered-swim-shorts-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
+  "givenchy-logo-embroidered-swim-shorts-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
+  "givenchy-logo-embroidered-swim-shorts-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
   "givenchy-logo-hooded-sweatshirt-m": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Kolor, Materiał dominujący, Linia"
@@ -2790,6 +2950,10 @@
   "givenchy-rainbow-chain-nylon-jacket-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "givenchy-slim-4g-t-shirt-1-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Linia, Materiał dominujący"
   },
   "givenchy-striped-side-panel-wool-trousers-48": {
     "code_version": 3,
@@ -2855,6 +3019,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "gucci-ribbed-knit-silk-t-shirt-1-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "gucci-silk-chiffon-dress-1-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2916,6 +3084,10 @@
     "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
   },
   "herno-amelia-padded-coat-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-asymmetric-short-sleeve-blouse-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3043,6 +3215,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-cotton-blend-t-shirt-56": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-cotton-cap-2-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3075,6 +3251,10 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
+  "herno-cotton-crew-neck-sweatshirt-60": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-cotton-logo-baseball-cap-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
@@ -3083,11 +3263,51 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-cotton-t-shirt-10-58": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-cotton-t-shirt-11-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-cotton-t-shirt-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-cotton-t-shirt-3-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-cotton-t-shirt-4-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-cotton-t-shirt-9-58": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-crewneck-t-shirt-1-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-crewneck-t-shirt-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-crop-sleeve-down-jacket-1-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-cropped-trousers-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-crystal-embellished-logo-t-shirt-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-crystal-embellished-logo-t-shirt-3-36": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3291,6 +3511,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-lazer-cut-t-shirt-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-lightweight-cotton-parka-coat-42": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
@@ -3367,6 +3591,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-logo-detailed-crewneck-t-shirt-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-long-hooded-zip-coat-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3388,6 +3616,14 @@
     "reason": "no matching Allegro category"
   },
   "herno-long-sleeve-polo-shirt-56": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-long-sleeve-v-neck-top-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-long-sleeve-v-neck-top-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3595,6 +3831,22 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-short-sleeve-t-shirt-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-short-sleeve-t-shirt-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-short-sleeve-t-shirt-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-silk-blend-t-shirt-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-silk-scarf-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3791,6 +4043,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "heron-preston-camouflage-print-t-shirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "heron-preston-camouflage-t-shirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "heron-preston-camouflage-winkbreaker-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3859,6 +4119,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "jil-sander-blend-silk-blouse-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "jil-sander-blend-silk-zip-up-hooded-jacket-1-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3872,6 +4136,10 @@
     "reason": "no matching Allegro category"
   },
   "jil-sander-cotton-shirt-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jil-sander-cotton-shirt-3-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3891,11 +4159,19 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "jil-sander-long-sleeved-t-shirt-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "jil-sander-long-sweater-1-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "jil-sander-mohair-cardigan-1-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jil-sander-pack-of-3-long-sleeved-t-shirt-1-xl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3906,6 +4182,10 @@
   "jil-sander-shorts-48": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
+  "jil-sander-striped-wool-compact-jersey-t-shirt-1-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "jil-sander-wool-and-silk-sweater-1-40": {
     "code_version": 3,
@@ -4155,6 +4435,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "marni-cotton-logo-t-shirt-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "marni-oversize-hooded-sweatshirt-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4180,6 +4464,10 @@
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
   "max-mara-pila-wool-and-cashmere-coat-2-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "max-mara-scire-cotton-shirt-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -4703,6 +4991,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "off-white-logo-t-shirt-1-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-t-shirt-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-t-shirt-2-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "off-white-logo-windbreaker-bomber-jacket-1-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4710,6 +5010,10 @@
   "off-white-neen-allover-shirt-m": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Dekolt, Linia, Materiał dominujący"
+  },
+  "off-white-off-stamp-skate-hoodie-sweatshirt-1-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "off-white-out-of-office-sneakers-36": {
     "code_version": 3,
@@ -4783,9 +5087,37 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "off-white-st-matthew-over-cotton-hoodie-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-st-matthew-over-cotton-hoodie-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-st-matthew-over-cotton-hoodie-sweatshirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-swim-shorts-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
   "off-white-washed-denim-jeans-1-32": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
+  },
+  "off-white-wool-sweatshirt-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-wool-sweatshirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-wool-sweatshirt-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "p54600-ga9103-f03700-refrigiwear-shorts-brooklyn-short-blu-3": {
     "code_version": 3,
@@ -4794,6 +5126,10 @@
   "palm-angels-bear-in-mind-sweatshirt-xl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "palm-angels-camouflage-swim-shorts-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
   "palm-angels-checked-windbreaker-jacket-xs": {
     "code_version": 3,
@@ -4920,6 +5256,10 @@
     "reason": "no matching Allegro category"
   },
   "palm-angles-hoodie-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "paolo-pecora-cotton-t-shirt-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -5052,6 +5392,14 @@
     "reason": "no matching Allegro category"
   },
   "prada-cotton-cardigan-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-cotton-patch-t-shirt-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-cotton-shirt-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -5287,6 +5635,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "saint-laurent-cotton-logo-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "saint-laurent-cowl-back-mini-dress-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -5364,6 +5716,10 @@
     "reason": "no matching Allegro category"
   },
   "salvatore-ferragamo-cotton-and-silk-pants-1-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "salvatore-ferragamo-cotton-t-shirt-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -5450,6 +5806,10 @@
   "sergio-rossi-jacquard-loafers-39-5": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
+  },
+  "sportmax-asti-shirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "sportmax-nilly-cotton-denim-jeans-1-30": {
     "code_version": 3,
@@ -5562,6 +5922,14 @@
   "stella-mccartney-eclypse-sneakers-36": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "stella-mccartney-falabella-chain-top-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-falabella-chain-top-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "stella-mccartney-gaia-canvas-espadrilles-37": {
     "code_version": 3,
@@ -5707,6 +6075,10 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki"
   },
+  "tom-ford-cashmere-shirt-1-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "tom-ford-cotton-cargo-pants-1-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -5743,6 +6115,10 @@
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
   },
+  "valentino-camouflage-pattern-hoodie-sweatshirt-1-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "valentino-cotton-mini-dress-1-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -5760,6 +6136,10 @@
     "reason": "missing required product data: Marka, Wielkość, Kolor, Materiał dominujący"
   },
   "valentino-garavani-blazer-jacket-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "valentino-garavani-cotton-logo-sweatshirt-1-xxl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -5891,9 +6271,21 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "versace-cotton-crewneck-sweatshirt-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "versace-cotton-logo-denim-jeans-1-32": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
+  },
+  "versace-cotton-logo-sweatshirt-1-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-cotton-logo-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "versace-cotton-trousers-1-48": {
     "code_version": 3,
@@ -5915,6 +6307,10 @@
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
+  "versace-one-piece-swimsuit-1-1": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "versace-squalo-leopard-sneakers-46-5": {
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
@@ -5922,6 +6318,10 @@
   "versace-suede-hiking-boots-42": {
     "code_version": 3,
     "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "versace-x-dua-lipa-butterfly-print-t-shirt-1-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "vivienne-westwood-lauren-cotton-jacket-1-40": {
     "code_version": 3,
