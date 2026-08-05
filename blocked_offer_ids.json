@@ -511,11 +511,27 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "alexander-mcqueen-classic-wool-trousers-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alexander-mcqueen-cotton-denim-jeans-52": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
   },
+  "alexander-mcqueen-cotton-logo-sweatpants-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
+  "alexander-mcqueen-cotton-trousers-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alexander-mcqueen-denim-jacket-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alexander-mcqueen-logo-cotton-pants-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1415,6 +1431,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "celine-cargo-pants-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "celine-cashmere-sweater-1-m": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Linia"
@@ -1428,6 +1448,10 @@
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
   },
   "celine-wool-blazer-jacket-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "celine-wool-classic-pants-1-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -1591,6 +1615,10 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Producent, Materiał"
   },
+  "dolce-gabbana-logo-sweatpants-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
   "dolce-gabbana-maxi-pleated-dress-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1598,6 +1626,10 @@
   "dolce-gabbana-mirror-ski-mask-sunglasses-2-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Fason, Materiał oprawki"
+  },
+  "dolce-gabbana-nylon-pants-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "dolce-gabbana-red-cotton-xoxo-polo-t-shirt-red-it50-l": {
     "code_version": 3,
@@ -1727,6 +1759,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "fendi-ff-color-block-draped-trousers-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "fendi-fur-collar-wool-coat-2-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1811,6 +1847,14 @@
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
   },
+  "givenchy-cotton-joggers-1-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
+  "givenchy-cotton-logo-sweatpants-1-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
   "givenchy-giv-cut-sunglasses-2-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1835,6 +1879,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "givenchy-striped-side-panel-wool-trousers-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "givenchy-wool-and-cashmere-scarf-2-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1850,6 +1898,10 @@
   "givenchy-wrap-sunglasses-2-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "gucci-cotton-sweatpants-1-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
   },
   "gucci-down-jacket-48": {
     "code_version": 3,
@@ -1951,6 +2003,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-cargo-pants-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Producent, Materiał"
+  },
   "herno-cashmere-cardigan-1-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2000,6 +2056,22 @@
     "reason": "no matching Allegro category"
   },
   "herno-cashmere-zipped-sweater-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-casual-pants-1-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-casual-pants-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-casual-pants-3-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-casual-wool-pants-xxl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2067,6 +2139,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-cropped-trousers-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-curly-faux-fur-coat-2-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2107,11 +2183,43 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-down-pants-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-down-vest-jacket-3-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-down-vest-jacket-4-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-drawstring-elastic-waist-pants-2-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-drawstring-elastic-waist-pants-3-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-elasticated-drawstring-trousers-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-elasticated-drawstring-trousers-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-elasticated-trousers-2-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-elasticated-trousers-2-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-elasticated-trousers-3-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2123,11 +2231,39 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-faux-leather-pants-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-faux-leather-pants-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-faux-leather-pants-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-flared-trousers-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-giada-down-jacket-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-high-collar-asymmetric-poncho-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-high-waist-palazzo-pants-2-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-high-waist-palazzo-pants-3-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-high-waist-pants-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2150,6 +2286,10 @@
   "herno-hooded-zipped-coat-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-laminar-cargo-trousers-1-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Producent, Materiał"
   },
   "herno-laminar-down-jacket-50": {
     "code_version": 3,
@@ -2263,6 +2403,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-nylon-dive-cargo-pants-1-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Producent, Materiał"
+  },
+  "herno-nylon-pants-1-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Producent, Materiał"
+  },
   "herno-oversized-hooded-coat-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2299,11 +2447,47 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-padded-pants-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-padded-pants-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-padded-pants-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-padded-pants-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-panelled-hooded-jacket-1-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "herno-parka-coat-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-plain-technical-joggers-1-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
+  "herno-pleated-drawstring-pants-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-pleated-trousers-36": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-pleated-trousers-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-resort-casual-pants-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2328,6 +2512,10 @@
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
   "herno-ruffled-flared-coat-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-satin-wide-pants-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2407,6 +2595,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-tapered-trousers-1-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-tapered-trousers-3-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-technical-fabric-pants-1-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-techno-taffeta-parka-coat-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2451,6 +2651,10 @@
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Marka, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
   },
+  "herno-wide-pants-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-wool-balaclava-hat-2-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2476,6 +2680,10 @@
     "reason": "no matching Allegro category"
   },
   "herno-wool-down-coat-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-wool-pants-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2520,6 +2728,10 @@
     "reason": "no matching Allegro category"
   },
   "herno-wool-sweater-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-wool-trousers-grey": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2575,6 +2787,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "jacquemus-curzio-flared-pants-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "jacquemus-le-caban-caruso-draped-collar-jacket-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2624,6 +2840,10 @@
     "reason": "no matching Allegro category"
   },
   "jil-sander-wool-and-silk-sweater-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jil-sander-wool-classic-pants-1-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2726,6 +2946,10 @@
   "loewe-bustier-velvet-dress-1-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "loewe-cotton-and-silk-pants-1-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Fason, Materiał dominujący, Linia"
   },
   "loewe-puzzle-fold-jacket-1-44": {
     "code_version": 3,
@@ -2979,6 +3203,62 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "off-white-cotton-logo-sweatpants-1-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
+  "off-white-cotton-track-pants-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-1-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-1-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-5-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-5-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-5-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-5-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-cotton-track-pants-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "off-white-cut-out-midi-dress-1-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3011,11 +3291,19 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "palm-angels-cotton-trousers-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "palm-angels-denim-jacket-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "palm-angels-fire-blazer-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "palm-angels-hawaii-track-pants-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3095,6 +3383,14 @@
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
   },
+  "philipp-plein-blent-cotton-sweatpants-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
+  "philipp-plein-sweatpants-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
   "philosophy-di-lorenzo-serafini-mini-dress-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3151,6 +3447,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-classic-wool-trousers-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "prada-cotton-cardigan-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3168,6 +3468,10 @@
     "reason": "no matching Allegro category"
   },
   "prada-herringbone-wool-coat-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-high-waist-trousers-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3211,6 +3515,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-pinwale-corduroy-trousers-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "prada-ribbed-knit-cashmere-cardigan-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3222,6 +3530,14 @@
   "prada-rope-coloured-blazer-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "prada-silk-tec-sweatpants-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
+  "prada-silk-tec-sweatpants-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
   },
   "prada-striped-hooded-jacket-1-42": {
     "code_version": 3,
@@ -3247,6 +3563,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-wool-classic-logo-pants-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-classic-pants-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "prada-wool-hooded-sweater-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3256,6 +3580,38 @@
     "reason": "no matching Allegro category"
   },
   "prada-wool-jacket-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-pants-2-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-pants-5-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-pants-5-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-pants-6-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-pants-6-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-pants-7-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-pants-7-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "prada-wool-trousers-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3347,6 +3703,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "salvatore-ferragamo-cotton-and-silk-pants-1-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "salvatore-ferragamo-quilted-bomber-jacket-52": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3375,6 +3735,26 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "stella-mccartney-cropped-leather-effect-pants-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-cropped-leather-effect-pants-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-cropped-logo-pants-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-cropped-logo-pants-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-cropped-logo-pants-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "stella-mccartney-cut-out-jumpsuit-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3399,6 +3779,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "stella-mccartney-high-waist-tailored-trousers-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-logo-wool-pants-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "stella-mccartney-long-sleeved-dress-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3418,6 +3806,18 @@
   "stella-mccartney-silk-cut-out-maxi-dress-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-sport-pants-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-sport-pants-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "stella-mccartney-tie-dye-denim-jeans-26": {
+    "code_version": 3,
+    "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
   },
   "the-attico-jersey-mini-dress-1-40": {
     "code_version": 3,
