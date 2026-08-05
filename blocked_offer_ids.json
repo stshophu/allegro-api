@@ -535,6 +535,18 @@
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
   },
+  "alexander-mcqueen-cotton-logo-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alexander-mcqueen-cotton-sweatshirt-1-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alexander-mcqueen-cotton-sweatshirt-1-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alexander-mcqueen-cotton-trousers-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -543,7 +555,19 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "alexander-mcqueen-hoodie-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alexander-mcqueen-logo-cotton-pants-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alexander-mcqueen-logo-hooded-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alexander-mcqueen-logo-zipped-sweatshirt-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2119,6 +2143,10 @@
     "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Linia"
   },
+  "celine-hooded-printed-dogs-sweatshirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "celine-leather-hair-cuff-2-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2991,6 +3019,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-colour-block-hooded-sweatshirt-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-concealed-fastening-coat-1-46": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
@@ -3016,6 +3048,10 @@
     "reason": "no matching Allegro category"
   },
   "herno-cotton-cap-2-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-cotton-cardigan-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3223,6 +3259,26 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-hooded-sweatshirt-8-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-hooded-sweatshirt-8-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-hooded-sweatshirt-8-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-hooded-sweatshirt-8-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-hooded-sweatshirt-9-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-hooded-zipped-coat-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3304,6 +3360,10 @@
     "reason": "no matching Allegro category"
   },
   "herno-logo-baseball-mesh-cap-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-logo-detail-hoodie-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3711,6 +3771,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-zipped-sweatshirt-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-zipped-sweatshirt-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-zipped-sweatshirt-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "hernocropped-sleeve-down-jacket-1-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3795,6 +3867,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "jil-sander-cotton-hooded-sweatshirt-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "jil-sander-cotton-shirt-2-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3847,6 +3923,10 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki"
   },
+  "kenzo-cotton-logo-sweatshirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "kenzo-cotton-printed-sweater-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3895,15 +3975,35 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "knt-kiton-hooded-sweatshirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "laneus-cote-dazur-cotton-shorts-48": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
+  },
+  "lanvin-batman-hooded-sweatshirt-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "lanvin-batman-hooded-sweatshirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "lanvin-column-monogram-shorts-30": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
   "lanvin-logo-hooded-windbreaker-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "lanvin-oversized-logo-hoodie-sweatshirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "lanvin-printed-hooded-sweatshirt-1-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3944,6 +4044,10 @@
     "reason": "no matching Allegro category"
   },
   "lemaire-military-wool-jacket-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "les-hommes-hooded-sweatshirt-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -4048,6 +4152,10 @@
     "reason": "no matching Allegro category"
   },
   "marc-jacobs-fur-trim-coat-2": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "marni-oversize-hooded-sweatshirt-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -4271,6 +4379,30 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "neil-barrett-cotton-logo-hooded-sweatshirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "neil-barrett-flash-design-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "neil-barrett-hooded-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "neil-barrett-jewel-turtleneck-sweatshirt-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "neil-barrett-logo-hooded-sweatshirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "neil-barrett-logo-sweatshirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "neil-barrett-state-of-liberty-cotton-shirt-39": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4363,11 +4495,211 @@
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Stan (wysokość w pasie), Fason, Materiał dominujący"
   },
+  "off-white-hooded-logo-sweatshirt-1-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-logo-sweatshirt-3-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-logo-sweatshirt-3-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-logo-sweatshirt-3-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-1-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-1-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-1-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-2-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-2-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-2-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-2-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-2-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-hooded-sweatshirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "off-white-knitted-hoodie-1-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "off-white-knitted-hoodie-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-hooded-sweatshirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-hooded-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-hooded-sweatshirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-22-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-22-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-23-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-24-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-24-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-24-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-25-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-26-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-27-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-27-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-28-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-28-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-28-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-29-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-29-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-30-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-31-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-31-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-32-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-33-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-34-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-5-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-5-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-5-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-5-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-5-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-6-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-6-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-7-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-logo-sweatshirt-7-xl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -4382,6 +4714,74 @@
   "off-white-out-of-office-sneakers-36": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Długość wkładki, Kolor, Materiał zewnętrzny, Model"
+  },
+  "off-white-pixel-diag-skate-hooded-sweatshirt-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-skate-hooded-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-skate-hooded-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-skate-hooded-sweatshirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-skate-hooded-sweatshirt-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-sweatshirt-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-sweatshirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-sweatshirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-pixel-diag-sweatshirt-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-spray-arrow-skate-sweatshirt-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-spray-arrow-skate-sweatshirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-spray-arrow-skate-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-spray-arrow-skate-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-spray-arrow-skate-sweatshirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "off-white-spray-arrow-skate-sweatshirt-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "off-white-washed-denim-jeans-1-32": {
     "code_version": 3,
