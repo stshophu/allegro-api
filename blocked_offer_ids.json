@@ -607,6 +607,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "alpha-studio-man-blue-sweaters-1-blu-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "alpha-studio-man-white-shorts-2-bianco-46": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Marka, Rodzaj, Wzór dominujący, Długość, Materiał dominujący, Linia"
@@ -1679,6 +1683,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "balmain-woman-black-formal-jacket-nero-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "balmain-wool-hat-2-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2531,6 +2539,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "casablanca-man-black-t-shirt-top-2-nero-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "casablanca-man-white-t-shirt-top-bianco-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Dekolt, Linia, Materiał dominujący"
+  },
   "cdfa-711-nero-comme-des-fuckdown-rucksacks-cdfa-711-nero-ner": {
     "code_version": 3,
     "reason": "missing required product data: Marka"
@@ -2715,6 +2731,42 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
   },
+  "comme-des-fuckdown-man-black-balaclava-nero-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "comme-des-fuckdown-woman-black-sweatshirts-1-nero-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-sweatshirts-1-nero-xxs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-t-shirt-top-4-nero-xxs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-trousers-3-nero-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-trousers-3-nero-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-trousers-3-nero-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-trousers-3-nero-xxs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-grey-trousers-1-grigio-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "comme-des-fuckdown-woman-grey-trousers-1-grigio-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2728,6 +2780,26 @@
     "reason": "no matching Allegro category"
   },
   "comme-des-fuckdown-woman-grey-trousers-grigio-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-light-blue-trousers-azzurro-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-light-blue-trousers-azzurro-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-pink-shorts-1-rosa-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-pink-shorts-1-rosa-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-pink-shorts-1-rosa-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2768,6 +2840,18 @@
     "reason": "missing required product data: Typ, Marka"
   },
   "craig-green-down-jacket-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "diesel-man-blue-jeans-1-blu-w27": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "diesel-man-blue-jeans-blu-w30": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "diesel-man-blue-jeans-blu-w31": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3543,9 +3627,37 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-bomber-jacket-1-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-bomber-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-cargo-cotton-jacket-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Model, Marka"
+  },
+  "herno-cargo-cotton-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Model, Marka"
+  },
+  "herno-cargo-cotton-jacket-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Model, Marka"
+  },
+  "herno-cargo-cotton-jacket-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Model, Marka"
+  },
   "herno-cargo-pants-l": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Producent, Materiał"
+  },
+  "herno-cargo-shirt-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Model, Marka"
   },
   "herno-cashmere-cardigan-1-42": {
     "code_version": 3,
@@ -3562,6 +3674,26 @@
   "herno-cashmere-coat-4-52": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-cashmere-down-jacket-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Kolor"
+  },
+  "herno-cashmere-down-jacket-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Kolor"
+  },
+  "herno-cashmere-down-jacket-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Kolor"
+  },
+  "herno-cashmere-down-jacket-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Kolor"
+  },
+  "herno-cashmere-down-jacket-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Kolor"
   },
   "herno-cashmere-pullover-42": {
     "code_version": 3,
@@ -3715,6 +3847,22 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-cotton-trench-coat-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-cotton-trench-coat-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-cotton-trench-coat-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-cotton-trench-coat-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
   "herno-crewneck-t-shirt-1-52": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3782,6 +3930,10 @@
   "herno-down-pants-36": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-down-performance-jacket-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
   "herno-down-vest-jacket-3-44": {
     "code_version": 3,
@@ -3855,6 +4007,22 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-high-neck-jacket-1-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-high-neck-jacket-1-56": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-high-neck-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-high-neck-jacket-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-high-waist-palazzo-pants-2-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3867,13 +4035,45 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-hooded-cape-jacket-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-hooded-cape-jacket-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-hooded-cape-jacket-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-hooded-cape-jacket-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-hooded-coat-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
   "herno-hooded-jacket-2-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-hooded-jersey-jacket-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-hooded-padded-coat-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-hooded-padded-jacket-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-hooded-parka-coat-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Długość, Wypełnienie, Materiał dominujący, Linia"
   },
   "herno-hooded-rain-coat-46": {
     "code_version": 3,
@@ -3931,6 +4131,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-knit-sleeve-hooded-jacket-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-laminar-cargo-trousers-1-l": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Producent, Materiał"
@@ -3938,6 +4142,18 @@
   "herno-laminar-down-jacket-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-laminar-fabric-jacket-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-laminar-fabric-jacket-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-laminar-fabric-jacket-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
   "herno-lazer-cut-t-shirt-54": {
     "code_version": 3,
@@ -3950,6 +4166,54 @@
   "herno-lightweight-hooded-jacket-2-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-lightweight-hooded-jacket-3-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-hooded-jacket-3-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-hooded-jacket-3-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-1-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-1-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-2-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-2-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-56": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
   "herno-lightweight-parka-coat-1-40": {
     "code_version": 3,
@@ -4006,6 +4270,22 @@
   "herno-lightweight-parka-coat-7-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-linen-bomber-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-linen-bomber-jacket-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-linen-quilted-jacket-58": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-linen-quilted-jacket-60": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
   "herno-logo-baseball-cap-m": {
     "code_version": 3,
@@ -4207,6 +4487,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-reversible-monogram-print-jacket-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-reversible-monogram-print-jacket-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-reversible-monogram-print-jacket-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-reversible-ultralight-down-coat-50": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
@@ -4222,6 +4514,26 @@
   "herno-satin-wide-pants-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-scarf-detailed-trench-coat-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-scarf-detailed-trench-coat-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-scarf-detailed-trench-coat-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-scarf-detailed-trench-coat-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-scarf-detailed-trench-coat-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
   },
   "herno-shearling-jacket-50": {
     "code_version": 3,
@@ -4267,6 +4579,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-shirt-style-jacket-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-shirt-style-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-shirt-style-jacket-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-short-sleeve-t-shirt-36": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4299,6 +4623,22 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-single-breasted-coat-1-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-single-breasted-coat-1-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-single-breasted-coat-1-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
+  "herno-single-breasted-coat-1-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
+  },
   "herno-single-breasted-coat-52": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Rodzaj, Fason, Kamizelka w zestawie, Materiał dominujący, Linia"
@@ -4319,6 +4659,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-stand-collar-pocket-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-tapered-trousers-1-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4330,6 +4674,14 @@
   "herno-technical-fabric-pants-1-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-techno-taffeta-parka-coat-3-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Długość, Wypełnienie, Materiał dominujący, Linia"
+  },
+  "herno-techno-taffeta-parka-coat-3-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Długość, Wypełnienie, Materiał dominujący, Linia"
   },
   "herno-techno-taffeta-parka-coat-44": {
     "code_version": 3,
@@ -6143,6 +6495,10 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "people-of-shibuya-man-green-trench-1-verde-56": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "peu3322-kasa-orange-peuterey-jackets-peu3322-kasa-orange-ara": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -6394,6 +6750,10 @@
   "prada-midi-dress-1-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "prada-nylon-and-leather-card-holder-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Orientacja, Wielkość, Zapięcie"
   },
   "prada-nylon-and-leather-drawstring-pouch-2-one-size": {
     "code_version": 3,
@@ -6995,6 +7355,14 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
   },
+  "suns-man-blue-jackets-3-blu-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "suns-man-grey-jackets-2-grigio-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "the-attico-cheope-105-leather-sandals-36": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
@@ -7074,6 +7442,18 @@
   "tommy-hilfiger-alaska-black-polyester-women-puffer-jacket-m": {
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
+  },
+  "tramarossa-man-black-jeans-nero-31": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "tramarossa-man-black-jeans-nero-32": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "tramarossa-man-black-jeans-nero-33": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "usagi-pm839-920-people-of-shibuya-jackets-usagi-pm839-920-gr": {
     "code_version": 3,
@@ -7543,6 +7923,14 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
   },
+  "woolrich-man-light-blue-vest-azzurro-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "woolrich-man-light-blue-vest-azzurro-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "woolrich-men-cleveland-parka-jacket-black-black-xxl": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Rodzaj, Fason, Kamizelka w zestawie, Materiał dominujący, Linia"
@@ -7570,6 +7958,14 @@
   "xmp002-pk031-yellow-la-martina-polo-xmp002-pk031-yellow-gial": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "yes-zee-man-black-jackets-3-nero-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-man-blue-jackets-blu-3xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "yes-zee-men-wool-green-down-jacket-green-l": {
     "code_version": 3,
