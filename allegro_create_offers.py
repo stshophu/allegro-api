@@ -120,6 +120,19 @@ GENERIC_KATEGORIE_TRANSLATIONS = {
 JUNK_KATEGORIE_TERMS = {"def", "jane", "logo", "holder", "home"}
 
 
+def _normalize_kategorie_term(term):
+    """Apply the same generic->Polish translation / junk-dropping logic to
+    any of the three feed fields — Kategorie is the common offender, but
+    Produktart/Subkategorie have been observed carrying the same generic
+    "Clothing" placeholder (e.g. a row with Subkategorie="Shorts" but
+    Produktart="Clothing" instead of a specific type), which was leaking
+    untranslated English into the query even after Kategorie was fixed."""
+    lower = term.lower()
+    if lower in JUNK_KATEGORIE_TERMS:
+        return ""
+    return GENERIC_KATEGORIE_TRANSLATIONS.get(lower, term)
+
+
 def resolve_category(access_token, kategorie, subkategorie, produktart):
     """Ask Allegro for the best-match leaf category ID for a feed row,
     via GET /sale/matching-categories. Returns None if no match is found
@@ -132,24 +145,18 @@ def resolve_category(access_token, kategorie, subkategorie, produktart):
     if cache_key in _category_resolution_cache:
         return _category_resolution_cache[cache_key]
 
-    # Some feed rows use a generic, genderless Kategorie value ("Clothing",
-    # "Accessories") instead of a specific one. Dropping it from the query
-    # entirely (a prior fix) was WORSE than the original problem: bare
-    # single-word queries like "Shirts" or "Tops" drifted into completely
-    # unrelated categories (observed: books and music-album categories,
-    # asking for ISBN/Autor or Wykonawca/Wytwórnia on a shirt). An anchor
-    # term is needed — but it must be the *correct* Polish term for what
-    # the item actually is, not a blanket "odzież" (clothing) forced onto
-    # everything: that was itself wrong for accessories/bags/sunglasses
-    # rows, which aren't clothing. Values that are outright junk data (not
-    # a real category at all) are dropped rather than translated, since
-    # there's nothing meaningful to translate.
-    kat_lower = kat.lower()
-    if kat_lower in JUNK_KATEGORIE_TERMS:
-        kat_for_query = ""
-    else:
-        kat_for_query = GENERIC_KATEGORIE_TRANSLATIONS.get(kat_lower, kat)
-    query = " ".join(p for p in [art, sub, kat_for_query] if p).strip() or kat
+    # Normalize every field independently — any of the three can carry a
+    # generic placeholder ("Clothing") or junk value, not just Kategorie.
+    # Dedupe while preserving order so "Shirts"/"Shirts"/"odzież" (Produktart
+    # and Subkategorie are frequently identical in this feed) doesn't send
+    # a redundant repeated-word query.
+    parts = []
+    for raw in (art, sub, kat):
+        normalized = _normalize_kategorie_term(raw)
+        if normalized and normalized.lower() not in [p.lower() for p in parts]:
+            parts.append(normalized)
+    query = " ".join(parts).strip() or kat
+
     headers = {"Authorization": f"Bearer {access_token}", "Accept": ACCEPT}
     cat_id = None
     try:
@@ -161,6 +168,14 @@ def resolve_category(access_token, kategorie, subkategorie, produktart):
         matches = resp.json().get("matchingCategories", [])
         if matches:
             cat_id = matches[0]["id"]
+        else:
+            # Diagnostic logging: previous fixes were guessed blind because
+            # only the final "no matching category" outcome was visible in
+            # logs, not the actual query sent or Allegro's raw response.
+            # This makes the next log directly actionable instead of
+            # requiring another round of feed-data archaeology.
+            print(f"  [category-debug] no match for query='{query}' "
+                  f"(source: art='{art}' sub='{sub}' kat='{kat}')", file=sys.stderr)
     except Exception as e:
         print(f"WARNING: category matching failed for '{query}': {e}", file=sys.stderr)
 
@@ -226,7 +241,7 @@ BLOCKED_IDS_PATH = "blocked_offer_ids.json"
 # strategy). Entries blocked under an older version are treated as stale —
 # not excluded from this run — so they automatically get retried under the
 # new logic instead of needing a manual blocked_offer_ids.json reset.
-BLOCKED_LOGIC_VERSION = 3
+BLOCKED_LOGIC_VERSION = 4
 
 
 def fetch_blocked_ids():
