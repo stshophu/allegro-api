@@ -2079,6 +2079,34 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "brunello-cucinelli-ankle-boots-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-ankle-boots-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-ankle-boots-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-ankle-boots-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-ankle-boots-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-ankle-boots-39-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-ankle-boots-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "brunello-cucinelli-blazer-jacket-2-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2111,6 +2139,34 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "brunello-cucinelli-corduroy-blazer-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-corduroy-blazer-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-corduroy-blazer-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-cotton-blend-blazer-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-cotton-blend-blazer-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-double-breasted-blazer-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-double-breasted-blazer-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
   "brunello-cucinelli-double-breasted-wool-jacket-2-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2119,13 +2175,145 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "brunello-cucinelli-herringbone-wool-blazer-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-herringbone-wool-blazer-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
   "brunello-cucinelli-high-neck-sweater-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "brunello-cucinelli-jacquard-cashmere-sweater-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-jacquard-cashmere-sweater-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-jacquard-cashmere-sweater-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-leather-clogs-mules-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-leather-espadrilles-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki"
+  },
+  "brunello-cucinelli-leather-penny-loafer-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "brunello-cucinelli-mary-jane-flats-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "brunello-cucinelli-mary-jane-flats-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
   "brunello-cucinelli-mohair-wool-pullover-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-monili-embellished-blazer-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-monili-embellished-blazer-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-monili-wedge-ankle-boots-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-monili-wedge-ankle-boots-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-monili-wedge-ankle-boots-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-monili-wedge-ankle-boots-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-monili-wedge-ankle-boots-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-monili-wedge-ankle-boots-39-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-monili-wedge-ankle-boots-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-pinstriped-wool-blazer-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-pinstriped-wool-blazer-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-pinstriped-wool-blazer-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-prince-of-wales-linen-blazer-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-prince-of-wales-linen-blazer-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-suede-boots-1-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-suede-boots-1-38-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-suede-boots-1-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-suede-boots-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-suede-boots-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-suede-boots-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "brunello-cucinelli-suede-flats-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "brunello-cucinelli-suede-flats-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "brunello-cucinelli-suede-flats-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
   },
   "brunello-cucinelli-sweater-m": {
     "code_version": 3,
@@ -2162,6 +2350,22 @@
   "brunello-cucinelli-wool-blazer-2-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "brunello-cucinelli-wool-blazer-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-wool-blazer-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-wool-blazer-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Okazja, Fason, Materiał dominujący, Linia"
+  },
+  "brunello-cucinelli-wool-blend-sweater-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
   },
   "brunello-cucinelli-wool-jacket-10-50": {
     "code_version": 3,
@@ -2383,11 +2587,31 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "chloe-medium-woody-tote-bag-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "chloe-micro-marcie-bucket-bag-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka"
   },
   "chloe-woody-medium-leather-tote-bag-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "chloe-woody-medium-tote-bag-1-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "chloe-woody-medium-tote-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "chloe-woody-medium-tote-bag-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "chloe-woody-shearling-tote-bag-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka"
   },
@@ -3084,6 +3308,10 @@
     "reason": "no matching Allegro category"
   },
   "givenchy-wrap-sunglasses-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "golden-goose-journey-hoodie-sweatshirt-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -4231,6 +4459,14 @@
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
+  "jacquemus-le-bambino-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-bambino-long-bag-1-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "jacquemus-le-bambinou-shoulder-bag-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
@@ -4239,15 +4475,99 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "jacquemus-le-chiquito-homme-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-chiquito-homme-bag-5-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "jacquemus-le-grand-bambino-bag-1-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "jacquemus-le-grand-bambino-bag-21-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-bag-22-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-bag-23-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
+  },
+  "jacquemus-le-grand-bambino-bag-24-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-bag-25-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-bag-26-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-bag-27-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-bag-28-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-bag-29-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-bag-6-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-bag-gold-logo-1-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
+  },
+  "jacquemus-le-grand-bambino-long-bag-1-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "jacquemus-le-grand-bambino-shoulder-bag-11-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "jacquemus-le-grand-bambino-shoulder-bag-15-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-shoulder-bag-16-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-shoulder-bag-17-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-grand-bambino-shoulder-bag-18-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "jacquemus-le-grand-bambino-shoulder-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-medium-chiquito-bag-1-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-petit-bambimou-bag-3-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "jacquemus-le-petit-bambimou-bag-5-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka"
   },
@@ -4343,6 +4663,10 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki"
   },
+  "jimmy-choo-medium-logo-tote-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "kenzo-cotton-logo-sweatshirt-1-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4394,6 +4718,10 @@
   "kinujo-pm839-920-people-of-shibuya-jackets-kinujo-pm839-920-": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "knt-kiton-hooded-sweatshirt-1-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "knt-kiton-hooded-sweatshirt-xs": {
     "code_version": 3,
@@ -4886,6 +5214,10 @@
   "moschino-couture-in-love-we-trust-hooded-sweatshirt-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "moschino-couture-in-love-we-trust-t-shirt-1-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Dekolt, Materiał dominujący, Linia"
   },
   "moschino-couture-in-love-we-trust-t-shirt-46": {
     "code_version": 3,
@@ -5747,6 +6079,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-cotton-patch-t-shirt-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
   "prada-cotton-shirt-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -5767,6 +6103,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-gaufre-nylon-handbag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
+  },
   "prada-herringbone-wool-coat-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -5775,9 +6115,17 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-leather-belt-1-85": {
+    "code_version": 3,
+    "reason": "missing required product data: Rozmiar, Kolor, Materiał dominujący, Linia"
+  },
   "prada-leather-brown-knee-high-boots-eu39-us9": {
     "code_version": 3,
     "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "prada-leather-cad-holder-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Orientacja, Wielkość, Zapięcie"
   },
   "prada-leather-flat-sandals-35": {
     "code_version": 3,
@@ -5790,6 +6138,10 @@
   "prada-leather-logo-wallet-3-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "prada-leather-logo-wallet-4-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Orientacja, Wielkość, Zapięcie"
   },
   "prada-leather-mules-85mm-35": {
     "code_version": 3,
@@ -5814,6 +6166,10 @@
   "prada-logo-jacket-1-38": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "prada-logo-leather-tote-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "prada-logo-rubber-boots-1-36": {
     "code_version": 3,
@@ -5843,6 +6199,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-nylon-and-leather-drawstring-pouch-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj"
+  },
   "prada-nylon-and-leather-french-wallet-2-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -5850,6 +6210,10 @@
   "prada-nylon-and-leather-french-wallet-3-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "prada-nylon-logo-camera-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "prada-nylon-logo-wallet-2-one-size": {
     "code_version": 3,
@@ -5859,6 +6223,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-pattina-nylon-tote-bag-1-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "prada-pinwale-corduroy-trousers-1-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -5866,6 +6234,22 @@
   "prada-platform-pull-on-boots-37-5": {
     "code_version": 3,
     "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
+  },
+  "prada-quilted-medium-crossbody-bag-1-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "prada-quilted-nylon-camera-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "prada-quilted-nylon-shoulder-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "prada-re-nylon-quilted-shoulder-bag-1-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "prada-ribbed-knit-cashmere-cardigan-48": {
     "code_version": 3,
@@ -5879,6 +6263,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "prada-saffiano-leather-hand-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "prada-silk-tec-sweatpants-l": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
@@ -5886,6 +6274,10 @@
   "prada-silk-tec-sweatpants-m": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
+  "prada-small-crossbody-bag-2-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "prada-striped-hooded-jacket-1-42": {
     "code_version": 3,
@@ -6018,6 +6410,10 @@
   "saint-laurent-grain-de-poudre-smoking-jacket-1-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "saint-laurent-icarino-quilted-handbag-one-size": {
+    "code_version": 3,
+    "reason": "missing required product data: Wielkość, Kolor, Materiał dominujący"
   },
   "saint-laurent-leather-hoodded-top-44": {
     "code_version": 3,
