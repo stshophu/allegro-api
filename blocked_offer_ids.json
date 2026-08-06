@@ -483,7 +483,75 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "add-man-grey-jackets-1-grigio-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-man-grey-jackets-1-grigio-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-man-grey-jackets-1-grigio-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "add-piumino-long-beige-down-womens-jacket-beige-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolekcja, Model, Płeć, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
+  },
+  "add-woman-beige-jackets-1-beige-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-beige-jackets-1-beige-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-beige-jackets-beige-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-beige-jackets-beige-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-beige-jackets-beige-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-blue-jackets-1-blu-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-blue-jackets-2-blu-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-blue-jackets-2-blu-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-blue-jackets-2-blu-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-blue-jackets-blu-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-blue-jackets-blu-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-red-jackets-rosso-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolekcja, Model, Płeć, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
+  },
+  "add-woman-red-jackets-rosso-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolekcja, Model, Płeć, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
+  },
+  "add-woman-red-jackets-rosso-44": {
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
   },
@@ -614,6 +682,30 @@
   "alpha-studio-man-white-shorts-2-bianco-46": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Marka, Rodzaj, Wzór dominujący, Długość, Materiał dominujący, Linia"
+  },
+  "alpha-studio-woman-beige-dress-beige-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alpha-studio-woman-blue-dress-blu-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alpha-studio-woman-fuchsia-sweaters-fucsia-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "alpha-studio-woman-green-dress-verde-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość, Marka, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
+  "alpha-studio-woman-green-dress-verde-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość, Marka, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
+  "alpha-studio-woman-green-sweaters-3-verde-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "ambush-colour-block-jacket-2-m": {
     "code_version": 3,
@@ -746,6 +838,34 @@
   "apparis-imani-faux-fur-coat-2-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "aquascutum-man-white-polo-1-bianco-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "aquascutum-man-white-polo-1-bianco-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "aquascutum-man-white-polo-bianco-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "aquascutum-man-white-polo-bianco-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "aquascutum-man-white-polo-bianco-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "aquascutum-man-white-polo-bianco-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "aquascutum-man-white-polo-bianco-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
   },
   "as65-canvas-embellished-parka-jacket-2-xxs": {
     "code_version": 3,
@@ -1314,6 +1434,10 @@
   "baldinini-trend-womens-green-polyester-long-jacket-green-m": {
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Marka, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
+  },
+  "baldinini-woman-beige-crossbody-bags-beige-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "balenciaga-all-in-crepe-dress-40": {
     "code_version": 3,
@@ -2735,6 +2859,38 @@
     "code_version": 3,
     "reason": "missing required product data: Typ, Marka"
   },
+  "comme-des-fuckdown-man-black-trousers-nero-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-man-black-trousers-nero-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-3-beige-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-4-beige-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-4-beige-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-4-beige-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-4-beige-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-4-beige-xxs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "comme-des-fuckdown-woman-black-sweatshirts-1-nero-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2763,6 +2919,78 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "comme-des-fuckdown-woman-black-trousers-4-nero-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-trousers-4-nero-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-trousers-4-nero-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-trousers-4-nero-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-trousers-4-nero-xxs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-blue-sweatshirts-blu-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-blue-sweatshirts-blu-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-brown-trousers-marrone-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-brown-trousers-marrone-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-brown-trousers-marrone-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-brown-trousers-marrone-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-fuchsia-shorts-1-fucsia-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-fuchsia-shorts-1-fucsia-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-fuchsia-shorts-1-fucsia-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-fuchsia-trousers-fucsia-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-green-trousers-1-verde-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-green-trousers-1-verde-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-green-trousers-1-verde-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "comme-des-fuckdown-woman-grey-trousers-1-grigio-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2783,6 +3011,22 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "comme-des-fuckdown-woman-light-blue-trousers-2-azzurro-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-light-blue-trousers-2-azzurro-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-light-blue-trousers-2-azzurro-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-light-blue-trousers-2-azzurro-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "comme-des-fuckdown-woman-light-blue-trousers-azzurro-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2800,6 +3044,14 @@
     "reason": "no matching Allegro category"
   },
   "comme-des-fuckdown-woman-pink-shorts-1-rosa-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-pink-trousers-2-rosa-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-pink-trousers-2-rosa-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2840,6 +3092,10 @@
     "reason": "missing required product data: Typ, Marka"
   },
   "craig-green-down-jacket-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "diesel-man-black-jeans-nero-30": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -4863,6 +5119,10 @@
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
+  "hinnominate-woman-brown-sweatshirts-marrone-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "hmabm-00010-marrone-hinnominate-sweatshirts-hmabm-00010-marr": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -5175,6 +5435,26 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "la-martina-man-blue-sweaters-2-blu-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "la-martina-man-blue-sweaters-2-blu-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "la-martina-man-blue-sweaters-2-blu-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "la-martina-man-blue-swimwear-blu-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "la-martina-man-blue-swimwear-blu-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "laneus-cote-dazur-cotton-shorts-48": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
@@ -5286,6 +5566,22 @@
   "loro-piana-dunstan-sweater-48": {
     "code_version": 3,
     "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "loro-piana-fabric-man-beige-coats-1-beige-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "loro-piana-fabric-man-beige-coats-1-beige-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "loro-piana-fabric-man-beige-coats-1-beige-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "loro-piana-fabric-man-beige-coats-1-beige-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "love-moschino-dress-blue-woman-blue-40": {
     "code_version": 3,
@@ -5616,6 +5912,18 @@
     "reason": "no matching Allegro category"
   },
   "moncler-heiji-jacket-1-2": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "moose-knuckles-woman-camouflage-parka-camouflage-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "moose-knuckles-woman-camouflage-parka-camouflage-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "moose-knuckles-woman-camouflage-parka-camouflage-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -6095,6 +6403,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "off-white-man-beige-blankets-beige-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Seria, Materiał, Minimalny wiek dziecka"
+  },
   "off-white-neen-allover-shirt-m": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Dekolt, Linia, Materiał dominujący"
@@ -6403,6 +6715,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "patrizia-pepe-woman-yellow-tracksuits-giallo-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj"
+  },
+  "patrizia-pepe-woman-yellow-tracksuits-giallo-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj"
+  },
   "paul-shark-cotton-polo-3xl": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
@@ -6495,7 +6815,47 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "people-of-shibuya-man-black-formal-jacket-nero-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "people-of-shibuya-man-black-formal-jacket-nero-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "people-of-shibuya-man-black-formal-jacket-nero-56": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "people-of-shibuya-man-blue-formal-jacket-blu-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "people-of-shibuya-man-blue-formal-jacket-blu-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "people-of-shibuya-man-blue-formal-jacket-blu-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "people-of-shibuya-man-green-trench-1-verde-56": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "people-of-shibuya-woman-grey-jackets-1-grigio-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "people-of-shibuya-woman-grey-jackets-1-grigio-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "people-of-shibuya-woman-lilac-jackets-lilla-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "people-of-shibuya-woman-lilac-jackets-lilla-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -6538,6 +6898,18 @@
   "peu5601-dougal-arancio-peuterey-jackets-peu5601-dougal-aranc": {
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
+  },
+  "pharmacy-industry-woman-black-sweatshirts-nero-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pharmacy-industry-woman-black-sweatshirts-nero-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pharmacy-industry-woman-green-leggings-verde-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "philipp-plein-blent-cotton-sweatpants-l": {
     "code_version": 3,
@@ -6912,6 +7284,26 @@
     "reason": "no matching Allegro category"
   },
   "q0579-d008s-nero-dsquared2-dress-q0579-d008s-nero-nero-10y": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "refrigiwear-woman-fuchsia-vest-fucsia-sm": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "refrigiwear-woman-pink-jackets-1-rosa-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "refrigiwear-woman-pink-jackets-1-rosa-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "refrigiwear-woman-pink-jackets-1-rosa-sm": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "refrigiwear-woman-pink-jackets-1-rosa-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -7454,6 +7846,10 @@
   "tramarossa-man-black-jeans-nero-33": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "ungaro-woman-brown-wallets-marrone-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
   },
   "usagi-pm839-920-people-of-shibuya-jackets-usagi-pm839-920-gr": {
     "code_version": 3,
