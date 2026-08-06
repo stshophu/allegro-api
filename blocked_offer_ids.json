@@ -455,6 +455,22 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
+  "abito-cardigan-scollo-v-verde-0": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "abito-hazzard-pinko-1-nero-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "abito-hazzard-pinko-1-nero-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "abito-hazzard-pinko-1-nero-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "acne-studios-alpaca-blend-hooded-sweatshirt-xl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1455,6 +1471,22 @@
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Marka, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
   },
+  "baldinini-wallet-1-marrone-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "baldinini-wallet-2-arancione-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "baldinini-wallet-3-nero-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "baldinini-wallet-nero-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
   "baldinini-woman-beige-crossbody-bags-beige-nosize": {
     "code_version": 3,
     "reason": "missing required product data: Marka"
@@ -1835,6 +1867,22 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "berretto-logo-etichetta-1-nero-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "berretto-logo-etichetta-marrone-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "berretto-maglia-nero-nero-nosize": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "berretto-maglia-nocciola-marrone-nosize": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "bikkembergs-man-black-shorts-nero-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1922,6 +1970,10 @@
   "blumarine-wool-blend-sweater-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "borsa-tracolla-quadrata-bianco-u": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "bottega-veneta-amy-leather-mules-36": {
     "code_version": 3,
@@ -2250,6 +2302,22 @@
   "bottega-veneta-wool-twill-blazer-52": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "boxer-neri-nero-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "boxer-neri-nero-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "bridget-bag-1-verde-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
+  "bridget-bag-2-rosso-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "brunello-cucinelli-ankle-boots-35": {
     "code_version": 3,
@@ -2703,6 +2771,26 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "calzino-icon-nero-nero-ii": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "camicia-bianca-bianco-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "cappotto-capolavoro-grigio-melange-grigio-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "cappotto-grigio-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "caroline-rosa-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "casablanca-man-black-t-shirt-top-2-nero-xl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2811,6 +2899,14 @@
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
   },
+  "ceresio-jacket-1-bianco-10": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "ceresio-jacket-1-bianco-8": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "cfabw-01090-nero-comme-des-fuckdown-sweatshirts-cfabw-01090-": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2834,6 +2930,18 @@
   "cfacx-00202-grigio-comme-des-fuckdown-hats-cfacx-00202-grigi": {
     "code_version": 3,
     "reason": "missing required product data: Typ, Marka"
+  },
+  "championship-diamond-printed-nero-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "championship-diamond-printed-nero-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "championship-diamond-printed-nero-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "chloe-bootcut-jeans-1-28": {
     "code_version": 3,
@@ -2894,6 +3002,30 @@
   "christian-dior-leather-medium-book-tote-bag-one-size": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "cintura-shield-split-ekd-1-nero-100": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "cintura-shield-split-ekd-1-nero-105": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "cintura-shield-split-ekd-1-nero-115": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "cintura-shield-split-ekd-1-nero-120": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "cintura-shield-split-ekd-1-nero-90": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "cintura-shield-split-ekd-1-nero-95": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
   },
   "clt-003-999-cavalli-class-gloves-clt-003-999-nero-9": {
     "code_version": 3,
@@ -3215,6 +3347,26 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "cropped-t-shirt-azzurro-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "d-finitive-jeans-azzurro-w30": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "d-finitive-jeans-azzurro-w31": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "d-finitive-jeans-azzurro-w38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "dg-bomber-black-satin-nero-52": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "diesel-man-black-jeans-nero-30": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -3228,6 +3380,10 @@
     "reason": "no matching Allegro category"
   },
   "diesel-man-blue-jeans-blu-w31": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "diesel-trunk-2-pack-2-nero-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3350,6 +3506,10 @@
   "dolce-gabbana-silk-leopard-ruched-dress-2-46": {
     "code_version": 3,
     "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
+  "dsq2-gilet-3-bianco-8": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "dsqaured2-d2-leaf-shorts-s": {
     "code_version": 3,
@@ -3548,6 +3708,22 @@
     "reason": "no matching Allegro category"
   },
   "fabiana-filippi-fox-fur-knitted-vest-jacket-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "felpa-cappuccio-con-tasca-nero-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "felpa-con-cappuccio-3-marrone-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "felpa-corta-azzurro-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "felpa-diagonal-con-goggles-2-verde-xxl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3767,6 +3943,10 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
   },
+  "girocollo-cashmere-rubino-rosso-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "givenchy-4g-dress-42": {
     "code_version": 3,
     "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
@@ -3884,6 +4064,10 @@
     "reason": "no matching Allegro category"
   },
   "golden-goose-journey-hoodie-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "gonna-clarity-yellow-giallo-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -5371,6 +5555,10 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "home-blanket-rosso-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Wiek dziecka, Marka, Seria, Materiał, Minimalny wiek dziecka"
+  },
   "hoshi-pm802-290-people-of-shibuya-jackets-hoshi-pm802-290-ma": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
@@ -5791,6 +5979,10 @@
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
+  "lighting-macro-paisley-17-azzurro-3xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
   "lione-dtfclb-ss491-don-the-fuller-jackets-lione-blu-xxl": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
@@ -5946,6 +6138,18 @@
   "maison-margiela-wool-sweater-1-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "man-belt-3-cm-marrone-100": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "man-belt-3-cm-marrone-110": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "man-belt-3-cm-marrone-90": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
   },
   "manolo-blahnik-veralli-010-ballerina-flats-41": {
     "code_version": 3,
@@ -6330,6 +6534,10 @@
   "nujo-pm839-999-people-of-shibuya-jackets-nujo-pm839-999-nero": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "nylon-red-jacket-rosso-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "off-white-arrow-field-cotton-jacket-1-m": {
     "code_version": 3,
@@ -6839,6 +7047,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "p377-w487-j756-grigio-25": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "p377-w487-j756-grigio-26": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "p377-w487-j756-grigio-27": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
   "p54600-ga9103-f03700-refrigiwear-shorts-brooklyn-short-blu-3": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -6991,9 +7211,81 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "pantaloncini-neri-nero-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantalone-parachute-nero-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantalone-parachute-nero-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantalone-parachute-nero-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-beige-beige-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
   "pantaloni-cargo-verdi-verde-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "pantaloni-con-stampa-1-viola-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-con-stampa-nero-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-felpa-stampa-logo-1-nero-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pantaloni-felpa-stampa-logo-1-nero-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pantaloni-felpa-stampa-logo-1-nero-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pantaloni-jogging-blu-blu-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-jogging-blu-blu-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-jogging-blu-blu-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-jogging-cammello-cammello-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-jogging-grigi-1-grigio-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-jogging-grigi-grigio-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-jogging-neri-nero-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pantaloni-neri-2-nero-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "paolo-pecora-cotton-t-shirt-l": {
     "code_version": 3,
@@ -7283,6 +7575,30 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "piumino-1-bianco-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "piumino-1-bianco-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "piumino-corto-rosa-rosa-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "piumino-corto-rosa-rosa-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "piumino-lungo-panna-bianco-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "piumino-verde-verde-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
   "plein-sport-woman-brown-crossbody-bags-marrone-nosize": {
     "code_version": 3,
     "reason": "missing required product data: Marka"
@@ -7290,6 +7606,18 @@
   "pmea179-f21fab-black-palm-angels-sweatshirts-pmea179-f21fab-": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "polo-donato-tek-1-verde-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "polo-donato-tek-2-nero-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "polo-donato-tek-4-bianco-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
   },
   "prada-55mm-cut-out-satin-pumps-35": {
     "code_version": 3,
@@ -7859,6 +8187,14 @@
     "code_version": 3,
     "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
   },
+  "sneakers-pelle-bianche-bianco-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "sneakers-pelle-nera-nero-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
   "sportmax-asti-shirt-1-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -8083,6 +8419,14 @@
     "code_version": 3,
     "reason": "missing required product data: Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
   },
+  "stivaletti-pelle-carrarmato-nero-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "stivaletti-pelle-nera-1-nero-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
   "suns-man-blue-jackets-3-blu-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -8091,9 +8435,37 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "t-shirt-balmain-paris-grigio-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "t-shirt-casa-way-mountain-bianco-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "t-shirt-casa-way-mountain-bianco-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "t-shirt-casa-way-mountain-bianco-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "t-shirt-smanicata-bottoni-dorati-bianco-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "t-shirt-stampa-logo-comic-bianco-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "t-shit-stampa-e-borchie-nero-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "t-shit-stampa-e-borchie-nero-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "the-attico-cheope-105-leather-sandals-36": {
     "code_version": 3,
@@ -8174,6 +8546,14 @@
   "tommy-hilfiger-alaska-black-polyester-women-puffer-jacket-m": {
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
+  },
+  "top-nero-xs": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "top-nero-xxs": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "tramarossa-man-black-jeans-nero-31": {
     "code_version": 3,
@@ -8642,6 +9022,22 @@
   "wh1mg030-146d-nero-nero-34": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "wk49000-t359a-0009-rosso-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "wk49000-t359a-0009-rosso-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "wk49000-t359a-0009-rosso-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
+  },
+  "wk52000-a0010-a34-bianco-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Przeznaczenie, Forma, Pojemność"
   },
   "wmc015-pp655-azzurro-la-martina-shirts-wmc015-pp655-azzurro-": {
     "code_version": 3,
