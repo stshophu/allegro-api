@@ -607,6 +607,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "alpha-studio-man-white-shorts-2-bianco-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Marka, Rodzaj, Wzór dominujący, Długość, Materiał dominujący, Linia"
+  },
   "ambush-colour-block-jacket-2-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2131,6 +2135,26 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "brunello-cucinelli-cashmere-sweater-3-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-cashmere-sweater-3-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-cashmere-sweater-4-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-cashmere-sweater-4-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-cashmere-sweater-4-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
   "brunello-cucinelli-cashmere-sweater-7-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2200,6 +2224,30 @@
     "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
   },
   "brunello-cucinelli-leather-clogs-mules-35": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-leather-clogs-mules-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-leather-clogs-mules-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-leather-clogs-mules-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-leather-clogs-mules-38-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-leather-clogs-mules-39-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-leather-clogs-mules-40": {
     "code_version": 3,
     "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
   },
@@ -2303,6 +2351,22 @@
     "code_version": 3,
     "reason": "missing required product data: Marka"
   },
+  "brunello-cucinelli-suede-clogs-mules-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-suede-clogs-mules-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-suede-clogs-mules-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
+  "brunello-cucinelli-suede-clogs-mules-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Język publikacji, Tytuł, Autor, Wydawnictwo, Okładka, Nośnik, Rok wydania, ISBN, Gatunek"
+  },
   "brunello-cucinelli-suede-flats-35": {
     "code_version": 3,
     "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
@@ -2314,6 +2378,10 @@
   "brunello-cucinelli-suede-flats-40": {
     "code_version": 3,
     "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "brunello-cucinelli-suede-mocassini-37": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "brunello-cucinelli-sweater-m": {
     "code_version": 3,
@@ -2595,6 +2663,10 @@
     "code_version": 3,
     "reason": "missing required product data: Marka"
   },
+  "chloe-woman-beige-boots-beige-38-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
   "chloe-woody-medium-leather-tote-bag-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka"
@@ -2642,6 +2714,22 @@
   "comme-des-fuckdown-beige-hat-marrone": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Rozmiar (obwód głowy w cm), Kolor, Rodzaj, Materiał dominujący"
+  },
+  "comme-des-fuckdown-woman-grey-trousers-1-grigio-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-grey-trousers-grigio-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-grey-trousers-grigio-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-grey-trousers-grigio-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "comme-des-garcons-checked-sleeve-shirt-s": {
     "code_version": 3,
@@ -3979,6 +4067,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-man-blue-vest-blu-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-matt-black-hooded-bomber-jacket-1-44": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4010,6 +4102,10 @@
   "herno-oversized-hooded-coat-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-oversized-knitted-cardigan-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Rodzaj, Materiał, Kamień, Kolor, Motyw"
   },
   "herno-padded-coat-2-42": {
     "code_version": 3,
@@ -4918,6 +5014,10 @@
   "maison-margiela-wool-sweater-1-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "manolo-blahnik-veralli-010-ballerina-flats-41": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
   },
   "marc-jacobs-fur-trim-coat-0": {
     "code_version": 3,
@@ -5947,6 +6047,98 @@
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
   },
+  "patrizia-pepe-woman-black-trousers-2-nero-38": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "paul-shark-cotton-polo-3xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "paul-shark-cotton-polo-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "paul-shark-cotton-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "paul-shark-cotton-sweatshirt-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "paul-shark-cotton-sweatshirt-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "paul-shark-hooded-sweatshirt-4xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "paul-shark-hooded-sweatshirt-5xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "paul-shark-hooded-sweatshirt-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "paul-shark-lightweight-jacket-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "paul-shark-lightweight-jacket-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "paul-shark-lightweight-jacket-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "paul-shark-lightweight-jacket-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "paul-shark-nylon-vest-jacket-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "paul-shark-nylon-vest-jacket-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "paul-shark-nylon-vest-jacket-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "paul-shark-polo-t-shirt-1-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "paul-shark-polo-t-shirt-1-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "paul-shark-polo-t-shirt-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "paul-shark-polo-t-shirt-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "paul-shark-polo-t-shirt-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "paul-shark-polo-t-shirt-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "paul-shark-zipped-sweatshirt-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "pc0039u-19288-bianco-herno-vest-pc0039u-19288-bianco-bianco-": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
@@ -6040,6 +6232,10 @@
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "phw382-felpa-glicine-pharmacy-industry-sweatshirts-phw382-fe": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pinko-woman-pink-trousers-rosa-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -7027,6 +7223,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "valentino-leather-heel-sandals-40-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Materiał zewnętrzny, Materiał wkładki, Kolor, Rodzaj obcasa, Wysokość obcasa/platformy"
+  },
   "valentino-metamorphos-wall-print-swim-shorts-1-46": {
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
@@ -7063,6 +7263,38 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "versace-all-over-logo-one-piece-swimsuit-1": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Wzór dominujący, Materiał dominujący, Linia"
+  },
+  "versace-all-over-logo-one-piece-swimsuit-2": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Wzór dominujący, Materiał dominujący, Linia"
+  },
+  "versace-baroque-print-leggings-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Długość nogawki, Materiał dominujący, Linia"
+  },
+  "versace-baroque-print-leggings-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Długość nogawki, Materiał dominujący, Linia"
+  },
+  "versace-contrast-collar-polo-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "versace-contrast-collar-polo-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "versace-contrast-collar-polo-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
+  "versace-contrast-collar-polo-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Materiał dominujący, Linia"
+  },
   "versace-cotton-crewneck-sweatshirt-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -7079,6 +7311,22 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "versace-cotton-polo-shirt-3xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Fason, Materiał dominujący, Linia"
+  },
+  "versace-cotton-polo-shirt-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Fason, Materiał dominujący, Linia"
+  },
+  "versace-cotton-polo-shirt-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rękaw, Fason, Materiał dominujący, Linia"
+  },
+  "versace-cotton-polo-t-shirt-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
   "versace-cotton-trousers-1-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -7091,6 +7339,26 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "versace-gold-medusa-logo-hoodie-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
+  "versace-gold-medusa-logo-hoodie-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
+  "versace-gold-medusa-logo-hoodie-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
+  "versace-gold-medusa-logo-hoodie-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
+  "versace-gold-medusa-logo-hoodie-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
   "versace-jeans-couture-sweatpants-1-xl": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
@@ -7099,9 +7367,137 @@
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
+  "versace-logo-leggings-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Długość nogawki, Materiał dominujący, Linia"
+  },
+  "versace-logo-leggings-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Długość nogawki, Materiał dominujący, Linia"
+  },
+  "versace-logo-polo-t-shirt-3xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-logo-polo-t-shirt-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-logo-polo-t-shirt-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-logo-polo-t-shirt-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-logo-t-shirt-3xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-logo-t-shirt-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-logo-t-shirt-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-medusa-hooded-sweatshirt-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-hooded-sweatshirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-hooded-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-hooded-sweatshirt-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-hooded-sweatshirt-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-leather-loafers-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "versace-medusa-leather-loafers-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "versace-medusa-leather-loafers-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "versace-medusa-leather-loafers-43": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "versace-medusa-leather-loafers-45": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
+  "versace-medusa-sweatshirt-1-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-sweatshirt-1-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-sweatshirt-1-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-sweatshirt-1-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-sweatshirt-1-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-sweatshirt-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-sweatshirt-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "versace-medusa-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "versace-one-piece-swimsuit-1-1": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "versace-pin-logo-t-shirt-36": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-pin-logo-t-shirt-38": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-pin-logo-t-shirt-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-polo-t-shirt-xl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
+  "versace-polo-t-shirt-xxl": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
   },
   "versace-squalo-leopard-sneakers-46-5": {
     "code_version": 3,
