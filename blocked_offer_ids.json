@@ -535,6 +535,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "add-woman-blue-jackets-3-blu-42": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-blue-jackets-3-blu-44": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "add-woman-blue-jackets-3-blu-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "add-woman-blue-jackets-blu-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -1047,6 +1059,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "autry-medalist-bicolore-sneakers-39": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
   "autry-medalist-leather-sneakers-10-37": {
     "code_version": 3,
     "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
@@ -1426,6 +1442,10 @@
   "autry-zipped-sweatshirt-xl": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "baldinini-man-black-wallets-nero-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
   },
   "baldinini-trend-men-wool-blue-suit-it58-blue": {
     "code_version": 3,
@@ -1812,6 +1832,22 @@
     "reason": "no matching Allegro category"
   },
   "balmain-wool-hat-2-one-size": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bikkembergs-man-black-shorts-nero-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bikkembergs-man-black-shorts-nero-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bikkembergs-man-blue-jeans-blu-30": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "bikkembergs-man-blue-jeans-blu-31": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2387,6 +2423,10 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Materiał wkładki"
   },
+  "brunello-cucinelli-leather-p184-37": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
+  },
   "brunello-cucinelli-leather-penny-loafer-36": {
     "code_version": 3,
     "reason": "missing required product data: Wiek dziecka, Marka, Materiał, Minimalny wiek dziecka"
@@ -2671,6 +2711,18 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Dekolt, Linia, Materiał dominujący"
   },
+  "cavalli-class-woman-blue-gloves-1-blu-7-5": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "cavalli-class-woman-grey-wallets-2-grigio-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
+  "cavalli-class-woman-white-wallets-bianco-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
   "cdfa-711-nero-comme-des-fuckdown-rucksacks-cdfa-711-nero-ner": {
     "code_version": 3,
     "reason": "missing required product data: Marka"
@@ -2859,11 +2911,19 @@
     "code_version": 3,
     "reason": "missing required product data: Typ, Marka"
   },
+  "comme-des-fuckdown-man-black-caps-nero-u": {
+    "code_version": 3,
+    "reason": "missing required product data: Typ, Marka"
+  },
   "comme-des-fuckdown-man-black-trousers-nero-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "comme-des-fuckdown-man-black-trousers-nero-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-shorts-1-beige-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -2890,6 +2950,30 @@
   "comme-des-fuckdown-woman-beige-trousers-4-beige-xxs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-5-beige-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-5-beige-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-5-beige-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-beige-trousers-5-beige-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-black-leggings-nero-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "comme-des-fuckdown-woman-black-leggings-nero-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "comme-des-fuckdown-woman-black-sweatshirts-1-nero-xs": {
     "code_version": 3,
@@ -2947,6 +3031,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "comme-des-fuckdown-woman-brown-trousers-1-marrone-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "comme-des-fuckdown-woman-brown-trousers-marrone-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -2988,6 +3076,10 @@
     "reason": "no matching Allegro category"
   },
   "comme-des-fuckdown-woman-green-trousers-1-verde-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-green-trousers-6-verde-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3047,11 +3139,39 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "comme-des-fuckdown-woman-pink-shorts-4-rosa-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
+  "comme-des-fuckdown-woman-pink-shorts-4-rosa-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
+  "comme-des-fuckdown-woman-pink-shorts-4-rosa-s": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Materiał dominujący, Linia"
+  },
+  "comme-des-fuckdown-woman-pink-shorts-5-rosa-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "comme-des-fuckdown-woman-pink-trousers-2-rosa-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "comme-des-fuckdown-woman-pink-trousers-2-rosa-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-pink-trousers-3-rosa-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-pink-trousers-3-rosa-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "comme-des-fuckdown-woman-pink-trousers-3-rosa-xs": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -3194,6 +3314,10 @@
   "dolce-gabbana-logo-sweatpants-50": {
     "code_version": 3,
     "reason": "missing required product data: Linia, Kolor, Fason, Długość nogawki, Materiał dominujący"
+  },
+  "dolce-gabbana-man-brown-jackets-marrone-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "dolce-gabbana-maxi-pleated-dress-44": {
     "code_version": 3,
@@ -3514,6 +3638,26 @@
   "gi000309u-38020-beige-herno-vest-gi000309u-38020-beige-beige": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "giacca-asimmetrica-rever-velluto-nero-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "giacca-asimmetrica-rever-velluto-nero-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "giacca-doppiopetto-stampa-pattern-nero-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "giacca-elegante-rever-bianchi-nero-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "giacca-monopetto-rever-lucidi-nero-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
   },
   "gianvito-rossi-carla-ballerina-flats-37": {
     "code_version": 3,
@@ -3987,6 +4131,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-casual-hooded-jacket-48": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-casual-pants-1-l": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4179,6 +4327,14 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-down-jacket-18-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-down-jacket-19-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-down-jacket-9-50": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4206,6 +4362,10 @@
   "herno-drawstring-elastic-waist-pants-3-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-drawstring-trousers-l": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Fason, Materiał dominujący, Linia"
   },
   "herno-elastic-waist-midi-skirt-42": {
     "code_version": 3,
@@ -4258,6 +4418,10 @@
   "herno-giada-down-jacket-40": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-gore-tex-hooded-jacket-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
   "herno-high-collar-asymmetric-poncho-42": {
     "code_version": 3,
@@ -4322,6 +4486,14 @@
   "herno-hooded-padded-coat-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-hooded-padded-jacket-1-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-hooded-padded-jacket-1-52": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
   "herno-hooded-padded-jacket-40": {
     "code_version": 3,
@@ -4411,6 +4583,10 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
+  "herno-laminar-field-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-lazer-cut-t-shirt-54": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -4448,6 +4624,22 @@
     "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
   "herno-lightweight-jacket-2-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-3-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-3-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-3-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-lightweight-jacket-3-46": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
@@ -4535,6 +4727,22 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
+  "herno-linen-down-gilet-1-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-linen-down-gilet-1-56": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-linen-down-gilet-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "herno-linen-down-gilet-54": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "herno-linen-quilted-jacket-58": {
     "code_version": 3,
     "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
@@ -4558,6 +4766,10 @@
   "herno-logo-detailed-crewneck-t-shirt-52": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-long-funnel-neck-trench-coat-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Długość, Marka"
   },
   "herno-long-hooded-zip-coat-42": {
     "code_version": 3,
@@ -4959,6 +5171,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "herno-ultralight-down-jacket-12-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
   "herno-ultralight-down-jacket-46": {
     "code_version": 3,
     "reason": "missing required product data: Kolekcja, Model, Płeć, Marka, Kolor, Rodzaj, Materiał dominujący, Kaptur, Właściwości"
@@ -5022,6 +5238,14 @@
   "herno-wool-down-coat-1-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "herno-wool-hooded-jacket-50": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
+  },
+  "herno-wool-hooded-jacket-54": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Kolor, Rodzaj, Wypełnienie, Kaptur, Materiał dominujący, Linia"
   },
   "herno-wool-pants-l": {
     "code_version": 3,
@@ -5119,6 +5343,14 @@
     "code_version": 3,
     "reason": "missing required product data: Płeć, Marka, Kolor, Właściwości, Materiał dominujący"
   },
+  "hinnominate-man-grey-trousers-2-grigio-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "hinnominate-man-grey-trousers-2-grigio-xl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "hinnominate-woman-brown-sweatshirts-marrone-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -5156,6 +5388,10 @@
     "reason": "no matching Allegro category"
   },
   "ivan-montesi-beaded-shoulders-dress-2-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jacob-cohen-man-light-blue-sweatshirts-azzurro-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -5278,6 +5514,18 @@
   "jacquemus-le-petit-bambimou-bag-5-one-size": {
     "code_version": 3,
     "reason": "missing required product data: Marka"
+  },
+  "jeans-black-and-white-tie-dye-nero-31": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jeans-slim-fit-bianchi-bianco-30": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "jeans-slim-fit-grigi-grigio-32": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "jil-sander-alpaca-sweater-1-50": {
     "code_version": 3,
@@ -5583,13 +5831,49 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "love-bell-mini-nappa-chevron-azzurro-u": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "love-moschino-dress-blue-woman-blue-40": {
     "code_version": 3,
     "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
   },
+  "love-moschino-woman-black-dress-1-nero-40": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "love-moschino-woman-grey-dress-grigio-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
+  "love-moschino-woman-grey-jackets-grigio-46": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "love-moschino-woman-grey-jackets-grigio-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "love-moschino-woman-white-dress-1-bianco-42": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
+  "love-moschino-woman-white-dress-bianco-44": {
+    "code_version": 3,
+    "reason": "missing required product data: Długość, Kolor, Rękaw, Wzór dominujący, Fason, Linia, Okazja, Styl, Dekolt, Materiał dominujący, Zapięcie"
+  },
+  "love-one-bag-top-handle-1-viola-u": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
+  },
   "maglia-ingl-yellow-100-cashmere-caps-maglia-ingl-yellow-gial": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "maison-margiela-blend-linen-bermuda-shorts-46": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka, Wiek dziecka, Kolor"
   },
   "maison-margiela-cotton-coat-40": {
     "code_version": 3,
@@ -6531,6 +6815,10 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "off-white-t-shirt-3-m": {
+    "code_version": 3,
+    "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
+  },
   "off-white-t-shirt-m": {
     "code_version": 3,
     "reason": "missing required product data: Kolor, Dekolt, Materiał dominujący, Linia"
@@ -6700,6 +6988,10 @@
     "reason": "no matching Allegro category"
   },
   "palm-angles-hoodie-sweatshirt-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pantaloni-cargo-verdi-verde-48": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -6907,9 +7199,33 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "pharmacy-industry-woman-brown-trousers-1-marrone-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "pharmacy-industry-woman-green-leggings-verde-xs": {
     "code_version": 3,
     "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "pharmacy-industry-woman-green-shorts-verde-l": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pharmacy-industry-woman-green-sweatshirts-verde-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pharmacy-industry-woman-green-sweatshirts-verde-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pharmacy-industry-woman-green-trousers-2-verde-m": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "pharmacy-industry-woman-green-trousers-2-verde-s": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "philipp-plein-blent-cotton-sweatpants-l": {
     "code_version": 3,
@@ -6966,6 +7282,10 @@
   "pinko-woman-pink-trousers-rosa-46": {
     "code_version": 3,
     "reason": "no matching Allegro category"
+  },
+  "plein-sport-woman-brown-crossbody-bags-marrone-nosize": {
+    "code_version": 3,
+    "reason": "missing required product data: Marka"
   },
   "pmea179-f21fab-black-palm-angels-sweatshirts-pmea179-f21fab-": {
     "code_version": 3,
@@ -7283,11 +7603,19 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "pro-tek-primaloft-jacket-fluo-giallo-48": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
   "q0579-d008s-nero-dsquared2-dress-q0579-d008s-nero-nero-10y": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
   "refrigiwear-woman-fuchsia-vest-fucsia-sm": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "refrigiwear-woman-green-jackets-verde-42": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -7523,6 +7851,14 @@
     "code_version": 3,
     "reason": "missing required product data: Marka, Długość wkładki, Kolor, Materiał zewnętrzny, Wysokość"
   },
+  "shorts-cargo-verdi-verde-50": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "sneakers-ea7-bianche-bianco-40": {
+    "code_version": 3,
+    "reason": "missing required product data: Nośnik, Gatunek, Tytuł, Wykonawca, Rok wydania, Wytwórnia"
+  },
   "sportmax-asti-shirt-1-s": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -7752,6 +8088,10 @@
     "reason": "no matching Allegro category"
   },
   "suns-man-grey-jackets-2-grigio-xxl": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "t-shirt-smanicata-bottoni-dorati-bianco-m": {
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
@@ -8291,6 +8631,18 @@
     "code_version": 3,
     "reason": "no matching Allegro category"
   },
+  "wh1mg030-146d-nero-nero-28": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "wh1mg030-146d-nero-nero-31": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
+  "wh1mg030-146d-nero-nero-34": {
+    "code_version": 3,
+    "reason": "missing required product data: Rodzaj, Marka, Przeznaczenie, Forma, Pojemność"
+  },
   "wmc015-pp655-azzurro-la-martina-shirts-wmc015-pp655-azzurro-": {
     "code_version": 3,
     "reason": "no matching Allegro category"
@@ -8366,6 +8718,50 @@
   "yes-zee-men-wool-green-down-jacket-green-l": {
     "code_version": 3,
     "reason": "missing required product data: Model, Marka, Przeznaczenie, Zakres masy ciała"
+  },
+  "yes-zee-woman-black-jeans-1-nero-25": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-black-jeans-1-nero-26": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-black-jeans-1-nero-27": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-black-jeans-1-nero-28": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-black-jeans-1-nero-29": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-black-jeans-1-nero-32": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-black-jeans-nero-25": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-black-jeans-nero-26": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-blue-jackets-blu-xs": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-blue-jeans-blu-25": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
+  },
+  "yes-zee-woman-blue-jeans-blu-26": {
+    "code_version": 3,
+    "reason": "no matching Allegro category"
   },
   "yes-zee-womens-blue-quilted-coat-jacket-blu-xs": {
     "code_version": 3,
