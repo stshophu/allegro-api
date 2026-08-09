@@ -1,0 +1,26 @@
+name: Allegro offer audit (manual, read-only)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-allegro.txt
+      - run: python3 audit_offers.py
+        env:
+          ALLEGRO_CLIENT_ID: ${{ secrets.ALLEGRO_CLIENT_ID }}
+          ALLEGRO_CLIENT_SECRET: ${{ secrets.ALLEGRO_CLIENT_SECRET }}
+          ALLEGRO_REFRESH_TOKEN: ${{ secrets.ALLEGRO_REFRESH_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_REPO: ${{ github.repository }}
+          FEED_URL: https://raw.githubusercontent.com/stshophu/siebentaschen-feed/main/siebentaschen_product_feed.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audit-report
+          path: audit_report.csv
