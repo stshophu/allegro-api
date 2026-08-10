@@ -1,0 +1,36 @@
+name: Resolve Allegro categories (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_csv:
+        description: "CSV file to fix (must already be in the repo)"
+        required: true
+        default: "shopify_export_import_and_list.csv"
+      output_csv:
+        description: "Filename for the corrected output"
+        required: true
+        default: "import_and_list_feed_with_categories.csv"
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-allegro.txt
+      - run: python3 resolve_categories.py
+        env:
+          ALLEGRO_CLIENT_ID: ${{ secrets.ALLEGRO_CLIENT_ID }}
+          ALLEGRO_CLIENT_SECRET: ${{ secrets.ALLEGRO_CLIENT_SECRET }}
+          ALLEGRO_REFRESH_TOKEN: ${{ secrets.ALLEGRO_REFRESH_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_REPO: ${{ github.repository }}
+          INPUT_CSV: ${{ github.event.inputs.input_csv }}
+          OUTPUT_CSV: ${{ github.event.inputs.output_csv }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: corrected-categories
+          path: ${{ github.event.inputs.output_csv }}
